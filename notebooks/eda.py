@@ -26,6 +26,15 @@ df.columns = df.columns.str.lower()
 df.columns
 
 # %%
+# Handle missing values in categorical columns
+
+df = df.fillna({
+    "severity": "Unknown",
+    "road_condition": "Unknown",
+    "cause": "Unknown"
+})
+
+# %%
 # Removes rows where every column value is identical to another row.
 df = df.drop_duplicates()
 
@@ -105,6 +114,7 @@ df["accident_type"].value_counts(dropna=False)
 # %%
 # Analyze frequency of severity values to identify inconsistencies and dominant entries
 df["severity"].value_counts(dropna=False)
+
 
 # %%
 # Analyze frequency of weather_condition values to identify inconsistencies and dominant entries
