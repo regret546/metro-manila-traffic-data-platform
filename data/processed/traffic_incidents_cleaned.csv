@@ -1,6 +1,6 @@
 incident_id,city,road_name,vehicle_type,accident_type,severity,weather_condition,road_condition,cause,driver_age,driver_gender,injury_count,damage_cost_php,latitude,longitude,datetime
 MMTI-2025-0001,Mandaluyong,Quezon Ave,Car,Rear-end,Minor,Rain,Unknown,Distracted Driving,55,Female,0.0,5500.0,14.518739047972318,120.94653217867815,2025-11-24 03:01:00
-MMTI-2025-0002,Parañaque,España Blvd,Truck,Rear-end,Unknown,Clear,Slippery,Overspeeding,66,Female,,56000.0,14.568050103303598,120.93109589996236,2025-11-05 00:35:00
+MMTI-2025-0002,Parañaque,España Blvd,Truck,Rear-end,Unknown,Clear,Slippery,Overspeeding,66,Female,0.0,56000.0,14.568050103303598,120.93109589996236,2025-11-05 00:35:00
 MMTI-2025-0003,Navotas,C5,Bus,Side-swipe,Unknown,Storm,Dry,Unknown,52,Male,3.0,12000.0,14.610408126254644,121.0658809328506,2025-06-22 03:05:00
 MMTI-2025-0004,Parañaque,C5,Motorcycle,Rear-end,Fatal,Clear,Wet,Distracted Driving,42,Male,3.0,83000.0,14.66682208532815,120.93253081943122,2025-11-13 11:36:00
 MMTI-2025-0005,Mandaluyong,C5,Jeepney,Rear-end,Unknown,Rain,Wet,Drunk Driving,47,Female,2.0,83500.0,14.637632391686662,120.94392303479404,2025-07-01 06:42:00
@@ -19,7 +19,7 @@ MMTI-2025-0017,Navotas,Roxas Blvd,Taxi,Hit and Run,Fatal,Cloudy,Unknown,Unknown,
 MMTI-2025-0018,Marikina,EDSA,Motorcycle,Pedestrian,Unknown,Clear,Unknown,Drunk Driving,21,Male,1.0,10500.0,14.619007021290006,121.03504251072084,2025-10-05 01:47:00
 MMTI-2025-0019,Makati,Quezon Ave,Jeepney,Pedestrian,Minor,Clear,Dry,Unknown,60,Male,2.0,28000.0,14.633945194953968,120.96283677255911,2025-05-01 12:07:00
 MMTI-2025-0020,San Juan,Aurora Blvd,Bus,Collision,Minor,Cloudy,Unknown,Distracted Driving,22,Female,4.0,35500.0,14.526491314073294,120.96980176699292,2025-05-16 12:08:00
-MMTI-2025-0021,San Juan,Commonwealth Ave,Truck,Pedestrian,Fatal,Clear,Unknown,Overspeeding,60,Male,,15000.0,14.68778600078542,120.92685822287868,2025-02-05 07:23:00
+MMTI-2025-0021,San Juan,Commonwealth Ave,Truck,Pedestrian,Fatal,Clear,Unknown,Overspeeding,60,Male,0.0,15000.0,14.68778600078542,120.92685822287868,2025-02-05 07:23:00
 MMTI-2025-0022,Quezon City,Commonwealth Ave,Bus,Side-swipe,Unknown,Rain,Slippery,Mechanical Failure,61,Male,4.0,64500.0,14.55022425041398,121.08163180924372,2025-03-01 03:47:00
 MMTI-2025-0023,Malabon,Roxas Blvd,Motorcycle,Collision,Fatal,Rain,Slippery,Drunk Driving,65,Female,4.0,92000.0,14.585537383796137,120.90193393992168,2025-01-27 02:40:00
 MMTI-2025-0024,Pasig,España Blvd,Motorcycle,Side-swipe,Unknown,Clear,Wet,Unknown,26,Male,2.0,48500.0,14.67979629774852,121.05922446097762,2025-02-08 22:57:00
@@ -44,7 +44,7 @@ MMTI-2025-0042,Makati,Katipunan Ave,UV Express,Rear-end,Minor,Rain,Slippery,Dist
 MMTI-2025-0043,Manila,Taft Ave,Taxi,Hit and Run,Minor,Cloudy,Slippery,Unknown,63,Female,3.0,24500.0,14.646759060802678,121.09309474624762,2025-09-17 20:21:00
 MMTI-2025-0044,Quezon City,Aurora Blvd,Truck,Hit and Run,Unknown,Storm,Slippery,Mechanical Failure,23,Male,3.0,33000.0,14.650095256365402,121.01396992893568,2025-05-19 19:51:00
 MMTI-2025-0045,Manila,Aurora Blvd,Taxi,Side-swipe,Major,Cloudy,Wet,Traffic Violation,69,Male,2.0,37500.0,14.676063995951646,121.04023675006644,2025-12-09 12:21:00
-MMTI-2025-0046,Manila,Quezon Ave,Motorcycle,Rear-end,Unknown,Cloudy,Unknown,Mechanical Failure,62,Female,,93000.0,14.598164267015717,121.05858657362649,2025-05-22 17:00:00
+MMTI-2025-0046,Manila,Quezon Ave,Motorcycle,Rear-end,Unknown,Cloudy,Unknown,Mechanical Failure,62,Female,0.0,93000.0,14.598164267015717,121.05858657362649,2025-05-22 17:00:00
 MMTI-2025-0047,Navotas,Quezon Ave,Bus,Pedestrian,Fatal,Cloudy,Unknown,Traffic Violation,45,Male,2.0,91500.0,14.590749052570636,120.96132459826975,2025-02-17 09:14:00
 MMTI-2025-0048,Parañaque,Ortigas Ave,Motorcycle,Pedestrian,Major,Rain,Wet,Unknown,35,Male,0.0,26500.0,14.559249292653028,120.97217621382988,2025-04-29 03:46:00
 MMTI-2025-0049,Quezon City,Commonwealth Ave,Bus,Collision,Minor,Clear,Slippery,Drunk Driving,58,Female,0.0,3500.0,14.614812843925266,120.9938793889861,2025-06-04 00:45:00
@@ -57,7 +57,7 @@ MMTI-2025-0055,San Juan,Taft Ave,Bus,Pedestrian,Unknown,Cloudy,Unknown,Distracte
 MMTI-2025-0056,Makati,Katipunan Ave,Motorcycle,Side-swipe,Unknown,Clear,Wet,Unknown,51,Female,2.0,25000.0,14.699389094986511,120.9871769974154,2025-02-16 07:43:00
 MMTI-2025-0057,Las Piñas,Taft Ave,Bus,Side-swipe,Minor,Rain,Slippery,Unknown,62,Female,2.0,86500.0,14.689038707912642,121.0627132069476,2025-09-09 02:30:00
 MMTI-2025-0058,Makati,Ortigas Ave,Bus,Side-swipe,Minor,Cloudy,Unknown,Overspeeding,60,Female,3.0,8500.0,14.537516508278904,120.97235587183036,2025-10-09 01:29:00
-MMTI-2025-0059,Quezon City,Quezon Ave,Bus,Pedestrian,Major,Storm,Unknown,Unknown,25,Male,,79500.0,14.659862746654897,121.04195656502006,2025-09-13 20:28:00
+MMTI-2025-0059,Quezon City,Quezon Ave,Bus,Pedestrian,Major,Storm,Unknown,Unknown,25,Male,0.0,79500.0,14.659862746654897,121.04195656502006,2025-09-13 20:28:00
 MMTI-2025-0060,Quezon City,Taft Ave,Motorcycle,Rear-end,Minor,Cloudy,Dry,Drunk Driving,49,Male,4.0,92000.0,14.554684979342657,121.06694478911534,2025-06-09 17:00:00
 MMTI-2025-0061,Quezon City,Commonwealth Ave,Truck,Rear-end,Unknown,Clear,Wet,Distracted Driving,35,Female,2.0,66500.0,14.55343453261338,120.90051305187173,2025-08-30 07:29:00
 MMTI-2025-0062,Pateros,Commonwealth Ave,Truck,Pedestrian,Unknown,Storm,Slippery,Unknown,47,Male,1.0,91000.0,14.54776110883325,120.97659416978593,2025-06-02 18:37:00
@@ -69,9 +69,9 @@ MMTI-2025-0067,Pateros,Katipunan Ave,Car,Rear-end,Unknown,Rain,Slippery,Unknown,
 MMTI-2025-0068,San Juan,Taft Ave,UV Express,Side-swipe,Unknown,Storm,Wet,Unknown,48,Male,1.0,50500.0,14.614384538470148,121.01496238603572,2025-08-15 11:37:00
 MMTI-2025-0069,Navotas,Roxas Blvd,Motorcycle,Pedestrian,Minor,Clear,Unknown,Reckless Driving,67,Female,4.0,47000.0,14.543800907785622,120.93802639785542,2025-12-25 09:01:00
 MMTI-2025-0070,Pasig,C5,UV Express,Collision,Fatal,Cloudy,Dry,Traffic Violation,64,Female,0.0,39500.0,14.565343825142802,120.98310061868376,2025-05-09 21:48:00
-MMTI-2025-0071,Quezon City,Ortigas Ave,Jeepney,Pedestrian,Fatal,Rain,Slippery,Unknown,69,Male,,45000.0,14.660846507720905,120.99366627777054,2025-04-13 04:50:00
+MMTI-2025-0071,Quezon City,Ortigas Ave,Jeepney,Pedestrian,Fatal,Rain,Slippery,Unknown,69,Male,0.0,45000.0,14.660846507720905,120.99366627777054,2025-04-13 04:50:00
 MMTI-2025-0072,Caloocan,Taft Ave,Taxi,Pedestrian,Fatal,Clear,Unknown,Overspeeding,34,Male,3.0,49000.0,14.63456567637475,121.0344681594702,2025-02-08 04:48:00
-MMTI-2025-0073,Las Piñas,C5,UV Express,Rear-end,Unknown,Clear,Unknown,Traffic Violation,57,Female,,10000.0,14.627080784475588,120.99285350726454,2025-10-27 12:52:00
+MMTI-2025-0073,Las Piñas,C5,UV Express,Rear-end,Unknown,Clear,Unknown,Traffic Violation,57,Female,0.0,10000.0,14.627080784475588,120.99285350726454,2025-10-27 12:52:00
 MMTI-2025-0074,Malabon,C5,Car,Collision,Minor,Storm,Unknown,Distracted Driving,24,Female,4.0,19000.0,14.577729166230029,120.9742023030974,2025-12-25 09:41:00
 MMTI-2025-0075,Makati,Commonwealth Ave,Truck,Collision,Unknown,Clear,Unknown,Reckless Driving,20,Male,1.0,58500.0,14.588939171955817,120.9472225276462,2025-12-23 17:26:00
 MMTI-2025-0076,Las Piñas,España Blvd,UV Express,Side-swipe,Minor,Cloudy,Slippery,Mechanical Failure,25,Female,0.0,86500.0,14.542421163084663,121.02789858370596,2025-07-05 03:43:00
@@ -99,29 +99,29 @@ MMTI-2025-0097,Malabon,Ortigas Ave,UV Express,Pedestrian,Minor,Rain,Slippery,Dis
 MMTI-2025-0098,Pasig,Ortigas Ave,Motorcycle,Pedestrian,Major,Storm,Slippery,Unknown,26,Male,2.0,73500.0,14.57533586121126,121.05833239157272,2025-12-03 19:55:00
 MMTI-2025-0099,Manila,C5,UV Express,Hit and Run,Unknown,Storm,Dry,Traffic Violation,37,Female,1.0,45500.0,14.689533653506867,120.99725418417457,2025-03-07 21:44:00
 MMTI-2025-0100,Makati,Roxas Blvd,Taxi,Collision,Unknown,Clear,Unknown,Overspeeding,60,Male,4.0,18500.0,14.619449288214328,120.93085055226425,2025-04-26 04:09:00
-MMTI-2025-0101,Pasig,Commonwealth Ave,UV Express,Hit and Run,Minor,Cloudy,Slippery,Mechanical Failure,46,Male,,59000.0,14.546800588867084,120.9478336994491,2025-04-03 22:49:00
+MMTI-2025-0101,Pasig,Commonwealth Ave,UV Express,Hit and Run,Minor,Cloudy,Slippery,Mechanical Failure,46,Male,0.0,59000.0,14.546800588867084,120.9478336994491,2025-04-03 22:49:00
 MMTI-2025-0102,Makati,Aurora Blvd,Truck,Side-swipe,Unknown,Clear,Unknown,Unknown,28,Female,4.0,19500.0,14.67460038401187,120.9104359606522,2025-08-29 06:23:00
 MMTI-2025-0103,Taguig,España Blvd,Taxi,Collision,Fatal,Clear,Wet,Reckless Driving,46,Female,3.0,13500.0,14.689282652602351,120.9444076013814,2025-09-04 11:35:00
 MMTI-2025-0104,Manila,Taft Ave,Motorcycle,Hit and Run,Unknown,Storm,Wet,Unknown,23,Male,1.0,5500.0,14.563736975089949,120.91981662487862,2025-08-19 11:59:00
 MMTI-2025-0105,Pasig,Commonwealth Ave,Motorcycle,Side-swipe,Unknown,Rain,Wet,Unknown,46,Male,0.0,4000.0,14.55118478568741,121.06699261985648,2025-11-29 10:50:00
-MMTI-2025-0106,Manila,Taft Ave,Motorcycle,Side-swipe,Major,Storm,Dry,Overspeeding,33,Female,,81500.0,14.59142272332729,120.922171579058,2025-10-08 23:38:00
+MMTI-2025-0106,Manila,Taft Ave,Motorcycle,Side-swipe,Major,Storm,Dry,Overspeeding,33,Female,0.0,81500.0,14.59142272332729,120.922171579058,2025-10-08 23:38:00
 MMTI-2025-0107,Manila,España Blvd,Jeepney,Rear-end,Major,Storm,Unknown,Overspeeding,57,Male,1.0,75000.0,14.583313519041708,121.0328742603484,2025-09-13 19:34:00
-MMTI-2025-0108,Makati,España Blvd,Jeepney,Pedestrian,Unknown,Clear,Dry,Unknown,48,Male,,51500.0,14.696207884510311,120.95073005221384,2025-02-13 16:23:00
+MMTI-2025-0108,Makati,España Blvd,Jeepney,Pedestrian,Unknown,Clear,Dry,Unknown,48,Male,0.0,51500.0,14.696207884510311,120.95073005221384,2025-02-13 16:23:00
 MMTI-2025-0109,Makati,Ortigas Ave,Car,Collision,Unknown,Rain,Slippery,Drunk Driving,20,Male,4.0,45000.0,14.662701773111218,120.93501782541034,2025-01-09 11:50:00
 MMTI-2025-0110,Pateros,Commonwealth Ave,Taxi,Rear-end,Minor,Rain,Unknown,Overspeeding,36,Female,0.0,27500.0,14.677158077123622,120.96311916400995,2025-12-17 14:44:00
 MMTI-2025-0111,Quezon City,Aurora Blvd,Bus,Collision,Major,Storm,Slippery,Overspeeding,59,Male,2.0,17500.0,14.659868482303647,120.987390276625,2025-06-08 16:25:00
-MMTI-2025-0112,Navotas,Ortigas Ave,Car,Hit and Run,Unknown,Storm,Unknown,Reckless Driving,69,Male,,56000.0,14.515785401211094,121.02049065976604,2025-07-24 23:28:00
+MMTI-2025-0112,Navotas,Ortigas Ave,Car,Hit and Run,Unknown,Storm,Unknown,Reckless Driving,69,Male,0.0,56000.0,14.515785401211094,121.02049065976604,2025-07-24 23:28:00
 MMTI-2025-0113,Marikina,C5,Motorcycle,Side-swipe,Fatal,Storm,Unknown,Unknown,28,Female,2.0,59000.0,14.508471032570023,121.07400743501128,2025-04-03 17:18:00
 MMTI-2025-0114,Mandaluyong,EDSA,Motorcycle,Hit and Run,Fatal,Clear,Wet,Overspeeding,27,Female,0.0,18000.0,14.51344667261242,121.05570307470138,2025-06-30 19:27:00
 MMTI-2025-0115,Makati,EDSA,Jeepney,Rear-end,Unknown,Storm,Slippery,Unknown,66,Male,4.0,19500.0,14.60589197630726,120.9796068091905,2025-07-07 11:24:00
-MMTI-2025-0116,Taguig,EDSA,UV Express,Rear-end,Unknown,Clear,Unknown,Distracted Driving,34,Male,,59000.0,14.542914085084744,121.02237543655274,2025-11-29 08:15:00
-MMTI-2025-0117,Taguig,Commonwealth Ave,Taxi,Collision,Unknown,Rain,Unknown,Distracted Driving,69,Male,,46000.0,14.641908097363917,121.00999942949738,2025-12-22 15:12:00
+MMTI-2025-0116,Taguig,EDSA,UV Express,Rear-end,Unknown,Clear,Unknown,Distracted Driving,34,Male,0.0,59000.0,14.542914085084744,121.02237543655274,2025-11-29 08:15:00
+MMTI-2025-0117,Taguig,Commonwealth Ave,Taxi,Collision,Unknown,Rain,Unknown,Distracted Driving,69,Male,0.0,46000.0,14.641908097363917,121.00999942949738,2025-12-22 15:12:00
 MMTI-2025-0118,Pasay,Commonwealth Ave,Taxi,Side-swipe,Unknown,Rain,Dry,Mechanical Failure,68,Female,1.0,65000.0,14.505256805361654,121.01080428745192,2025-05-29 09:54:00
 MMTI-2025-0119,Quezon City,Commonwealth Ave,Jeepney,Collision,Minor,Storm,Unknown,Unknown,51,Female,3.0,75500.0,14.514750142582248,121.09447594630277,2025-07-08 14:51:00
 MMTI-2025-0120,Valenzuela,España Blvd,Bus,Rear-end,Unknown,Rain,Unknown,Drunk Driving,67,Female,3.0,66000.0,14.682142454189378,120.91108257000356,2025-11-25 02:28:00
 MMTI-2025-0121,San Juan,Commonwealth Ave,Car,Side-swipe,Major,Storm,Unknown,Reckless Driving,23,Male,1.0,83000.0,14.69127032540864,120.9548902066427,2025-03-05 16:09:00
 MMTI-2025-0122,Quezon City,C5,Jeepney,Rear-end,Unknown,Clear,Wet,Drunk Driving,60,Male,4.0,7000.0,14.665047253465326,120.90567469757978,2025-11-17 09:39:00
-MMTI-2025-0123,Makati,Roxas Blvd,UV Express,Rear-end,Unknown,Cloudy,Unknown,Overspeeding,49,Male,,40500.0,14.596588963635083,121.06093763084316,2025-01-24 20:49:00
+MMTI-2025-0123,Makati,Roxas Blvd,UV Express,Rear-end,Unknown,Cloudy,Unknown,Overspeeding,49,Male,0.0,40500.0,14.596588963635083,121.06093763084316,2025-01-24 20:49:00
 MMTI-2025-0124,Valenzuela,C5,UV Express,Collision,Major,Cloudy,Unknown,Unknown,47,Female,2.0,79500.0,14.528733738232528,121.0722970153665,2025-12-17 12:19:00
 MMTI-2025-0125,Las Piñas,Taft Ave,Car,Side-swipe,Unknown,Clear,Dry,Traffic Violation,33,Female,0.0,36000.0,14.589919202399132,120.92817552700164,2025-06-13 23:55:00
 MMTI-2025-0126,Pasig,Taft Ave,Car,Rear-end,Fatal,Clear,Slippery,Mechanical Failure,66,Female,3.0,67500.0,14.59336302354747,121.0758151327201,2025-01-26 09:24:00
@@ -129,15 +129,15 @@ MMTI-2025-0127,Navotas,España Blvd,Truck,Rear-end,Major,Clear,Slippery,Overspee
 MMTI-2025-0128,Manila,C5,Truck,Rear-end,Fatal,Rain,Slippery,Unknown,41,Male,3.0,8500.0,14.614056328776206,120.93893106037756,2025-08-29 09:34:00
 MMTI-2025-0129,Navotas,España Blvd,Truck,Pedestrian,Fatal,Clear,Unknown,Distracted Driving,26,Male,3.0,49500.0,14.65897944567619,120.96781705999052,2025-10-11 09:04:00
 MMTI-2025-0130,Pasig,España Blvd,Truck,Pedestrian,Minor,Clear,Dry,Drunk Driving,63,Male,3.0,68000.0,14.591397711856574,121.02125210448077,2025-07-07 04:12:00
-MMTI-2025-0131,Pasig,Ortigas Ave,Car,Hit and Run,Unknown,Rain,Slippery,Traffic Violation,50,Female,,74000.0,14.559958112947482,121.06314976664878,2025-09-21 04:20:00
-MMTI-2025-0132,Taguig,Taft Ave,Jeepney,Side-swipe,Minor,Clear,Unknown,Reckless Driving,59,Female,,8500.0,14.616704655409528,120.93410241234932,2025-07-08 10:43:00
+MMTI-2025-0131,Pasig,Ortigas Ave,Car,Hit and Run,Unknown,Rain,Slippery,Traffic Violation,50,Female,0.0,74000.0,14.559958112947482,121.06314976664878,2025-09-21 04:20:00
+MMTI-2025-0132,Taguig,Taft Ave,Jeepney,Side-swipe,Minor,Clear,Unknown,Reckless Driving,59,Female,0.0,8500.0,14.616704655409528,120.93410241234932,2025-07-08 10:43:00
 MMTI-2025-0133,Navotas,Commonwealth Ave,Taxi,Rear-end,Minor,Clear,Dry,Mechanical Failure,19,Female,2.0,55500.0,14.530286251623869,121.03810005218372,2025-11-19 23:39:00
 MMTI-2025-0134,Pasig,Aurora Blvd,Taxi,Collision,Major,Clear,Wet,Traffic Violation,60,Female,4.0,50000.0,14.562750519747564,120.93463648477147,2025-07-30 16:49:00
 MMTI-2025-0135,Las Piñas,Roxas Blvd,Jeepney,Hit and Run,Major,Rain,Slippery,Reckless Driving,32,Male,2.0,92000.0,14.541455558970927,121.04099765194805,2025-09-30 10:34:00
 MMTI-2025-0136,Quezon City,Roxas Blvd,Bus,Collision,Unknown,Rain,Unknown,Unknown,43,Male,1.0,39000.0,14.508413297366545,121.09106274353586,2025-06-12 15:22:00
 MMTI-2025-0137,Valenzuela,Roxas Blvd,UV Express,Hit and Run,Major,Rain,Unknown,Reckless Driving,53,Male,1.0,15500.0,14.623135406882898,121.01736609971417,2025-02-10 11:59:00
 MMTI-2025-0138,Manila,Quezon Ave,UV Express,Rear-end,Minor,Clear,Unknown,Traffic Violation,63,Female,0.0,89000.0,14.654153211619656,120.90103628928144,2025-05-05 01:42:00
-MMTI-2025-0139,Pateros,Aurora Blvd,UV Express,Rear-end,Fatal,Storm,Slippery,Overspeeding,67,Male,,75000.0,14.546444039844204,121.04773730445372,2025-10-09 05:26:00
+MMTI-2025-0139,Pateros,Aurora Blvd,UV Express,Rear-end,Fatal,Storm,Slippery,Overspeeding,67,Male,0.0,75000.0,14.546444039844204,121.04773730445372,2025-10-09 05:26:00
 MMTI-2025-0140,Pasay,EDSA,Taxi,Hit and Run,Unknown,Rain,Slippery,Overspeeding,18,Male,4.0,79000.0,14.521460138154708,121.0965987776742,2025-01-20 05:26:00
 MMTI-2025-0141,Quezon City,España Blvd,Truck,Rear-end,Unknown,Cloudy,Slippery,Mechanical Failure,69,Male,2.0,22500.0,14.646223846761757,121.02965706774184,2025-05-26 14:41:00
 MMTI-2025-0142,Marikina,Roxas Blvd,Jeepney,Rear-end,Major,Clear,Unknown,Unknown,50,Male,0.0,53000.0,14.633851170681991,120.93695624020948,2025-04-06 00:47:00
@@ -145,7 +145,7 @@ MMTI-2025-0143,Caloocan,EDSA,Bus,Hit and Run,Major,Cloudy,Slippery,Traffic Viola
 MMTI-2025-0144,San Juan,Commonwealth Ave,Truck,Pedestrian,Fatal,Rain,Dry,Reckless Driving,41,Female,1.0,19000.0,14.595636379947043,120.99099573455412,2025-12-08 03:29:00
 MMTI-2025-0145,Quezon City,Aurora Blvd,Taxi,Pedestrian,Major,Rain,Unknown,Distracted Driving,51,Female,4.0,92000.0,14.57235697370485,121.0834489413562,2025-11-07 11:26:00
 MMTI-2025-0146,Quezon City,España Blvd,Car,Pedestrian,Unknown,Rain,Wet,Traffic Violation,51,Female,0.0,89000.0,14.541080297107872,121.0166295356882,2025-02-27 01:53:00
-MMTI-2025-0147,Quezon City,Aurora Blvd,Car,Pedestrian,Unknown,Cloudy,Unknown,Overspeeding,53,Female,,41000.0,14.644656015965,120.97918974199064,2025-02-16 16:28:00
+MMTI-2025-0147,Quezon City,Aurora Blvd,Car,Pedestrian,Unknown,Cloudy,Unknown,Overspeeding,53,Female,0.0,41000.0,14.644656015965,120.97918974199064,2025-02-16 16:28:00
 MMTI-2025-0148,Makati,C5,Motorcycle,Hit and Run,Fatal,Rain,Dry,Overspeeding,22,Female,0.0,38500.0,14.58177338716385,121.05379441251672,2025-01-02 23:13:00
 MMTI-2025-0149,Malabon,Ortigas Ave,Truck,Hit and Run,Unknown,Cloudy,Dry,Drunk Driving,59,Male,0.0,24500.0,14.698569355215517,120.97861172635682,2025-11-25 23:41:00
 MMTI-2025-0150,Manila,EDSA,Bus,Hit and Run,Unknown,Cloudy,Unknown,Unknown,,Female,1.0,60500.0,14.569231946997526,120.95512994555904,2025-03-07 23:14:00
@@ -153,12 +153,12 @@ MMTI-2025-0151,Malabon,Katipunan Ave,Taxi,Collision,Major,Rain,Dry,Distracted Dr
 MMTI-2025-0152,Navotas,Aurora Blvd,Car,Pedestrian,Major,Clear,Wet,Reckless Driving,32,Male,4.0,78500.0,14.654507642496425,121.06367649781804,2025-05-06 23:02:00
 MMTI-2025-0153,Pasig,España Blvd,Car,Hit and Run,Fatal,Storm,Dry,Drunk Driving,58,Female,4.0,65000.0,14.509376819390493,120.96888296595452,2025-05-02 09:56:00
 MMTI-2025-0154,Manila,Ortigas Ave,UV Express,Hit and Run,Unknown,Rain,Slippery,Unknown,29,Female,1.0,30500.0,14.56014728375903,121.0415153594976,2025-11-26 21:24:00
-MMTI-2025-0155,Malabon,Taft Ave,Jeepney,Pedestrian,Major,Cloudy,Wet,Reckless Driving,31,Male,,12000.0,14.684445220902244,121.06942667718393,2025-08-26 01:35:00
+MMTI-2025-0155,Malabon,Taft Ave,Jeepney,Pedestrian,Major,Cloudy,Wet,Reckless Driving,31,Male,0.0,12000.0,14.684445220902244,121.06942667718393,2025-08-26 01:35:00
 MMTI-2025-0156,Parañaque,EDSA,Bus,Hit and Run,Unknown,Clear,Dry,Distracted Driving,30,Female,3.0,28500.0,14.673894770304909,120.96659286216376,2025-02-17 17:46:00
 MMTI-2025-0157,Parañaque,C5,UV Express,Hit and Run,Major,Rain,Unknown,Mechanical Failure,43,Female,4.0,43000.0,14.655102776412754,120.9761323488746,2025-01-08 06:59:00
 MMTI-2025-0158,San Juan,Roxas Blvd,Bus,Pedestrian,Unknown,Cloudy,Dry,Unknown,66,Male,1.0,49000.0,14.562584403774038,120.90914308959624,2025-10-01 20:22:00
 MMTI-2025-0159,Manila,Roxas Blvd,Jeepney,Pedestrian,Unknown,Rain,Unknown,Reckless Driving,27,Female,2.0,31000.0,14.575967954948233,121.0666725430574,2025-04-24 23:09:00
-MMTI-2025-0160,Marikina,Roxas Blvd,Taxi,Hit and Run,Unknown,Cloudy,Wet,Traffic Violation,28,Female,,71500.0,14.597663264250826,121.08337987793888,2025-09-13 17:41:00
+MMTI-2025-0160,Marikina,Roxas Blvd,Taxi,Hit and Run,Unknown,Cloudy,Wet,Traffic Violation,28,Female,0.0,71500.0,14.597663264250826,121.08337987793888,2025-09-13 17:41:00
 MMTI-2025-0161,Manila,EDSA,Taxi,Collision,Minor,Clear,Unknown,Drunk Driving,58,Female,0.0,92500.0,14.530205929292949,120.94374393449088,2025-10-05 20:03:00
 MMTI-2025-0162,Pasig,Katipunan Ave,Truck,Hit and Run,Minor,Clear,Unknown,Unknown,18,Male,4.0,94000.0,14.554948147439566,121.09549586964653,2025-08-22 11:03:00
 MMTI-2025-0163,Malabon,Commonwealth Ave,Motorcycle,Collision,Unknown,Rain,Wet,Mechanical Failure,57,Male,2.0,36000.0,14.658987266416691,120.91580384876288,2025-01-09 16:52:00
@@ -174,7 +174,7 @@ MMTI-2025-0172,Malabon,Roxas Blvd,Truck,Side-swipe,Unknown,Clear,Slippery,Reckle
 MMTI-2025-0173,Marikina,Katipunan Ave,Truck,Side-swipe,Unknown,Storm,Unknown,Drunk Driving,37,Male,4.0,90500.0,14.540170297740412,120.96283665623908,2025-06-05 00:25:00
 MMTI-2025-0174,Pateros,Katipunan Ave,Taxi,Rear-end,Fatal,Cloudy,Slippery,Unknown,41,Male,4.0,27500.0,14.618445406850077,121.00912581709017,2025-07-23 10:18:00
 MMTI-2025-0175,Valenzuela,Quezon Ave,Truck,Side-swipe,Minor,Cloudy,Unknown,Drunk Driving,58,Male,1.0,34000.0,14.631732593706465,121.04304727825988,2025-12-16 17:01:00
-MMTI-2025-0176,Pasig,Aurora Blvd,Jeepney,Hit and Run,Unknown,Clear,Unknown,Overspeeding,68,Male,,70500.0,14.618763988670976,121.08288024974613,2025-07-13 02:28:00
+MMTI-2025-0176,Pasig,Aurora Blvd,Jeepney,Hit and Run,Unknown,Clear,Unknown,Overspeeding,68,Male,0.0,70500.0,14.618763988670976,121.08288024974613,2025-07-13 02:28:00
 MMTI-2025-0177,Las Piñas,Commonwealth Ave,UV Express,Pedestrian,Minor,Clear,Unknown,Traffic Violation,68,Female,0.0,3000.0,14.519721311716346,120.9444002159099,2025-02-25 07:42:00
 MMTI-2025-0178,Makati,Quezon Ave,Truck,Side-swipe,Unknown,Cloudy,Unknown,Drunk Driving,40,Male,3.0,15000.0,14.55908644410368,121.08410950893422,2025-09-23 17:37:00
 MMTI-2025-0179,Pasig,Ortigas Ave,Bus,Side-swipe,Unknown,Rain,Unknown,Unknown,40,Female,0.0,58000.0,14.64439878865594,120.99048943865137,2025-02-13 03:53:00
@@ -182,7 +182,7 @@ MMTI-2025-0180,Taguig,EDSA,Taxi,Side-swipe,Minor,Rain,Wet,Mechanical Failure,51,
 MMTI-2025-0181,Navotas,Commonwealth Ave,Car,Hit and Run,Unknown,Clear,Unknown,Mechanical Failure,46,Female,3.0,2500.0,14.640947123191946,120.94115689587348,2025-08-25 07:51:00
 MMTI-2025-0182,Taguig,España Blvd,Car,Side-swipe,Fatal,Rain,Unknown,Distracted Driving,34,Female,4.0,83500.0,14.562680822010297,120.97772785218255,2025-12-27 02:36:00
 MMTI-2025-0183,Las Piñas,Ortigas Ave,Taxi,Hit and Run,Unknown,Rain,Slippery,Distracted Driving,61,Female,2.0,17000.0,14.54771454528776,120.92338978079415,2025-07-20 18:07:00
-MMTI-2025-0184,Manila,Taft Ave,Truck,Pedestrian,Major,Clear,Unknown,Unknown,29,Female,,70500.0,14.638686585305871,121.029052019016,2025-07-11 22:09:00
+MMTI-2025-0184,Manila,Taft Ave,Truck,Pedestrian,Major,Clear,Unknown,Unknown,29,Female,0.0,70500.0,14.638686585305871,121.029052019016,2025-07-11 22:09:00
 MMTI-2025-0185,Pateros,Roxas Blvd,Car,Rear-end,Fatal,Cloudy,Unknown,Overspeeding,40,Male,3.0,19000.0,14.53902569832685,120.9767888351736,2025-03-30 17:10:00
 MMTI-2025-0186,Pateros,Taft Ave,UV Express,Hit and Run,Unknown,Rain,Unknown,Unknown,28,Male,4.0,5500.0,14.659176177920486,120.94410590125932,2025-10-15 16:41:00
 MMTI-2025-0187,Quezon City,Roxas Blvd,Car,Hit and Run,Unknown,Rain,Unknown,Distracted Driving,54,Male,2.0,71500.0,14.664656561599513,120.97337235442107,2025-01-17 08:14:00
@@ -190,7 +190,7 @@ MMTI-2025-0188,Quezon City,Quezon Ave,Truck,Collision,Major,Storm,Dry,Unknown,34
 MMTI-2025-0189,Makati,Ortigas Ave,Taxi,Pedestrian,Unknown,Rain,Unknown,Drunk Driving,68,Female,1.0,9500.0,14.614014868961,121.00645615947408,2025-05-02 06:51:00
 MMTI-2025-0190,Marikina,Roxas Blvd,Bus,Pedestrian,Fatal,Clear,Dry,Drunk Driving,66,Female,0.0,37000.0,14.673409518086755,120.92537763372276,2025-11-02 17:10:00
 MMTI-2025-0191,Marikina,Quezon Ave,Taxi,Hit and Run,Unknown,Rain,Unknown,Reckless Driving,58,Female,3.0,59500.0,14.51510325466637,121.05891972613354,2025-03-09 07:09:00
-MMTI-2025-0192,Mandaluyong,Ortigas Ave,Truck,Hit and Run,Fatal,Clear,Dry,Distracted Driving,64,Female,,87000.0,14.639457795557712,121.07002124795817,2025-02-17 12:32:00
+MMTI-2025-0192,Mandaluyong,Ortigas Ave,Truck,Hit and Run,Fatal,Clear,Dry,Distracted Driving,64,Female,0.0,87000.0,14.639457795557712,121.07002124795817,2025-02-17 12:32:00
 MMTI-2025-0193,Malabon,Quezon Ave,Truck,Side-swipe,Fatal,Storm,Slippery,Drunk Driving,54,Female,2.0,89000.0,14.6524508044845,120.90918858513172,2025-10-01 12:13:00
 MMTI-2025-0194,Taguig,Commonwealth Ave,Truck,Hit and Run,Minor,Cloudy,Wet,Drunk Driving,59,Male,1.0,37000.0,14.51866799690513,120.97208707667946,2025-11-17 14:01:00
 MMTI-2025-0195,Pasay,EDSA,Truck,Side-swipe,Major,Cloudy,Dry,Distracted Driving,18,Female,3.0,11500.0,14.526539958407998,120.94523817229188,2025-02-12 11:42:00
@@ -212,23 +212,23 @@ MMTI-2025-0210,Manila,Taft Ave,Taxi,Side-swipe,Minor,Rain,Unknown,Mechanical Fai
 MMTI-2025-0211,Las Piñas,Aurora Blvd,UV Express,Collision,Unknown,Clear,Unknown,Drunk Driving,58,Female,0.0,77500.0,14.613564145657842,120.986996575687,2025-04-29 16:26:00
 MMTI-2025-0212,Mandaluyong,Ortigas Ave,Taxi,Hit and Run,Fatal,Storm,Unknown,Reckless Driving,32,Male,1.0,19000.0,14.655987396493773,121.01694160716085,2025-03-08 07:18:00
 MMTI-2025-0213,Valenzuela,Aurora Blvd,Bus,Hit and Run,Minor,Clear,Slippery,Mechanical Failure,46,Male,3.0,35500.0,14.670496437132227,120.91808417760971,2025-03-21 03:10:00
-MMTI-2025-0214,Pasig,EDSA,Car,Side-swipe,Major,Clear,Wet,Traffic Violation,43,Male,,40000.0,14.552033358544245,121.09813532408158,2025-12-18 09:52:00
+MMTI-2025-0214,Pasig,EDSA,Car,Side-swipe,Major,Clear,Wet,Traffic Violation,43,Male,0.0,40000.0,14.552033358544245,121.09813532408158,2025-12-18 09:52:00
 MMTI-2025-0215,Valenzuela,España Blvd,UV Express,Pedestrian,Major,Clear,Unknown,Distracted Driving,69,Female,0.0,3500.0,14.512333836898762,121.0561919986942,2025-01-16 12:54:00
 MMTI-2025-0216,Navotas,Ortigas Ave,UV Express,Collision,Unknown,Clear,Slippery,Distracted Driving,19,Male,1.0,84500.0,14.588686264767198,120.9257583097994,2025-04-24 04:12:00
-MMTI-2025-0217,Valenzuela,EDSA,Car,Pedestrian,Unknown,Rain,Unknown,Unknown,19,Female,,56500.0,14.534561442366158,120.942943221194,2025-06-19 03:02:00
+MMTI-2025-0217,Valenzuela,EDSA,Car,Pedestrian,Unknown,Rain,Unknown,Unknown,19,Female,0.0,56500.0,14.534561442366158,120.942943221194,2025-06-19 03:02:00
 MMTI-2025-0218,Valenzuela,Commonwealth Ave,Motorcycle,Pedestrian,Unknown,Clear,Wet,Reckless Driving,49,Female,4.0,63000.0,14.512195813786567,120.9559551974878,2025-04-06 08:17:00
 MMTI-2025-0219,Manila,Quezon Ave,UV Express,Pedestrian,Minor,Cloudy,Slippery,Unknown,52,Female,2.0,74000.0,14.600478651108748,120.97767625491386,2025-03-12 13:12:00
 MMTI-2025-0220,Pasig,Quezon Ave,Motorcycle,Side-swipe,Minor,Cloudy,Unknown,Traffic Violation,67,Female,1.0,14500.0,14.549571410800317,120.94823055903096,2025-04-03 00:20:00
-MMTI-2025-0221,Caloocan,Katipunan Ave,Taxi,Hit and Run,Fatal,Rain,Wet,Mechanical Failure,55,Male,,91000.0,14.571756626537413,121.01831249896917,2025-10-01 23:03:00
+MMTI-2025-0221,Caloocan,Katipunan Ave,Taxi,Hit and Run,Fatal,Rain,Wet,Mechanical Failure,55,Male,0.0,91000.0,14.571756626537413,121.01831249896917,2025-10-01 23:03:00
 MMTI-2025-0222,Makati,Katipunan Ave,Car,Pedestrian,Major,Cloudy,Unknown,Reckless Driving,29,Female,0.0,13500.0,14.511233595360254,121.02033255728902,2025-12-27 22:22:00
 MMTI-2025-0223,Manila,Ortigas Ave,Jeepney,Rear-end,Major,Storm,Wet,Traffic Violation,21,Male,1.0,77000.0,14.640939268346465,120.92833053287023,2025-01-11 16:30:00
 MMTI-2025-0224,Las Piñas,C5,Bus,Hit and Run,Unknown,Clear,Slippery,Reckless Driving,38,Female,1.0,95500.0,14.689738706405263,121.05836850499998,2025-02-26 16:55:00
-MMTI-2025-0225,Pasay,España Blvd,UV Express,Pedestrian,Fatal,Rain,Unknown,Drunk Driving,42,Male,,90000.0,14.558903452943785,120.9355416576994,2025-09-07 20:20:00
+MMTI-2025-0225,Pasay,España Blvd,UV Express,Pedestrian,Fatal,Rain,Unknown,Drunk Driving,42,Male,0.0,90000.0,14.558903452943785,120.9355416576994,2025-09-07 20:20:00
 MMTI-2025-0226,Navotas,Katipunan Ave,Motorcycle,Rear-end,Unknown,Storm,Unknown,Mechanical Failure,58,Male,3.0,20000.0,14.566233685233213,120.91556132769288,2025-01-01 22:36:00
 MMTI-2025-0227,Makati,Ortigas Ave,Truck,Collision,Fatal,Rain,Wet,Distracted Driving,40,Male,0.0,94000.0,14.500256231498938,120.97718741959068,2025-06-27 10:10:00
 MMTI-2025-0228,Malabon,Aurora Blvd,Truck,Side-swipe,Unknown,Cloudy,Dry,Unknown,68,Female,1.0,59500.0,14.514741877912275,121.06915249680492,2025-08-03 05:56:00
 MMTI-2025-0229,Mandaluyong,C5,Motorcycle,Side-swipe,Major,Cloudy,Wet,Distracted Driving,53,Male,2.0,78000.0,14.69705522002823,121.07864523452928,2025-05-31 00:20:00
-MMTI-2025-0230,Pasay,Katipunan Ave,Truck,Rear-end,Minor,Clear,Slippery,Mechanical Failure,30,Female,,72500.0,14.644407620915135,121.04599480113406,2025-12-27 00:27:00
+MMTI-2025-0230,Pasay,Katipunan Ave,Truck,Rear-end,Minor,Clear,Slippery,Mechanical Failure,30,Female,0.0,72500.0,14.644407620915135,121.04599480113406,2025-12-27 00:27:00
 MMTI-2025-0231,San Juan,Quezon Ave,Motorcycle,Collision,Unknown,Clear,Unknown,Unknown,27,Male,2.0,2000.0,14.585521191489144,120.95890988979323,2025-05-16 21:18:00
 MMTI-2025-0232,Pateros,Quezon Ave,Motorcycle,Collision,Major,Rain,Slippery,Distracted Driving,48,Male,2.0,52500.0,14.594188890589916,121.0789754966811,2025-12-05 20:38:00
 MMTI-2025-0233,Quezon City,Taft Ave,Car,Side-swipe,Unknown,Storm,Wet,Unknown,20,Male,3.0,61500.0,14.552680161932471,121.0674157504269,2025-05-16 02:41:00
@@ -245,17 +245,17 @@ MMTI-2025-0243,Las Piñas,Ortigas Ave,Car,Side-swipe,Minor,Storm,Dry,Unknown,21,
 MMTI-2025-0244,Malabon,España Blvd,Motorcycle,Collision,Unknown,Rain,Wet,Overspeeding,32,Male,4.0,41000.0,14.64254809762094,121.04187363928963,2025-12-13 06:17:00
 MMTI-2025-0245,Navotas,Ortigas Ave,Truck,Side-swipe,Major,Cloudy,Slippery,Unknown,55,Male,0.0,67000.0,14.699885875973637,121.09329709089292,2025-05-21 13:57:00
 MMTI-2025-0246,Pasig,Katipunan Ave,Bus,Side-swipe,Minor,Cloudy,Dry,Traffic Violation,35,Male,2.0,35000.0,14.63122392104729,121.09043755962308,2025-07-11 17:41:00
-MMTI-2025-0247,Pasig,España Blvd,Taxi,Rear-end,Minor,Clear,Unknown,Traffic Violation,61,Female,,5000.0,14.631080114092487,121.09949381991566,2025-11-30 09:12:00
+MMTI-2025-0247,Pasig,España Blvd,Taxi,Rear-end,Minor,Clear,Unknown,Traffic Violation,61,Female,0.0,5000.0,14.631080114092487,121.09949381991566,2025-11-30 09:12:00
 MMTI-2025-0248,Navotas,EDSA,Jeepney,Pedestrian,Major,Storm,Wet,Unknown,60,Male,4.0,40000.0,14.66908384884892,121.06812773891927,2025-05-13 13:25:00
 MMTI-2025-0249,Taguig,Aurora Blvd,Car,Side-swipe,Unknown,Rain,Slippery,Distracted Driving,32,Male,1.0,97000.0,14.674286446432896,120.98409451363696,2025-10-13 05:18:00
 MMTI-2025-0250,Makati,Roxas Blvd,Truck,Collision,Unknown,Clear,Unknown,Distracted Driving,48,Female,4.0,17000.0,14.673499550939646,120.97633384396111,2025-06-19 11:16:00
 MMTI-2025-0251,Pasig,Commonwealth Ave,Car,Side-swipe,Unknown,Clear,Unknown,Drunk Driving,38,Female,0.0,64000.0,14.566525889383303,121.09732807453994,2025-06-02 13:03:00
 MMTI-2025-0252,Manila,Aurora Blvd,Bus,Rear-end,Major,Clear,Wet,Unknown,68,Male,1.0,80500.0,14.586742282857728,120.98588194460184,2025-06-10 20:03:00
-MMTI-2025-0253,Manila,EDSA,Jeepney,Rear-end,Fatal,Clear,Slippery,Mechanical Failure,19,Male,,95500.0,14.549764624575175,121.03870494943408,2025-08-08 15:24:00
+MMTI-2025-0253,Manila,EDSA,Jeepney,Rear-end,Fatal,Clear,Slippery,Mechanical Failure,19,Male,0.0,95500.0,14.549764624575175,121.03870494943408,2025-08-08 15:24:00
 MMTI-2025-0254,Taguig,Taft Ave,Jeepney,Pedestrian,Fatal,Rain,Dry,Overspeeding,37,Male,3.0,95000.0,14.604057682449175,121.0048235287336,2025-06-26 09:08:00
 MMTI-2025-0255,Marikina,Aurora Blvd,Bus,Rear-end,Major,Cloudy,Dry,Mechanical Failure,32,Female,1.0,95500.0,14.504382654413122,121.00092671091704,2025-08-11 21:08:00
-MMTI-2025-0256,Quezon City,Taft Ave,UV Express,Side-swipe,Unknown,Clear,Dry,Overspeeding,60,Male,,4500.0,14.509647011294588,120.92315796526786,2025-03-05 11:45:00
-MMTI-2025-0257,Quezon City,Roxas Blvd,Truck,Rear-end,Major,Rain,Dry,Reckless Driving,44,Male,,68500.0,14.553995429907438,121.0211268673848,2025-08-16 12:07:00
+MMTI-2025-0256,Quezon City,Taft Ave,UV Express,Side-swipe,Unknown,Clear,Dry,Overspeeding,60,Male,0.0,4500.0,14.509647011294588,120.92315796526786,2025-03-05 11:45:00
+MMTI-2025-0257,Quezon City,Roxas Blvd,Truck,Rear-end,Major,Rain,Dry,Reckless Driving,44,Male,0.0,68500.0,14.553995429907438,121.0211268673848,2025-08-16 12:07:00
 MMTI-2025-0258,Taguig,España Blvd,UV Express,Pedestrian,Minor,Storm,Dry,Distracted Driving,49,Female,4.0,27500.0,14.655591783319403,121.06629976410144,2025-03-12 13:53:00
 MMTI-2025-0259,Malabon,Roxas Blvd,Car,Collision,Unknown,Cloudy,Wet,Unknown,39,Female,0.0,3500.0,14.63432662649304,121.08137600885397,2025-04-14 11:45:00
 MMTI-2025-0260,Pasig,C5,Taxi,Pedestrian,Minor,Rain,Dry,Reckless Driving,59,Female,3.0,39500.0,14.552825004554208,120.9100160391626,2025-10-21 21:31:00
@@ -263,7 +263,7 @@ MMTI-2025-0261,San Juan,Ortigas Ave,Taxi,Side-swipe,Unknown,Rain,Dry,Distracted 
 MMTI-2025-0262,Mandaluyong,C5,Bus,Side-swipe,Major,Clear,Unknown,Unknown,47,Male,3.0,90000.0,14.670134315607315,121.0599798193898,2025-07-03 14:39:00
 MMTI-2025-0263,Pasig,EDSA,Taxi,Rear-end,Minor,Cloudy,Unknown,Unknown,69,Female,1.0,80000.0,14.575950155823175,120.97171978296542,2025-11-29 05:07:00
 MMTI-2025-0264,Pasig,Aurora Blvd,Truck,Collision,Unknown,Cloudy,Dry,Distracted Driving,34,Male,0.0,92000.0,14.673666454371704,121.00496358240773,2025-01-15 21:56:00
-MMTI-2025-0265,Caloocan,Ortigas Ave,Jeepney,Pedestrian,Unknown,Clear,Unknown,Mechanical Failure,48,Male,,88500.0,14.628280890561456,120.92973089045142,2025-10-23 23:36:00
+MMTI-2025-0265,Caloocan,Ortigas Ave,Jeepney,Pedestrian,Unknown,Clear,Unknown,Mechanical Failure,48,Male,0.0,88500.0,14.628280890561456,120.92973089045142,2025-10-23 23:36:00
 MMTI-2025-0266,Manila,Commonwealth Ave,Jeepney,Hit and Run,Unknown,Rain,Dry,Unknown,38,Female,2.0,37500.0,14.51007014290531,120.94454130463376,2025-10-13 19:03:00
 MMTI-2025-0267,Caloocan,C5,Truck,Hit and Run,Unknown,Cloudy,Dry,Unknown,46,Male,0.0,65500.0,14.649047792931457,120.9035538257698,2025-11-26 12:25:00
 MMTI-2025-0268,Quezon City,España Blvd,Motorcycle,Collision,Unknown,Clear,Slippery,Mechanical Failure,59,Female,2.0,48500.0,14.665062198123746,121.06331773731549,2025-07-26 13:02:00
@@ -272,28 +272,28 @@ MMTI-2025-0270,Taguig,EDSA,Car,Hit and Run,Major,Rain,Unknown,Distracted Driving
 MMTI-2025-0271,Marikina,C5,Taxi,Hit and Run,Minor,Rain,Unknown,Distracted Driving,67,Female,3.0,86000.0,14.617863233322188,121.000839515231,2025-08-23 06:45:00
 MMTI-2025-0272,Quezon City,España Blvd,Truck,Pedestrian,Unknown,Clear,Wet,Drunk Driving,64,Female,0.0,51500.0,14.631504362226346,121.0212321547906,2025-09-13 00:33:00
 MMTI-2025-0273,Navotas,Taft Ave,Jeepney,Rear-end,Fatal,Cloudy,Slippery,Reckless Driving,46,Female,1.0,54500.0,14.620504889935276,121.07728737108177,2025-06-14 16:56:00
-MMTI-2025-0274,Quezon City,Ortigas Ave,UV Express,Pedestrian,Major,Rain,Wet,Reckless Driving,61,Male,,18500.0,14.696267099246974,121.0300172775614,2025-09-20 09:53:00
+MMTI-2025-0274,Quezon City,Ortigas Ave,UV Express,Pedestrian,Major,Rain,Wet,Reckless Driving,61,Male,0.0,18500.0,14.696267099246974,121.0300172775614,2025-09-20 09:53:00
 MMTI-2025-0275,Marikina,C5,Taxi,Side-swipe,Unknown,Cloudy,Unknown,Unknown,61,Male,3.0,3500.0,14.60454599724184,120.9050544282509,2025-04-02 16:34:00
 MMTI-2025-0276,Quezon City,Quezon Ave,Bus,Rear-end,Fatal,Rain,Slippery,Drunk Driving,21,Male,1.0,98000.0,14.608234417486647,120.97173648746912,2025-03-16 01:42:00
 MMTI-2025-0277,Quezon City,Quezon Ave,UV Express,Pedestrian,Unknown,Rain,Unknown,Reckless Driving,62,Male,3.0,51500.0,14.583313247496935,121.05762230601285,2025-08-20 03:39:00
 MMTI-2025-0278,Quezon City,EDSA,UV Express,Side-swipe,Major,Clear,Unknown,Mechanical Failure,58,Male,4.0,71500.0,14.64769000649957,120.93929381635212,2025-12-17 10:35:00
 MMTI-2025-0279,Pasay,C5,Car,Rear-end,Unknown,Clear,Unknown,Overspeeding,45,Male,4.0,35500.0,14.526013306023074,121.0167972115368,2025-04-10 09:28:00
 MMTI-2025-0280,Valenzuela,Commonwealth Ave,Motorcycle,Rear-end,Fatal,Clear,Dry,Reckless Driving,49,Male,0.0,92500.0,14.563571801074438,120.94399240308552,2025-05-11 00:21:00
-MMTI-2025-0281,Manila,Commonwealth Ave,Truck,Pedestrian,Unknown,Cloudy,Dry,Traffic Violation,32,Female,,44000.0,14.56621330732226,120.95871487143404,2025-04-05 16:04:00
+MMTI-2025-0281,Manila,Commonwealth Ave,Truck,Pedestrian,Unknown,Cloudy,Dry,Traffic Violation,32,Female,0.0,44000.0,14.56621330732226,120.95871487143404,2025-04-05 16:04:00
 MMTI-2025-0282,Quezon City,EDSA,Motorcycle,Side-swipe,Unknown,Rain,Unknown,Mechanical Failure,20,Male,3.0,16500.0,14.57717518695681,121.00804746258852,2025-11-13 16:30:00
 MMTI-2025-0283,Manila,Ortigas Ave,Jeepney,Pedestrian,Unknown,Cloudy,Dry,Reckless Driving,59,Female,2.0,67500.0,14.5164690896097,120.91919128621728,2025-05-25 00:58:00
-MMTI-2025-0284,Makati,Quezon Ave,UV Express,Rear-end,Unknown,Clear,Wet,Unknown,59,Male,,89500.0,14.530750915443528,120.991845047052,2025-10-03 17:00:00
+MMTI-2025-0284,Makati,Quezon Ave,UV Express,Rear-end,Unknown,Clear,Wet,Unknown,59,Male,0.0,89500.0,14.530750915443528,120.991845047052,2025-10-03 17:00:00
 MMTI-2025-0285,Makati,EDSA,Car,Side-swipe,Unknown,Clear,Unknown,Mechanical Failure,34,Female,3.0,59500.0,14.626043452925158,120.98660500692786,2025-06-19 01:05:00
 MMTI-2025-0286,Taguig,España Blvd,Motorcycle,Pedestrian,Minor,Rain,Unknown,Overspeeding,62,Male,2.0,66000.0,14.521227108373994,121.05737837953252,2025-01-09 12:43:00
 MMTI-2025-0287,San Juan,Aurora Blvd,Truck,Hit and Run,Minor,Cloudy,Wet,Mechanical Failure,26,Female,4.0,39500.0,14.692026853016086,120.9288151074917,2025-06-04 19:05:00
 MMTI-2025-0288,Las Piñas,EDSA,Jeepney,Pedestrian,Major,Clear,Dry,Overspeeding,54,Female,4.0,72000.0,14.689395877845774,120.9609382304699,2025-12-13 23:41:00
-MMTI-2025-0289,Manila,Commonwealth Ave,Car,Rear-end,Major,Clear,Slippery,Mechanical Failure,25,Female,,74500.0,14.670450225553497,121.0702775444851,2025-06-26 06:26:00
+MMTI-2025-0289,Manila,Commonwealth Ave,Car,Rear-end,Major,Clear,Slippery,Mechanical Failure,25,Female,0.0,74500.0,14.670450225553497,121.0702775444851,2025-06-26 06:26:00
 MMTI-2025-0290,Quezon City,C5,Bus,Collision,Fatal,Clear,Wet,Unknown,39,Male,1.0,87500.0,14.631094596139391,120.9200090114551,2025-10-09 14:41:00
 MMTI-2025-0291,Parañaque,Ortigas Ave,Truck,Hit and Run,Fatal,Clear,Slippery,Drunk Driving,54,Male,2.0,56500.0,14.533727902181196,120.96264295614688,2025-11-14 02:57:00
 MMTI-2025-0292,Malabon,Roxas Blvd,Taxi,Side-swipe,Major,Rain,Slippery,Unknown,47,Female,2.0,41000.0,14.597394276487336,120.921766527259,2025-04-24 22:47:00
 MMTI-2025-0293,Mandaluyong,Commonwealth Ave,Jeepney,Rear-end,Fatal,Rain,Dry,Distracted Driving,19,Male,4.0,76000.0,14.581026893510224,121.01800726236814,2025-11-27 19:05:00
 MMTI-2025-0294,Quezon City,España Blvd,Truck,Rear-end,Fatal,Cloudy,Wet,Reckless Driving,26,Female,4.0,67000.0,14.518110804851034,120.97277311161484,2025-01-19 17:16:00
-MMTI-2025-0295,Pasig,Commonwealth Ave,Taxi,Pedestrian,Major,Cloudy,Wet,Drunk Driving,54,Female,,95500.0,14.596700683145484,120.97175910776916,2025-01-06 21:15:00
+MMTI-2025-0295,Pasig,Commonwealth Ave,Taxi,Pedestrian,Major,Cloudy,Wet,Drunk Driving,54,Female,0.0,95500.0,14.596700683145484,120.97175910776916,2025-01-06 21:15:00
 MMTI-2025-0296,Makati,Roxas Blvd,Bus,Rear-end,Minor,Rain,Wet,Traffic Violation,42,Female,3.0,7500.0,14.50798093971698,121.02970494974268,2025-04-23 15:14:00
 MMTI-2025-0297,Mandaluyong,Roxas Blvd,Jeepney,Pedestrian,Unknown,Rain,Unknown,Unknown,41,Male,4.0,34000.0,14.57526575620871,121.08144848528936,2025-02-22 22:33:00
 MMTI-2025-0298,Las Piñas,Aurora Blvd,Taxi,Hit and Run,Unknown,Clear,Unknown,Drunk Driving,46,Female,1.0,11500.0,14.602908254628597,120.95616190167,2025-09-22 12:22:00
@@ -304,11 +304,11 @@ MMTI-2025-0302,Manila,Roxas Blvd,Car,Side-swipe,Unknown,Clear,Unknown,Distracted
 MMTI-2025-0303,Pasig,Katipunan Ave,Motorcycle,Rear-end,Unknown,Clear,Unknown,Overspeeding,68,Male,0.0,63500.0,14.631878522232665,121.08039695114417,2025-09-16 21:26:00
 MMTI-2025-0304,Malabon,España Blvd,Truck,Side-swipe,Minor,Rain,Unknown,Unknown,32,Female,3.0,46500.0,14.61780961722824,121.04827880845646,2025-10-04 00:57:00
 MMTI-2025-0305,Malabon,Commonwealth Ave,Bus,Hit and Run,Major,Clear,Slippery,Unknown,34,Female,0.0,92500.0,14.648729136272404,120.90142281588612,2025-12-23 18:06:00
-MMTI-2025-0306,Manila,Taft Ave,UV Express,Rear-end,Fatal,Cloudy,Slippery,Distracted Driving,27,Female,,76500.0,14.550726545246397,121.0709953852536,2025-09-25 03:33:00
+MMTI-2025-0306,Manila,Taft Ave,UV Express,Rear-end,Fatal,Cloudy,Slippery,Distracted Driving,27,Female,0.0,76500.0,14.550726545246397,121.0709953852536,2025-09-25 03:33:00
 MMTI-2025-0307,Pasig,Roxas Blvd,UV Express,Hit and Run,Major,Cloudy,Unknown,Unknown,29,Male,4.0,73000.0,14.596752031525638,121.097701652805,2025-08-05 18:23:00
 MMTI-2025-0308,Navotas,Commonwealth Ave,Taxi,Collision,Major,Cloudy,Wet,Distracted Driving,31,Female,2.0,72000.0,14.622805073405887,121.0369128893417,2025-10-23 11:49:00
 MMTI-2025-0309,Manila,C5,Taxi,Rear-end,Unknown,Clear,Unknown,Distracted Driving,22,Male,1.0,49000.0,14.51600794733916,120.90755106765702,2025-01-27 05:24:00
-MMTI-2025-0310,Manila,Roxas Blvd,UV Express,Pedestrian,Minor,Rain,Unknown,Unknown,18,Female,,68000.0,14.557201302341738,120.90672187027926,2025-07-16 12:39:00
+MMTI-2025-0310,Manila,Roxas Blvd,UV Express,Pedestrian,Minor,Rain,Unknown,Unknown,18,Female,0.0,68000.0,14.557201302341738,120.90672187027926,2025-07-16 12:39:00
 MMTI-2025-0311,Caloocan,Katipunan Ave,Car,Collision,Fatal,Rain,Dry,Drunk Driving,23,Male,3.0,47000.0,14.63393240927926,120.98109019337012,2025-11-03 16:33:00
 MMTI-2025-0312,Makati,C5,Jeepney,Side-swipe,Unknown,Clear,Slippery,Traffic Violation,,Male,1.0,79500.0,14.692611427895017,120.99095180173175,2025-04-13 16:00:00
 MMTI-2025-0313,Mandaluyong,Commonwealth Ave,Truck,Pedestrian,Minor,Clear,Dry,Reckless Driving,39,Male,4.0,34500.0,14.675222609248614,121.06262946992128,2025-07-26 18:00:00
@@ -319,7 +319,7 @@ MMTI-2025-0317,Parañaque,Quezon Ave,Taxi,Pedestrian,Fatal,Rain,Dry,Distracted D
 MMTI-2025-0318,Pasig,Ortigas Ave,Truck,Pedestrian,Fatal,Cloudy,Wet,Reckless Driving,43,Female,4.0,18000.0,14.510829634257757,121.059853983556,2025-01-22 15:23:00
 MMTI-2025-0319,Manila,Ortigas Ave,Truck,Rear-end,Unknown,Clear,Unknown,Unknown,38,Male,0.0,88000.0,14.54215047714029,121.0162016437959,2025-09-02 17:02:00
 MMTI-2025-0320,Mandaluyong,Commonwealth Ave,Jeepney,Side-swipe,Major,Storm,Unknown,Traffic Violation,41,Female,3.0,56000.0,14.54210649642213,121.04014252536328,2025-06-16 11:39:00
-MMTI-2025-0321,Navotas,Roxas Blvd,Truck,Rear-end,Unknown,Rain,Unknown,Mechanical Failure,,Male,,36500.0,14.660817516201444,121.01106800948416,2025-07-10 11:54:00
+MMTI-2025-0321,Navotas,Roxas Blvd,Truck,Rear-end,Unknown,Rain,Unknown,Mechanical Failure,,Male,0.0,36500.0,14.660817516201444,121.01106800948416,2025-07-10 11:54:00
 MMTI-2025-0322,Pasig,Aurora Blvd,Taxi,Collision,Major,Cloudy,Unknown,Drunk Driving,58,Male,3.0,40000.0,14.55019480669817,121.07170039648986,2025-07-15 06:09:00
 MMTI-2025-0323,Pasay,EDSA,Car,Side-swipe,Unknown,Rain,Dry,Unknown,65,Male,2.0,48000.0,14.572061316013858,121.0114982976494,2025-01-25 12:06:00
 MMTI-2025-0324,Malabon,C5,Bus,Pedestrian,Major,Clear,Unknown,Drunk Driving,67,Male,2.0,43500.0,14.63463856802947,120.99749874886088,2025-05-12 11:01:00
@@ -333,10 +333,10 @@ MMTI-2025-0331,San Juan,Aurora Blvd,Jeepney,Collision,Unknown,Cloudy,Slippery,Ov
 MMTI-2025-0332,Quezon City,Taft Ave,Truck,Rear-end,Major,Rain,Unknown,Unknown,32,Male,0.0,56000.0,14.625064602851214,121.00332201237164,2025-07-11 06:26:00
 MMTI-2025-0333,Mandaluyong,Roxas Blvd,UV Express,Pedestrian,Fatal,Cloudy,Wet,Distracted Driving,29,Female,2.0,16000.0,14.62737854190967,121.02354588278052,2025-11-10 22:43:00
 MMTI-2025-0334,Pateros,Quezon Ave,Bus,Collision,Major,Clear,Unknown,Overspeeding,29,Male,2.0,36000.0,14.525007840566628,120.9876833270894,2025-05-20 22:39:00
-MMTI-2025-0335,Pasig,EDSA,Truck,Rear-end,Fatal,Cloudy,Slippery,Unknown,41,Female,,6000.0,14.566049729407164,121.06870925985362,2025-01-05 07:05:00
-MMTI-2025-0336,Navotas,C5,Jeepney,Hit and Run,Major,Rain,Slippery,Unknown,18,Male,,33500.0,14.576959579842129,121.09499444282496,2025-03-16 01:17:00
+MMTI-2025-0335,Pasig,EDSA,Truck,Rear-end,Fatal,Cloudy,Slippery,Unknown,41,Female,0.0,6000.0,14.566049729407164,121.06870925985362,2025-01-05 07:05:00
+MMTI-2025-0336,Navotas,C5,Jeepney,Hit and Run,Major,Rain,Slippery,Unknown,18,Male,0.0,33500.0,14.576959579842129,121.09499444282496,2025-03-16 01:17:00
 MMTI-2025-0337,Parañaque,Aurora Blvd,UV Express,Collision,Unknown,Rain,Wet,Unknown,42,Male,2.0,22000.0,14.62583285082614,120.90843718311896,2025-05-07 23:02:00
-MMTI-2025-0338,Mandaluyong,Aurora Blvd,UV Express,Side-swipe,Major,Storm,Dry,Mechanical Failure,25,Female,,57500.0,14.56490269752602,120.93347207128166,2025-10-09 16:07:00
+MMTI-2025-0338,Mandaluyong,Aurora Blvd,UV Express,Side-swipe,Major,Storm,Dry,Mechanical Failure,25,Female,0.0,57500.0,14.56490269752602,120.93347207128166,2025-10-09 16:07:00
 MMTI-2025-0339,Navotas,Quezon Ave,Motorcycle,Collision,Unknown,Rain,Unknown,Drunk Driving,41,Male,1.0,22000.0,14.599983841317,121.03718892875112,2025-05-22 18:07:00
 MMTI-2025-0340,Quezon City,Ortigas Ave,UV Express,Rear-end,Unknown,Clear,Wet,Unknown,32,Male,4.0,84500.0,14.651339504640278,121.06110507531731,2025-06-23 20:03:00
 MMTI-2025-0341,Manila,Taft Ave,Bus,Rear-end,Fatal,Clear,Unknown,Unknown,53,Male,4.0,91000.0,14.598018399163749,121.01334034679329,2025-08-13 23:12:00
@@ -344,11 +344,11 @@ MMTI-2025-0342,Valenzuela,Roxas Blvd,Taxi,Pedestrian,Unknown,Rain,Dry,Drunk Driv
 MMTI-2025-0343,Pasay,EDSA,Jeepney,Side-swipe,Unknown,Rain,Slippery,Distracted Driving,60,Female,1.0,69000.0,14.636644836511536,121.05314681910198,2025-11-23 16:24:00
 MMTI-2025-0344,Marikina,Taft Ave,UV Express,Side-swipe,Minor,Clear,Unknown,Distracted Driving,20,Female,1.0,6000.0,14.540415805737757,120.99707405744736,2025-03-20 19:18:00
 MMTI-2025-0345,Navotas,Aurora Blvd,Jeepney,Pedestrian,Unknown,Storm,Dry,Traffic Violation,32,Male,0.0,28500.0,14.63114987237961,121.08568074388768,2025-02-20 01:36:00
-MMTI-2025-0346,Quezon City,Ortigas Ave,Jeepney,Hit and Run,Fatal,Rain,Dry,Reckless Driving,51,Male,,11000.0,14.66689129964099,120.91558707497212,2025-02-10 14:51:00
+MMTI-2025-0346,Quezon City,Ortigas Ave,Jeepney,Hit and Run,Fatal,Rain,Dry,Reckless Driving,51,Male,0.0,11000.0,14.66689129964099,120.91558707497212,2025-02-10 14:51:00
 MMTI-2025-0347,Taguig,Quezon Ave,Jeepney,Hit and Run,Major,Rain,Unknown,Mechanical Failure,54,Female,4.0,97500.0,14.611628321431851,121.04922167525518,2025-04-21 16:06:00
 MMTI-2025-0348,Valenzuela,Taft Ave,Motorcycle,Rear-end,Major,Clear,Unknown,Traffic Violation,60,Female,4.0,78500.0,14.588602433999656,120.97046481505409,2025-11-23 18:22:00
 MMTI-2025-0349,Las Piñas,Taft Ave,Taxi,Hit and Run,Fatal,Clear,Wet,Mechanical Failure,42,Male,2.0,59500.0,14.58949995779965,120.97941811233788,2025-06-11 17:20:00
-MMTI-2025-0350,Manila,España Blvd,Car,Side-swipe,Minor,Storm,Wet,Mechanical Failure,38,Male,,37000.0,14.683822416594122,121.00225429766824,2025-01-18 09:38:00
+MMTI-2025-0350,Manila,España Blvd,Car,Side-swipe,Minor,Storm,Wet,Mechanical Failure,38,Male,0.0,37000.0,14.683822416594122,121.00225429766824,2025-01-18 09:38:00
 MMTI-2025-0351,Taguig,EDSA,Truck,Side-swipe,Major,Rain,Slippery,Traffic Violation,55,Female,1.0,34500.0,14.662214847356532,120.91838102425707,2025-10-20 18:09:00
 MMTI-2025-0352,Parañaque,C5,UV Express,Side-swipe,Unknown,Rain,Unknown,Distracted Driving,56,Male,0.0,95500.0,14.661668234432168,120.9763092220999,2025-07-24 18:58:00
 MMTI-2025-0353,Malabon,Taft Ave,Taxi,Collision,Major,Rain,Unknown,Overspeeding,58,Female,0.0,41000.0,14.604876670302724,120.9638633080422,2025-01-29 10:22:00
@@ -365,7 +365,7 @@ MMTI-2025-0363,Mandaluyong,EDSA,UV Express,Side-swipe,Unknown,Clear,Unknown,Reck
 MMTI-2025-0364,Pasig,Quezon Ave,Truck,Rear-end,Unknown,Rain,Unknown,Reckless Driving,56,Male,3.0,71000.0,14.526354426453643,121.03049452921536,2025-07-15 16:43:00
 MMTI-2025-0365,Parañaque,Commonwealth Ave,Bus,Pedestrian,Major,Cloudy,Wet,Drunk Driving,38,Male,4.0,70000.0,14.689720312832952,120.92367745814344,2025-10-25 17:43:00
 MMTI-2025-0366,Manila,Ortigas Ave,Truck,Hit and Run,Fatal,Cloudy,Slippery,Drunk Driving,67,Female,0.0,18500.0,14.536949299314914,121.0524894967466,2025-06-12 04:46:00
-MMTI-2025-0367,Pasig,Katipunan Ave,Jeepney,Rear-end,Unknown,Rain,Wet,Overspeeding,40,Male,,63000.0,14.526817325506098,121.06922764719236,2025-11-10 19:17:00
+MMTI-2025-0367,Pasig,Katipunan Ave,Jeepney,Rear-end,Unknown,Rain,Wet,Overspeeding,40,Male,0.0,63000.0,14.526817325506098,121.06922764719236,2025-11-10 19:17:00
 MMTI-2025-0368,Las Piñas,Commonwealth Ave,Taxi,Hit and Run,Unknown,Cloudy,Wet,Drunk Driving,30,Female,0.0,54000.0,14.652907770825648,120.90300285209037,2025-08-29 22:41:00
 MMTI-2025-0369,Parañaque,Quezon Ave,Motorcycle,Rear-end,Unknown,Clear,Unknown,Traffic Violation,47,Female,3.0,53500.0,14.65524294382606,121.02158599158426,2025-05-19 13:14:00
 MMTI-2025-0370,Navotas,Katipunan Ave,UV Express,Pedestrian,Unknown,Clear,Unknown,Overspeeding,51,Male,3.0,60000.0,14.66540202033187,120.90848318320182,2025-07-14 23:20:00
@@ -373,25 +373,25 @@ MMTI-2025-0371,Navotas,EDSA,Jeepney,Hit and Run,Unknown,Rain,Dry,Mechanical Fail
 MMTI-2025-0372,Pasig,EDSA,UV Express,Pedestrian,Major,Cloudy,Unknown,Distracted Driving,64,Male,1.0,76500.0,14.687568491539848,121.03922282836795,2025-03-27 13:18:00
 MMTI-2025-0373,Marikina,Aurora Blvd,Motorcycle,Rear-end,Unknown,Clear,Wet,Unknown,23,Male,2.0,90500.0,14.62971528605694,121.04229394912196,2025-03-11 12:26:00
 MMTI-2025-0374,Taguig,C5,Motorcycle,Hit and Run,Fatal,Clear,Unknown,Unknown,64,Female,3.0,72000.0,14.576121401852228,121.05365206475688,2025-03-25 22:46:00
-MMTI-2025-0375,Pasig,Commonwealth Ave,Taxi,Rear-end,Major,Rain,Dry,Unknown,37,Male,,,14.692193222710875,120.95775610748896,2025-06-21 18:55:00
+MMTI-2025-0375,Pasig,Commonwealth Ave,Taxi,Rear-end,Major,Rain,Dry,Unknown,37,Male,0.0,,14.692193222710875,120.95775610748896,2025-06-21 18:55:00
 MMTI-2025-0376,Pasig,Quezon Ave,Motorcycle,Pedestrian,Fatal,Clear,Unknown,Unknown,49,Male,4.0,65000.0,14.547575670803896,121.01777246543686,2025-04-03 03:57:00
 MMTI-2025-0377,Valenzuela,C5,Jeepney,Pedestrian,Minor,Rain,Unknown,Reckless Driving,57,Female,0.0,25500.0,14.529651233635938,121.03065537564312,2025-09-01 14:26:00
 MMTI-2025-0378,Quezon City,Katipunan Ave,Taxi,Pedestrian,Fatal,Storm,Dry,Overspeeding,24,Female,1.0,22500.0,14.63441809905228,121.02221795120974,2025-01-19 04:54:00
 MMTI-2025-0379,Makati,España Blvd,Car,Hit and Run,Unknown,Storm,Dry,Distracted Driving,67,Male,2.0,49000.0,14.67950595524749,121.0640529484565,2025-12-21 22:38:00
-MMTI-2025-0380,San Juan,Aurora Blvd,Car,Collision,Fatal,Storm,Unknown,Unknown,51,Female,,28500.0,14.622410748985684,120.92186044688728,2025-08-07 17:04:00
+MMTI-2025-0380,San Juan,Aurora Blvd,Car,Collision,Fatal,Storm,Unknown,Unknown,51,Female,0.0,28500.0,14.622410748985684,120.92186044688728,2025-08-07 17:04:00
 MMTI-2025-0381,Pateros,Katipunan Ave,Taxi,Side-swipe,Unknown,Clear,Slippery,Reckless Driving,51,Male,1.0,80500.0,14.612526867533322,121.0039411600369,2025-11-19 16:05:00
-MMTI-2025-0382,Pasay,Katipunan Ave,Car,Side-swipe,Major,Clear,Dry,Overspeeding,47,Male,,28500.0,14.659912870251102,121.09979740145003,2025-11-20 15:31:00
+MMTI-2025-0382,Pasay,Katipunan Ave,Car,Side-swipe,Major,Clear,Dry,Overspeeding,47,Male,0.0,28500.0,14.659912870251102,121.09979740145003,2025-11-20 15:31:00
 MMTI-2025-0383,Las Piñas,España Blvd,Taxi,Rear-end,Minor,Rain,Wet,Reckless Driving,34,Male,2.0,40000.0,14.601337925419202,120.96478476787662,2025-07-31 01:21:00
-MMTI-2025-0384,Marikina,Ortigas Ave,Truck,Pedestrian,Unknown,Clear,Wet,Mechanical Failure,39,Male,,63000.0,14.683232610634716,121.0594508767658,2025-01-04 03:43:00
+MMTI-2025-0384,Marikina,Ortigas Ave,Truck,Pedestrian,Unknown,Clear,Wet,Mechanical Failure,39,Male,0.0,63000.0,14.683232610634716,121.0594508767658,2025-01-04 03:43:00
 MMTI-2025-0385,Pasig,Aurora Blvd,Taxi,Pedestrian,Fatal,Cloudy,Unknown,Overspeeding,51,Male,4.0,94500.0,14.635639524929974,121.01103544166072,2025-11-27 04:30:00
 MMTI-2025-0386,Marikina,Ortigas Ave,Motorcycle,Rear-end,Fatal,Clear,Slippery,Unknown,58,Female,4.0,79500.0,14.577913254778652,121.019038373406,2025-01-10 06:36:00
 MMTI-2025-0387,Marikina,EDSA,Bus,Hit and Run,Minor,Cloudy,Wet,Traffic Violation,46,Male,1.0,69000.0,14.560463659726102,120.9224462544534,2025-06-07 22:54:00
-MMTI-2025-0388,Makati,Aurora Blvd,Jeepney,Collision,Unknown,Clear,Wet,Mechanical Failure,39,Female,,69000.0,14.562071741782924,120.96546759030714,2025-01-20 06:58:00
+MMTI-2025-0388,Makati,Aurora Blvd,Jeepney,Collision,Unknown,Clear,Wet,Mechanical Failure,39,Female,0.0,69000.0,14.562071741782924,120.96546759030714,2025-01-20 06:58:00
 MMTI-2025-0389,Pasig,Quezon Ave,UV Express,Collision,Unknown,Cloudy,Unknown,Distracted Driving,18,Male,0.0,89500.0,14.66962480484588,121.0743750186072,2025-02-20 16:43:00
 MMTI-2025-0390,Quezon City,C5,Jeepney,Side-swipe,Minor,Clear,Slippery,Mechanical Failure,38,Female,1.0,38500.0,14.555329907733611,120.9638299581003,2025-06-20 14:56:00
 MMTI-2025-0391,Mandaluyong,Commonwealth Ave,Car,Side-swipe,Minor,Clear,Unknown,Distracted Driving,31,Male,4.0,42500.0,14.554210420163804,121.08865556374842,2025-08-14 21:07:00
 MMTI-2025-0392,Pasay,C5,Bus,Pedestrian,Fatal,Clear,Unknown,Overspeeding,26,Male,3.0,88000.0,14.510091202118884,120.97671992786796,2025-05-26 18:15:00
-MMTI-2025-0393,Pasay,Katipunan Ave,Jeepney,Hit and Run,Unknown,Storm,Slippery,Traffic Violation,,Female,,99000.0,14.634174053086786,121.00669698577904,2025-02-14 13:25:00
+MMTI-2025-0393,Pasay,Katipunan Ave,Jeepney,Hit and Run,Unknown,Storm,Slippery,Traffic Violation,,Female,0.0,99000.0,14.634174053086786,121.00669698577904,2025-02-14 13:25:00
 MMTI-2025-0394,Makati,Aurora Blvd,Motorcycle,Hit and Run,Fatal,Rain,Unknown,Unknown,32,Female,1.0,80500.0,14.551610553134772,120.972689869094,2025-08-27 18:08:00
 MMTI-2025-0395,Marikina,Ortigas Ave,Truck,Hit and Run,Minor,Clear,Unknown,Distracted Driving,40,Female,3.0,23500.0,14.55645147378436,120.9697230884499,2025-04-04 22:58:00
 MMTI-2025-0396,Taguig,Taft Ave,Taxi,Collision,Fatal,Clear,Dry,Reckless Driving,52,Female,3.0,77500.0,14.58268838113334,121.02417496777132,2025-10-22 04:32:00
@@ -403,8 +403,8 @@ MMTI-2025-0401,San Juan,EDSA,Bus,Pedestrian,Minor,Clear,Unknown,Traffic Violatio
 MMTI-2025-0402,Navotas,Taft Ave,Truck,Hit and Run,Unknown,Rain,Wet,Unknown,26,Female,4.0,51000.0,14.668665534145358,120.97205757772916,2025-11-17 10:45:00
 MMTI-2025-0403,Pasig,Commonwealth Ave,Motorcycle,Collision,Minor,Rain,Unknown,Unknown,26,Male,1.0,84000.0,14.661188322925351,121.07203055241112,2025-08-02 04:18:00
 MMTI-2025-0404,Malabon,Katipunan Ave,Car,Hit and Run,Unknown,Cloudy,Unknown,Unknown,42,Male,1.0,25500.0,14.584954371459146,120.90148599829963,2025-12-23 19:59:00
-MMTI-2025-0405,Manila,Roxas Blvd,Truck,Pedestrian,Unknown,Storm,Dry,Overspeeding,54,Female,,49000.0,14.522632873922989,120.9963065817382,2025-09-13 23:15:00
-MMTI-2025-0406,Manila,Roxas Blvd,Truck,Pedestrian,Minor,Clear,Unknown,Distracted Driving,33,Female,,96500.0,14.632747387827056,121.0337434278102,2025-12-20 02:09:00
+MMTI-2025-0405,Manila,Roxas Blvd,Truck,Pedestrian,Unknown,Storm,Dry,Overspeeding,54,Female,0.0,49000.0,14.522632873922989,120.9963065817382,2025-09-13 23:15:00
+MMTI-2025-0406,Manila,Roxas Blvd,Truck,Pedestrian,Minor,Clear,Unknown,Distracted Driving,33,Female,0.0,96500.0,14.632747387827056,121.0337434278102,2025-12-20 02:09:00
 MMTI-2025-0407,Makati,Roxas Blvd,Jeepney,Collision,Fatal,Clear,Dry,Unknown,47,Female,4.0,95500.0,14.566302797825658,120.9705829083332,2025-12-17 20:34:00
 MMTI-2025-0408,Quezon City,Katipunan Ave,UV Express,Side-swipe,Unknown,Storm,Dry,Unknown,55,Female,4.0,8500.0,14.631263977274845,120.95835064174072,2025-05-31 09:10:00
 MMTI-2025-0409,Pateros,C5,Car,Pedestrian,Minor,Storm,Slippery,Drunk Driving,57,Male,2.0,34500.0,14.502840602012618,120.9223098808584,2025-11-16 00:18:00
@@ -414,22 +414,22 @@ MMTI-2025-0412,Quezon City,Quezon Ave,Truck,Hit and Run,Unknown,Storm,Wet,Unknow
 MMTI-2025-0413,Quezon City,Ortigas Ave,Taxi,Hit and Run,Unknown,Rain,Slippery,Traffic Violation,35,Male,0.0,34500.0,14.630868656313682,120.978230752738,2025-12-16 01:06:00
 MMTI-2025-0414,Makati,Quezon Ave,Jeepney,Side-swipe,Major,Storm,Unknown,Overspeeding,61,Male,0.0,3500.0,14.582249753322747,121.00505285278544,2025-12-12 23:15:00
 MMTI-2025-0415,Caloocan,Roxas Blvd,Bus,Rear-end,Minor,Clear,Unknown,Distracted Driving,21,Female,4.0,83500.0,14.52435802624833,121.0915590675473,2025-12-17 14:22:00
-MMTI-2025-0416,Navotas,Katipunan Ave,Taxi,Rear-end,Minor,Rain,Wet,Reckless Driving,36,Female,,11500.0,14.627756101568703,121.08453907816894,2025-02-14 19:08:00
+MMTI-2025-0416,Navotas,Katipunan Ave,Taxi,Rear-end,Minor,Rain,Wet,Reckless Driving,36,Female,0.0,11500.0,14.627756101568703,121.08453907816894,2025-02-14 19:08:00
 MMTI-2025-0417,Marikina,Roxas Blvd,Car,Collision,Fatal,Clear,Unknown,Unknown,39,Male,2.0,35500.0,14.535585897327326,120.91387969626744,2025-05-22 13:44:00
 MMTI-2025-0418,Pasay,Aurora Blvd,Motorcycle,Rear-end,Unknown,Cloudy,Wet,Distracted Driving,46,Male,0.0,6000.0,14.514583900675792,121.01426891196898,2025-04-13 19:25:00
 MMTI-2025-0419,Pateros,Commonwealth Ave,UV Express,Collision,Minor,Rain,Unknown,Reckless Driving,27,Male,3.0,75500.0,14.500740750901972,121.04152113041268,2025-05-09 14:01:00
 MMTI-2025-0420,Navotas,C5,Jeepney,Rear-end,Minor,Cloudy,Unknown,Distracted Driving,54,Male,2.0,89000.0,14.56056561529728,120.91103893463652,2025-09-09 15:27:00
 MMTI-2025-0421,Quezon City,Ortigas Ave,Motorcycle,Hit and Run,Fatal,Rain,Wet,Drunk Driving,53,Male,3.0,86500.0,14.53820063218306,121.03917645572142,2025-11-28 02:23:00
 MMTI-2025-0422,Las Piñas,Aurora Blvd,Motorcycle,Hit and Run,Major,Rain,Dry,Mechanical Failure,19,Female,3.0,51500.0,14.51259852616897,121.00811040944367,2025-02-24 20:44:00
-MMTI-2025-0423,Valenzuela,EDSA,Motorcycle,Side-swipe,Minor,Storm,Dry,Unknown,25,Female,,87000.0,14.604623927859024,121.08801795792294,2025-06-07 15:34:00
+MMTI-2025-0423,Valenzuela,EDSA,Motorcycle,Side-swipe,Minor,Storm,Dry,Unknown,25,Female,0.0,87000.0,14.604623927859024,121.08801795792294,2025-06-07 15:34:00
 MMTI-2025-0424,Makati,Quezon Ave,Motorcycle,Collision,Major,Cloudy,Dry,Unknown,57,Male,1.0,91500.0,14.629757283822505,120.9028730409924,2025-10-02 04:47:00
 MMTI-2025-0425,San Juan,C5,Truck,Pedestrian,Major,Clear,Dry,Distracted Driving,25,Female,4.0,80500.0,14.544114504848585,121.06089070618546,2025-11-20 01:57:00
 MMTI-2025-0426,Navotas,Ortigas Ave,Motorcycle,Pedestrian,Unknown,Rain,Slippery,Mechanical Failure,66,Male,4.0,24000.0,14.567100745533738,120.92414909791036,2025-08-07 10:51:00
 MMTI-2025-0427,Las Piñas,España Blvd,Car,Hit and Run,Major,Clear,Dry,Drunk Driving,24,Female,1.0,4000.0,14.67592538816775,120.91614452154391,2025-03-14 13:10:00
 MMTI-2025-0428,Makati,Katipunan Ave,Bus,Hit and Run,Unknown,Rain,Wet,Mechanical Failure,27,Male,4.0,59500.0,14.58240626490005,121.08761792208932,2025-01-04 05:59:00
 MMTI-2025-0429,Pasig,Commonwealth Ave,UV Express,Hit and Run,Unknown,Clear,Slippery,Traffic Violation,44,Male,4.0,32000.0,14.538380572374924,121.09732070495218,2025-11-09 22:02:00
-MMTI-2025-0430,Quezon City,España Blvd,Car,Hit and Run,Major,Storm,Dry,Mechanical Failure,25,Female,,62500.0,14.599502967560774,120.93195191870652,2025-02-18 19:23:00
-MMTI-2025-0431,Las Piñas,Roxas Blvd,Car,Hit and Run,Fatal,Storm,Unknown,Unknown,20,Male,,8500.0,14.6849722691437,120.93517752164313,2025-01-23 01:41:00
+MMTI-2025-0430,Quezon City,España Blvd,Car,Hit and Run,Major,Storm,Dry,Mechanical Failure,25,Female,0.0,62500.0,14.599502967560774,120.93195191870652,2025-02-18 19:23:00
+MMTI-2025-0431,Las Piñas,Roxas Blvd,Car,Hit and Run,Fatal,Storm,Unknown,Unknown,20,Male,0.0,8500.0,14.6849722691437,120.93517752164313,2025-01-23 01:41:00
 MMTI-2025-0432,Taguig,C5,Car,Hit and Run,Unknown,Clear,Slippery,Unknown,30,Male,1.0,16000.0,14.565226444941434,120.9196128267603,2025-01-15 15:32:00
 MMTI-2025-0433,Caloocan,C5,Truck,Pedestrian,Unknown,Clear,Unknown,Drunk Driving,31,Female,1.0,51500.0,14.57469701638282,120.99154803860162,2025-07-31 06:24:00
 MMTI-2025-0434,Mandaluyong,Quezon Ave,Bus,Rear-end,Minor,Rain,Unknown,Overspeeding,35,Female,0.0,61500.0,14.5917157849941,120.93424026334336,2025-04-10 20:22:00
@@ -439,25 +439,25 @@ MMTI-2025-0437,Manila,EDSA,Truck,Pedestrian,Unknown,Cloudy,Dry,Unknown,49,Female
 MMTI-2025-0438,Las Piñas,Roxas Blvd,Car,Collision,Minor,Cloudy,Slippery,Drunk Driving,63,Female,4.0,97500.0,14.616732022202632,121.09528415568894,2025-07-28 06:08:00
 MMTI-2025-0439,Navotas,Commonwealth Ave,Taxi,Side-swipe,Unknown,Rain,Dry,Distracted Driving,42,Male,4.0,6000.0,14.559317996242497,121.05057760219243,2025-08-26 04:55:00
 MMTI-2025-0440,Makati,Quezon Ave,Taxi,Collision,Unknown,Storm,Dry,Traffic Violation,21,Male,3.0,48500.0,14.593070575027369,120.90817486698266,2025-12-24 19:34:00
-MMTI-2025-0441,Quezon City,C5,Jeepney,Rear-end,Major,Storm,Wet,Distracted Driving,59,Female,,98000.0,14.61602387707104,121.09182074621744,2025-07-07 05:41:00
+MMTI-2025-0441,Quezon City,C5,Jeepney,Rear-end,Major,Storm,Wet,Distracted Driving,59,Female,0.0,98000.0,14.61602387707104,121.09182074621744,2025-07-07 05:41:00
 MMTI-2025-0442,Caloocan,Ortigas Ave,Bus,Side-swipe,Unknown,Rain,Unknown,Reckless Driving,21,Male,2.0,46000.0,14.590482129881124,121.00029001910492,2025-04-18 23:48:00
 MMTI-2025-0443,Quezon City,España Blvd,Bus,Hit and Run,Unknown,Storm,Dry,Mechanical Failure,47,Male,0.0,52000.0,14.67958917197408,120.95767453753687,2025-03-04 15:45:00
-MMTI-2025-0444,Mandaluyong,C5,UV Express,Rear-end,Unknown,Rain,Wet,Overspeeding,36,Female,,71000.0,14.686344294446748,120.99478098354744,2025-02-09 03:10:00
-MMTI-2025-0445,Manila,Roxas Blvd,Car,Collision,Minor,Rain,Unknown,Traffic Violation,44,Male,,84500.0,14.657364872584203,120.99722967832292,2025-08-04 14:47:00
+MMTI-2025-0444,Mandaluyong,C5,UV Express,Rear-end,Unknown,Rain,Wet,Overspeeding,36,Female,0.0,71000.0,14.686344294446748,120.99478098354744,2025-02-09 03:10:00
+MMTI-2025-0445,Manila,Roxas Blvd,Car,Collision,Minor,Rain,Unknown,Traffic Violation,44,Male,0.0,84500.0,14.657364872584203,120.99722967832292,2025-08-04 14:47:00
 MMTI-2025-0446,Quezon City,Aurora Blvd,Truck,Side-swipe,Unknown,Rain,Slippery,Drunk Driving,68,Male,1.0,63500.0,14.574380463318116,120.9576292585876,2025-12-07 22:33:00
-MMTI-2025-0447,San Juan,Aurora Blvd,Car,Pedestrian,Major,Rain,Unknown,Reckless Driving,29,Female,,90500.0,14.680942229429418,121.05889145605786,2025-01-25 04:22:00
-MMTI-2025-0448,Quezon City,Ortigas Ave,Jeepney,Rear-end,Unknown,Storm,Slippery,Drunk Driving,31,Male,,42500.0,14.695604512607824,120.92958884294768,2025-03-24 07:07:00
+MMTI-2025-0447,San Juan,Aurora Blvd,Car,Pedestrian,Major,Rain,Unknown,Reckless Driving,29,Female,0.0,90500.0,14.680942229429418,121.05889145605786,2025-01-25 04:22:00
+MMTI-2025-0448,Quezon City,Ortigas Ave,Jeepney,Rear-end,Unknown,Storm,Slippery,Drunk Driving,31,Male,0.0,42500.0,14.695604512607824,120.92958884294768,2025-03-24 07:07:00
 MMTI-2025-0449,Quezon City,Roxas Blvd,Motorcycle,Collision,Unknown,Cloudy,Wet,Unknown,38,Female,0.0,96500.0,14.609229117595556,121.00148180623545,2025-08-18 17:10:00
-MMTI-2025-0450,Pateros,Roxas Blvd,Taxi,Pedestrian,Major,Clear,Unknown,Traffic Violation,62,Male,,63000.0,14.68003489381087,120.92788465869133,2025-11-28 22:18:00
+MMTI-2025-0450,Pateros,Roxas Blvd,Taxi,Pedestrian,Major,Clear,Unknown,Traffic Violation,62,Male,0.0,63000.0,14.68003489381087,120.92788465869133,2025-11-28 22:18:00
 MMTI-2025-0451,Manila,Taft Ave,Jeepney,Rear-end,Unknown,Storm,Dry,Traffic Violation,21,Female,4.0,69000.0,14.544428771408324,121.0871330153452,2025-10-10 03:19:00
 MMTI-2025-0452,Makati,España Blvd,Taxi,Hit and Run,Minor,Clear,Unknown,Mechanical Failure,49,Male,4.0,79000.0,14.602311168526713,120.9112095235414,2025-05-23 06:01:00
 MMTI-2025-0453,Pasig,Taft Ave,Bus,Hit and Run,Fatal,Clear,Slippery,Traffic Violation,40,Male,3.0,73500.0,14.517519726180575,121.0455706713912,2025-12-08 11:25:00
 MMTI-2025-0454,Valenzuela,Roxas Blvd,Car,Hit and Run,Unknown,Rain,Unknown,Distracted Driving,27,Female,2.0,62500.0,14.6976764855795,121.005060209314,2025-08-16 23:26:00
-MMTI-2025-0455,Makati,Taft Ave,Motorcycle,Collision,Unknown,Rain,Slippery,Unknown,29,Female,,74500.0,14.651048749558438,120.92738540798317,2025-06-21 02:59:00
+MMTI-2025-0455,Makati,Taft Ave,Motorcycle,Collision,Unknown,Rain,Slippery,Unknown,29,Female,0.0,74500.0,14.651048749558438,120.92738540798317,2025-06-21 02:59:00
 MMTI-2025-0456,Quezon City,Aurora Blvd,Motorcycle,Side-swipe,Unknown,Storm,Unknown,Unknown,32,Male,0.0,21500.0,14.552535404712216,121.09120531922662,2025-04-06 12:18:00
 MMTI-2025-0457,San Juan,Taft Ave,Car,Hit and Run,Major,Clear,Dry,Reckless Driving,49,Male,4.0,97000.0,14.57235190209905,120.99609718109008,2025-11-22 15:07:00
 MMTI-2025-0458,Pateros,C5,Bus,Pedestrian,Unknown,Clear,Slippery,Drunk Driving,55,Male,1.0,42500.0,14.592208793578024,121.03865660896228,2025-08-12 08:40:00
-MMTI-2025-0459,Mandaluyong,Ortigas Ave,Truck,Side-swipe,Minor,Storm,Slippery,Distracted Driving,50,Female,,25000.0,14.652937875828904,121.01975249760244,2025-07-02 05:03:00
+MMTI-2025-0459,Mandaluyong,Ortigas Ave,Truck,Side-swipe,Minor,Storm,Slippery,Distracted Driving,50,Female,0.0,25000.0,14.652937875828904,121.01975249760244,2025-07-02 05:03:00
 MMTI-2025-0460,Marikina,Roxas Blvd,Bus,Side-swipe,Minor,Clear,Unknown,Traffic Violation,,Female,0.0,19500.0,14.60363414925548,120.9746028390211,2025-03-27 17:20:00
 MMTI-2025-0461,Pasay,C5,Car,Rear-end,Unknown,Rain,Wet,Distracted Driving,44,Female,0.0,16500.0,14.663768948810148,121.08468195053544,2025-09-06 13:21:00
 MMTI-2025-0462,Las Piñas,Commonwealth Ave,Taxi,Hit and Run,Unknown,Clear,Slippery,Drunk Driving,63,Male,0.0,97000.0,14.66291482168227,120.94447156955113,2025-09-03 11:19:00
@@ -466,7 +466,7 @@ MMTI-2025-0464,Makati,EDSA,Truck,Collision,Fatal,Clear,Dry,Reckless Driving,60,M
 MMTI-2025-0465,Las Piñas,EDSA,Motorcycle,Rear-end,Fatal,Clear,Slippery,Traffic Violation,28,Female,4.0,74500.0,14.513667407779552,121.0639173009666,2025-04-13 05:42:00
 MMTI-2025-0466,Parañaque,Roxas Blvd,Car,Pedestrian,Minor,Rain,Dry,Mechanical Failure,50,Female,2.0,91000.0,14.617876114227066,120.9879331658386,2025-01-08 16:13:00
 MMTI-2025-0467,Las Piñas,Taft Ave,Truck,Rear-end,Unknown,Rain,Unknown,Distracted Driving,66,Male,0.0,61500.0,14.522063232242656,120.9271824739811,2025-02-24 05:53:00
-MMTI-2025-0468,Quezon City,EDSA,Motorcycle,Side-swipe,Unknown,Clear,Unknown,Reckless Driving,47,Male,,58500.0,14.545174685945982,120.98145644410044,2025-07-04 22:18:00
+MMTI-2025-0468,Quezon City,EDSA,Motorcycle,Side-swipe,Unknown,Clear,Unknown,Reckless Driving,47,Male,0.0,58500.0,14.545174685945982,120.98145644410044,2025-07-04 22:18:00
 MMTI-2025-0469,Makati,Aurora Blvd,UV Express,Side-swipe,Major,Clear,Unknown,Distracted Driving,43,Female,4.0,86000.0,14.63530373287947,120.9238435687771,2025-08-08 06:54:00
 MMTI-2025-0470,Makati,C5,UV Express,Rear-end,Minor,Storm,Wet,Traffic Violation,30,Female,0.0,31500.0,14.667621826268292,121.04504010006652,2025-07-22 12:44:00
 MMTI-2025-0471,Makati,Katipunan Ave,Bus,Hit and Run,Fatal,Cloudy,Unknown,Unknown,49,Male,1.0,,14.590926948350722,120.92443801201983,2025-05-23 22:49:00
@@ -488,33 +488,33 @@ MMTI-2025-0486,Pasay,EDSA,UV Express,Hit and Run,Minor,Clear,Dry,Traffic Violati
 MMTI-2025-0487,Pasig,Quezon Ave,Motorcycle,Pedestrian,Unknown,Clear,Unknown,Reckless Driving,49,Male,1.0,78500.0,14.52445536669074,121.06133744912358,2025-02-16 12:53:00
 MMTI-2025-0488,Navotas,Quezon Ave,Truck,Rear-end,Major,Clear,Wet,Mechanical Failure,35,Female,3.0,34500.0,14.672579986735403,120.9111850805437,2025-06-18 18:47:00
 MMTI-2025-0489,Taguig,Ortigas Ave,Jeepney,Hit and Run,Unknown,Rain,Wet,Reckless Driving,68,Female,2.0,62500.0,14.643134245824426,121.0642730732384,2025-10-01 11:44:00
-MMTI-2025-0490,Pasig,EDSA,Taxi,Collision,Major,Storm,Unknown,Unknown,37,Male,,17500.0,14.60698213855468,120.94727637895592,2025-01-11 20:57:00
-MMTI-2025-0491,Navotas,Roxas Blvd,Bus,Collision,Major,Storm,Wet,Drunk Driving,46,Male,,54000.0,14.657863479903163,120.954807305137,2025-08-15 12:00:00
+MMTI-2025-0490,Pasig,EDSA,Taxi,Collision,Major,Storm,Unknown,Unknown,37,Male,0.0,17500.0,14.60698213855468,120.94727637895592,2025-01-11 20:57:00
+MMTI-2025-0491,Navotas,Roxas Blvd,Bus,Collision,Major,Storm,Wet,Drunk Driving,46,Male,0.0,54000.0,14.657863479903163,120.954807305137,2025-08-15 12:00:00
 MMTI-2025-0492,Malabon,Ortigas Ave,UV Express,Hit and Run,Minor,Rain,Slippery,Distracted Driving,40,Female,4.0,95000.0,14.66268560968001,121.0475571041208,2025-02-11 15:30:00
 MMTI-2025-0493,Quezon City,Commonwealth Ave,UV Express,Hit and Run,Major,Clear,Unknown,Mechanical Failure,58,Male,2.0,75500.0,14.51644641028468,120.93156448788882,2025-08-21 22:01:00
-MMTI-2025-0494,Pasig,Katipunan Ave,UV Express,Hit and Run,Fatal,Cloudy,Unknown,Drunk Driving,34,Female,,77500.0,14.665353721868367,121.05990573358804,2025-09-22 22:49:00
+MMTI-2025-0494,Pasig,Katipunan Ave,UV Express,Hit and Run,Fatal,Cloudy,Unknown,Drunk Driving,34,Female,0.0,77500.0,14.665353721868367,121.05990573358804,2025-09-22 22:49:00
 MMTI-2025-0495,Las Piñas,Commonwealth Ave,Truck,Hit and Run,Unknown,Rain,Dry,Overspeeding,53,Female,0.0,61000.0,14.53965324053434,121.04025223084068,2025-04-12 02:26:00
 MMTI-2025-0496,Pasig,Taft Ave,Jeepney,Side-swipe,Major,Clear,Slippery,Drunk Driving,54,Male,0.0,93500.0,14.60516754006618,121.05467186409234,2025-03-28 01:25:00
 MMTI-2025-0497,Taguig,Quezon Ave,UV Express,Rear-end,Major,Storm,Slippery,Unknown,42,Female,3.0,28000.0,14.620016557299444,121.09904148999466,2025-08-21 21:31:00
 MMTI-2025-0498,Parañaque,Taft Ave,Car,Hit and Run,Major,Clear,Slippery,Reckless Driving,33,Female,1.0,49000.0,14.616580615467232,121.02944711366024,2025-05-25 23:43:00
 MMTI-2025-0499,Pasig,Ortigas Ave,UV Express,Hit and Run,Major,Rain,Unknown,Unknown,65,Male,0.0,14000.0,14.611399994878102,120.91042252232562,2025-02-13 00:30:00
-MMTI-2025-0500,Las Piñas,Katipunan Ave,UV Express,Pedestrian,Minor,Clear,Slippery,Unknown,37,Female,,49000.0,14.526447650742616,121.07844518953496,2025-05-01 15:58:00
+MMTI-2025-0500,Las Piñas,Katipunan Ave,UV Express,Pedestrian,Minor,Clear,Slippery,Unknown,37,Female,0.0,49000.0,14.526447650742616,121.07844518953496,2025-05-01 15:58:00
 MMTI-2025-0501,Mandaluyong,Commonwealth Ave,Jeepney,Hit and Run,Fatal,Cloudy,Wet,Distracted Driving,38,Female,1.0,35000.0,14.523368411232934,120.90883243229764,2025-01-22 18:11:00
 MMTI-2025-0502,Mandaluyong,Ortigas Ave,Truck,Side-swipe,Fatal,Clear,Slippery,Traffic Violation,45,Female,2.0,96000.0,14.69891301317703,121.05273508273072,2025-03-07 15:55:00
 MMTI-2025-0503,Valenzuela,EDSA,Car,Rear-end,Minor,Rain,Wet,Overspeeding,48,Male,1.0,92000.0,14.593426567966386,120.92320480942011,2025-03-19 17:54:00
 MMTI-2025-0504,Las Piñas,España Blvd,Truck,Hit and Run,Unknown,Clear,Wet,Distracted Driving,40,Male,1.0,38000.0,14.53613099282228,120.93365900032214,2025-09-11 01:28:00
 MMTI-2025-0505,Makati,Quezon Ave,Jeepney,Collision,Unknown,Clear,Wet,Unknown,22,Female,3.0,88500.0,14.518861044775498,120.96573155526217,2025-09-18 08:36:00
-MMTI-2025-0506,Taguig,Taft Ave,Bus,Pedestrian,Minor,Storm,Wet,Overspeeding,23,Female,,86000.0,14.595971018752538,121.02567134790898,2025-05-26 21:43:00
-MMTI-2025-0507,Manila,Ortigas Ave,Motorcycle,Pedestrian,Unknown,Storm,Unknown,Drunk Driving,31,Male,,38000.0,14.564634169337372,120.91110700479716,2025-05-18 19:42:00
+MMTI-2025-0506,Taguig,Taft Ave,Bus,Pedestrian,Minor,Storm,Wet,Overspeeding,23,Female,0.0,86000.0,14.595971018752538,121.02567134790898,2025-05-26 21:43:00
+MMTI-2025-0507,Manila,Ortigas Ave,Motorcycle,Pedestrian,Unknown,Storm,Unknown,Drunk Driving,31,Male,0.0,38000.0,14.564634169337372,120.91110700479716,2025-05-18 19:42:00
 MMTI-2025-0508,Navotas,C5,Truck,Side-swipe,Major,Rain,Unknown,Distracted Driving,19,Female,1.0,51500.0,14.655898509029145,120.9569871777999,2025-02-06 17:38:00
 MMTI-2025-0509,San Juan,Aurora Blvd,Taxi,Hit and Run,Fatal,Rain,Unknown,Drunk Driving,40,Male,2.0,67500.0,14.539974252119098,120.98908848298404,2025-12-01 04:07:00
 MMTI-2025-0510,Makati,Katipunan Ave,Truck,Collision,Unknown,Storm,Unknown,Drunk Driving,45,Female,0.0,7000.0,14.602668291839578,121.09465435812405,2025-07-18 15:17:00
 MMTI-2025-0511,Pasig,Aurora Blvd,Jeepney,Pedestrian,Minor,Storm,Unknown,Unknown,23,Female,2.0,21000.0,14.69683724660842,121.03686278745964,2025-12-13 07:41:00
 MMTI-2025-0512,Malabon,Roxas Blvd,Jeepney,Collision,Unknown,Clear,Dry,Distracted Driving,50,Female,3.0,14000.0,14.592931298406208,121.04406199987008,2025-06-03 07:33:00
 MMTI-2025-0513,Makati,C5,Taxi,Pedestrian,Minor,Clear,Unknown,Drunk Driving,68,Female,3.0,7500.0,14.516658113026994,121.0753510694271,2025-05-10 11:16:00
-MMTI-2025-0514,Valenzuela,Aurora Blvd,Jeepney,Side-swipe,Fatal,Rain,Wet,Drunk Driving,23,Male,,15500.0,14.586759784123862,120.90358304382242,2025-06-02 10:37:00
-MMTI-2025-0515,Pasay,Aurora Blvd,Truck,Hit and Run,Unknown,Rain,Unknown,Reckless Driving,57,Male,,88000.0,14.692628322080214,121.03502045779676,2025-07-22 03:00:00
-MMTI-2025-0516,Pasig,EDSA,Car,Collision,Minor,Rain,Wet,Overspeeding,31,Female,,20500.0,14.629947965207368,120.9871576947601,2025-06-04 02:08:00
+MMTI-2025-0514,Valenzuela,Aurora Blvd,Jeepney,Side-swipe,Fatal,Rain,Wet,Drunk Driving,23,Male,0.0,15500.0,14.586759784123862,120.90358304382242,2025-06-02 10:37:00
+MMTI-2025-0515,Pasay,Aurora Blvd,Truck,Hit and Run,Unknown,Rain,Unknown,Reckless Driving,57,Male,0.0,88000.0,14.692628322080214,121.03502045779676,2025-07-22 03:00:00
+MMTI-2025-0516,Pasig,EDSA,Car,Collision,Minor,Rain,Wet,Overspeeding,31,Female,0.0,20500.0,14.629947965207368,120.9871576947601,2025-06-04 02:08:00
 MMTI-2025-0517,Makati,Roxas Blvd,Taxi,Hit and Run,Major,Cloudy,Unknown,Overspeeding,25,Female,1.0,96500.0,14.640519621141651,121.09277337414778,2025-11-17 17:12:00
 MMTI-2025-0518,Valenzuela,Katipunan Ave,Car,Rear-end,Fatal,Clear,Unknown,Overspeeding,39,Male,0.0,82500.0,14.669525906016071,120.9863575905256,2025-08-30 00:55:00
 MMTI-2025-0519,Makati,Katipunan Ave,UV Express,Pedestrian,Fatal,Clear,Unknown,Unknown,49,Female,1.0,93000.0,14.51214093644665,120.9038039318055,2025-08-01 15:47:00
@@ -522,15 +522,15 @@ MMTI-2025-0520,Makati,Roxas Blvd,UV Express,Hit and Run,Unknown,Clear,Unknown,Tr
 MMTI-2025-0521,Manila,Quezon Ave,Jeepney,Side-swipe,Unknown,Rain,Unknown,Drunk Driving,36,Female,3.0,88000.0,14.63050003757266,120.9720511135399,2025-06-26 14:14:00
 MMTI-2025-0522,Parañaque,Roxas Blvd,UV Express,Collision,Unknown,Rain,Wet,Mechanical Failure,28,Female,0.0,55000.0,14.688610939672245,120.99874501571604,2025-08-30 05:39:00
 MMTI-2025-0523,Quezon City,EDSA,Bus,Side-swipe,Fatal,Rain,Wet,Drunk Driving,,Male,0.0,45000.0,14.586124092510296,121.02351258430882,2025-05-01 06:35:00
-MMTI-2025-0524,Pateros,Roxas Blvd,Bus,Side-swipe,Minor,Clear,Slippery,Drunk Driving,62,Male,,8000.0,14.68532641969065,120.98756534129232,2025-03-03 17:14:00
+MMTI-2025-0524,Pateros,Roxas Blvd,Bus,Side-swipe,Minor,Clear,Slippery,Drunk Driving,62,Male,0.0,8000.0,14.68532641969065,120.98756534129232,2025-03-03 17:14:00
 MMTI-2025-0525,Pasig,Katipunan Ave,Taxi,Collision,Unknown,Clear,Unknown,Distracted Driving,28,Male,1.0,48000.0,14.53140650947146,120.95842459754373,2025-08-23 03:06:00
 MMTI-2025-0526,Taguig,Commonwealth Ave,UV Express,Side-swipe,Fatal,Rain,Dry,Mechanical Failure,46,Female,0.0,33000.0,14.666962673975744,120.99473266652424,2025-08-15 16:31:00
 MMTI-2025-0527,Makati,Roxas Blvd,Bus,Hit and Run,Fatal,Rain,Wet,Drunk Driving,66,Female,1.0,19500.0,14.660353735728298,120.9826818837494,2025-05-27 16:10:00
 MMTI-2025-0528,Manila,Ortigas Ave,Motorcycle,Hit and Run,Major,Clear,Unknown,Distracted Driving,23,Male,2.0,53000.0,14.696388984877428,120.93286493634297,2025-07-29 14:54:00
-MMTI-2025-0529,Quezon City,Commonwealth Ave,Jeepney,Collision,Unknown,Storm,Unknown,Unknown,61,Male,,97000.0,14.562739047272848,120.9688314721106,2025-02-01 12:48:00
-MMTI-2025-0530,Pasig,Taft Ave,Truck,Rear-end,Unknown,Clear,Unknown,Unknown,62,Male,,53500.0,14.655080066915296,121.0761949364864,2025-05-24 16:39:00
+MMTI-2025-0529,Quezon City,Commonwealth Ave,Jeepney,Collision,Unknown,Storm,Unknown,Unknown,61,Male,0.0,97000.0,14.562739047272848,120.9688314721106,2025-02-01 12:48:00
+MMTI-2025-0530,Pasig,Taft Ave,Truck,Rear-end,Unknown,Clear,Unknown,Unknown,62,Male,0.0,53500.0,14.655080066915296,121.0761949364864,2025-05-24 16:39:00
 MMTI-2025-0531,Marikina,Taft Ave,UV Express,Rear-end,Unknown,Clear,Slippery,Mechanical Failure,23,Male,4.0,45500.0,14.651409264856108,120.93200546804582,2025-02-13 01:34:00
-MMTI-2025-0532,Mandaluyong,Quezon Ave,Taxi,Side-swipe,Unknown,Clear,Dry,Overspeeding,41,Male,,66500.0,14.570894669180827,120.90954657458748,2025-01-15 17:37:00
+MMTI-2025-0532,Mandaluyong,Quezon Ave,Taxi,Side-swipe,Unknown,Clear,Dry,Overspeeding,41,Male,0.0,66500.0,14.570894669180827,120.90954657458748,2025-01-15 17:37:00
 MMTI-2025-0533,San Juan,Katipunan Ave,UV Express,Collision,Unknown,Storm,Wet,Mechanical Failure,40,Male,2.0,87000.0,14.65695785256487,121.04297089364049,2025-11-30 03:28:00
 MMTI-2025-0534,Navotas,España Blvd,UV Express,Rear-end,Minor,Storm,Unknown,Mechanical Failure,,Male,3.0,14500.0,14.529310650693834,120.98513842646544,2025-12-11 04:45:00
 MMTI-2025-0535,Quezon City,Taft Ave,Car,Hit and Run,Major,Cloudy,Dry,Traffic Violation,61,Female,4.0,73500.0,14.60378899988357,120.97895649503472,2025-07-30 02:05:00
@@ -547,31 +547,31 @@ MMTI-2025-0545,Quezon City,Katipunan Ave,Bus,Rear-end,Minor,Rain,Dry,Reckless Dr
 MMTI-2025-0546,Parañaque,Quezon Ave,Taxi,Pedestrian,Unknown,Rain,Unknown,Unknown,25,Male,0.0,42500.0,14.592964706649068,120.9814152927182,2025-07-12 03:03:00
 MMTI-2025-0547,Caloocan,EDSA,Bus,Pedestrian,Unknown,Rain,Dry,Mechanical Failure,66,Female,2.0,74500.0,14.581349184283589,120.91678167111615,2025-09-05 00:26:00
 MMTI-2025-0548,Pasig,Ortigas Ave,Jeepney,Rear-end,Major,Clear,Unknown,Unknown,20,Male,3.0,81000.0,14.557849890966802,121.0944163608065,2025-11-22 16:13:00
-MMTI-2025-0549,Pateros,Roxas Blvd,Jeepney,Side-swipe,Unknown,Storm,Wet,Reckless Driving,20,Female,,70000.0,14.61261631558826,120.96012766970652,2025-01-01 01:59:00
-MMTI-2025-0550,Pasig,España Blvd,Bus,Hit and Run,Major,Clear,Unknown,Traffic Violation,61,Male,,35000.0,14.695928069580637,121.04155081876029,2025-07-22 22:07:00
+MMTI-2025-0549,Pateros,Roxas Blvd,Jeepney,Side-swipe,Unknown,Storm,Wet,Reckless Driving,20,Female,0.0,70000.0,14.61261631558826,120.96012766970652,2025-01-01 01:59:00
+MMTI-2025-0550,Pasig,España Blvd,Bus,Hit and Run,Major,Clear,Unknown,Traffic Violation,61,Male,0.0,35000.0,14.695928069580637,121.04155081876029,2025-07-22 22:07:00
 MMTI-2025-0551,Marikina,Ortigas Ave,Car,Hit and Run,Unknown,Storm,Dry,Drunk Driving,59,Male,4.0,62500.0,14.500855849536428,120.9019157225977,2025-05-20 07:42:00
 MMTI-2025-0552,Pateros,Taft Ave,Jeepney,Collision,Minor,Clear,Dry,Unknown,61,Male,2.0,50000.0,14.66549336701827,120.97159314809257,2025-03-30 13:35:00
-MMTI-2025-0553,Taguig,Aurora Blvd,Bus,Rear-end,Unknown,Clear,Wet,Overspeeding,66,Male,,92500.0,14.571564203786124,120.91799330385966,2025-04-01 22:00:00
-MMTI-2025-0554,Caloocan,Quezon Ave,Truck,Side-swipe,Minor,Storm,Unknown,Mechanical Failure,18,Female,,52500.0,14.522189305528874,120.95546951080723,2025-11-11 20:19:00
-MMTI-2025-0555,Quezon City,Quezon Ave,UV Express,Pedestrian,Unknown,Clear,Wet,Distracted Driving,55,Female,,10000.0,14.525486182063258,121.08671268011616,2025-09-14 15:10:00
-MMTI-2025-0556,Mandaluyong,Quezon Ave,Taxi,Collision,Unknown,Clear,Slippery,Unknown,18,Female,,88000.0,14.688614844754383,120.91037255950847,2025-04-27 16:46:00
+MMTI-2025-0553,Taguig,Aurora Blvd,Bus,Rear-end,Unknown,Clear,Wet,Overspeeding,66,Male,0.0,92500.0,14.571564203786124,120.91799330385966,2025-04-01 22:00:00
+MMTI-2025-0554,Caloocan,Quezon Ave,Truck,Side-swipe,Minor,Storm,Unknown,Mechanical Failure,18,Female,0.0,52500.0,14.522189305528874,120.95546951080723,2025-11-11 20:19:00
+MMTI-2025-0555,Quezon City,Quezon Ave,UV Express,Pedestrian,Unknown,Clear,Wet,Distracted Driving,55,Female,0.0,10000.0,14.525486182063258,121.08671268011616,2025-09-14 15:10:00
+MMTI-2025-0556,Mandaluyong,Quezon Ave,Taxi,Collision,Unknown,Clear,Slippery,Unknown,18,Female,0.0,88000.0,14.688614844754383,120.91037255950847,2025-04-27 16:46:00
 MMTI-2025-0557,Malabon,Roxas Blvd,Motorcycle,Pedestrian,Unknown,Cloudy,Slippery,Overspeeding,64,Female,0.0,37500.0,14.68367829832444,121.00648205645211,2025-06-15 13:54:00
 MMTI-2025-0558,Parañaque,Ortigas Ave,Motorcycle,Pedestrian,Minor,Rain,Wet,Unknown,22,Female,1.0,23000.0,14.565844926701196,120.912568824926,2025-06-11 00:25:00
 MMTI-2025-0559,Pateros,Taft Ave,Taxi,Collision,Unknown,Rain,Slippery,Reckless Driving,33,Male,3.0,32500.0,14.691760531575683,121.06650350250963,2025-11-17 03:01:00
 MMTI-2025-0560,Caloocan,C5,Taxi,Pedestrian,Unknown,Cloudy,Dry,Unknown,55,Male,0.0,9500.0,14.683342875589943,120.9754790266056,2025-06-20 16:50:00
-MMTI-2025-0561,Pasig,EDSA,Taxi,Hit and Run,Minor,Storm,Unknown,Unknown,22,Male,,9000.0,14.611851610321107,120.95898335404684,2025-12-22 02:50:00
+MMTI-2025-0561,Pasig,EDSA,Taxi,Hit and Run,Minor,Storm,Unknown,Unknown,22,Male,0.0,9000.0,14.611851610321107,120.95898335404684,2025-12-22 02:50:00
 MMTI-2025-0562,Pasig,Taft Ave,Car,Pedestrian,Unknown,Clear,Unknown,Unknown,47,Female,4.0,81000.0,14.520255585520887,121.03018428524967,2025-07-15 12:06:00
 MMTI-2025-0563,Manila,Ortigas Ave,Jeepney,Rear-end,Minor,Clear,Dry,Distracted Driving,55,Female,4.0,18000.0,14.62747274713054,120.9512572204402,2025-12-12 00:29:00
 MMTI-2025-0564,Pasig,Aurora Blvd,Car,Rear-end,Major,Clear,Dry,Drunk Driving,37,Female,4.0,85000.0,14.650874727007364,120.96223764804552,2025-08-04 15:46:00
 MMTI-2025-0565,Pateros,Roxas Blvd,Jeepney,Side-swipe,Fatal,Storm,Dry,Drunk Driving,21,Female,4.0,73500.0,14.671740441105674,120.98441222808334,2025-10-05 04:09:00
 MMTI-2025-0566,Parañaque,C5,Bus,Rear-end,Unknown,Rain,Unknown,Traffic Violation,55,Male,4.0,40000.0,14.583739057672949,120.93245599732526,2025-04-11 06:40:00
-MMTI-2025-0567,Caloocan,EDSA,UV Express,Rear-end,Major,Cloudy,Unknown,Mechanical Failure,33,Female,,,14.690517645798106,120.96630302191863,2025-08-21 01:31:00
+MMTI-2025-0567,Caloocan,EDSA,UV Express,Rear-end,Major,Cloudy,Unknown,Mechanical Failure,33,Female,0.0,,14.690517645798106,120.96630302191863,2025-08-21 01:31:00
 MMTI-2025-0568,Pasay,EDSA,Bus,Collision,Minor,Storm,Dry,Distracted Driving,27,Male,3.0,26500.0,14.626266915478835,121.08254175300232,2025-07-12 06:25:00
 MMTI-2025-0569,Parañaque,Quezon Ave,Bus,Rear-end,Major,Storm,Wet,Traffic Violation,53,Female,1.0,27000.0,14.50429840561163,121.06857628414302,2025-07-04 01:01:00
 MMTI-2025-0570,Pasig,Taft Ave,UV Express,Collision,Fatal,Rain,Slippery,Unknown,33,Male,2.0,86500.0,14.5342719613629,121.00538534816668,2025-02-21 00:53:00
 MMTI-2025-0571,Makati,C5,Car,Rear-end,Major,Rain,Unknown,Unknown,62,Male,2.0,78500.0,14.58590803291944,121.02722858972037,2025-11-16 13:56:00
 MMTI-2025-0572,Parañaque,España Blvd,Bus,Rear-end,Fatal,Rain,Dry,Reckless Driving,26,Female,1.0,95000.0,14.51628154037098,120.99413345872014,2025-01-24 19:37:00
-MMTI-2025-0573,Pasay,España Blvd,Truck,Pedestrian,Fatal,Cloudy,Unknown,Unknown,29,Male,,49500.0,14.605095134220289,120.99665941106626,2025-12-06 19:04:00
+MMTI-2025-0573,Pasay,España Blvd,Truck,Pedestrian,Fatal,Cloudy,Unknown,Unknown,29,Male,0.0,49500.0,14.605095134220289,120.99665941106626,2025-12-06 19:04:00
 MMTI-2025-0574,Makati,Taft Ave,UV Express,Pedestrian,Minor,Rain,Wet,Mechanical Failure,46,Female,3.0,29500.0,14.561199807263945,121.07774178590935,2025-09-11 15:17:00
 MMTI-2025-0575,Las Piñas,Roxas Blvd,Jeepney,Collision,Major,Clear,Slippery,Unknown,51,Male,1.0,76500.0,14.50822858432718,121.00245241764355,2025-10-20 05:59:00
 MMTI-2025-0576,Valenzuela,Taft Ave,Truck,Side-swipe,Unknown,Storm,Slippery,Unknown,19,Female,3.0,31500.0,14.55312497562968,120.91517768853768,2025-06-22 13:28:00
@@ -579,11 +579,11 @@ MMTI-2025-0577,Manila,España Blvd,Jeepney,Collision,Fatal,Rain,Dry,Distracted D
 MMTI-2025-0578,Mandaluyong,Quezon Ave,UV Express,Pedestrian,Major,Rain,Unknown,Reckless Driving,18,Male,2.0,46000.0,14.65662565081841,120.98076222828898,2025-06-18 08:19:00
 MMTI-2025-0579,Manila,Aurora Blvd,UV Express,Pedestrian,Major,Cloudy,Wet,Mechanical Failure,64,Female,3.0,31500.0,14.603165070097154,121.05719492964838,2025-07-27 18:48:00
 MMTI-2025-0580,Valenzuela,Ortigas Ave,Taxi,Collision,Fatal,Rain,Unknown,Unknown,31,Female,3.0,73000.0,14.50602081473872,120.92779004510868,2025-08-28 23:52:00
-MMTI-2025-0581,Manila,Aurora Blvd,Taxi,Side-swipe,Fatal,Rain,Unknown,Unknown,61,Female,,70500.0,14.559927441665648,121.017391017114,2025-03-07 09:47:00
+MMTI-2025-0581,Manila,Aurora Blvd,Taxi,Side-swipe,Fatal,Rain,Unknown,Unknown,61,Female,0.0,70500.0,14.559927441665648,121.017391017114,2025-03-07 09:47:00
 MMTI-2025-0582,Pasig,Commonwealth Ave,Bus,Pedestrian,Unknown,Clear,Unknown,Unknown,42,Female,3.0,10000.0,14.606898116151145,120.93766773562844,2025-10-18 01:59:00
 MMTI-2025-0583,Valenzuela,Roxas Blvd,Motorcycle,Rear-end,Minor,Rain,Unknown,Drunk Driving,20,Female,0.0,25500.0,14.539799746974545,121.0822690620467,2025-02-25 10:36:00
 MMTI-2025-0584,Caloocan,Roxas Blvd,UV Express,Pedestrian,Minor,Cloudy,Dry,Traffic Violation,51,Male,1.0,43500.0,14.671941469475348,120.98217224686012,2025-07-17 09:13:00
-MMTI-2025-0585,Quezon City,Taft Ave,Truck,Collision,Unknown,Rain,Wet,Mechanical Failure,37,Female,,87000.0,14.5949560048562,121.02074188973768,2025-03-22 03:08:00
+MMTI-2025-0585,Quezon City,Taft Ave,Truck,Collision,Unknown,Rain,Wet,Mechanical Failure,37,Female,0.0,87000.0,14.5949560048562,121.02074188973768,2025-03-22 03:08:00
 MMTI-2025-0586,Manila,Aurora Blvd,Bus,Rear-end,Minor,Rain,Unknown,Distracted Driving,,Female,4.0,33500.0,14.605171300960915,121.08206050778811,2025-06-08 18:12:00
 MMTI-2025-0587,Makati,EDSA,UV Express,Collision,Fatal,Rain,Unknown,Traffic Violation,62,Male,3.0,80000.0,14.664685921087838,121.06996877815594,2025-09-09 14:29:00
 MMTI-2025-0588,Pasig,Taft Ave,Truck,Hit and Run,Major,Rain,Unknown,Distracted Driving,43,Male,1.0,22000.0,14.554755255404944,121.02561664065382,2025-08-01 07:11:00
@@ -592,45 +592,45 @@ MMTI-2025-0590,Manila,EDSA,Truck,Collision,Minor,Rain,Unknown,Unknown,39,Female,
 MMTI-2025-0591,Valenzuela,Aurora Blvd,Truck,Collision,Minor,Clear,Wet,Unknown,26,Female,2.0,22500.0,14.53411781912818,120.90361322553008,2025-12-30 04:20:00
 MMTI-2025-0592,Taguig,España Blvd,UV Express,Hit and Run,Major,Clear,Dry,Reckless Driving,27,Female,2.0,24500.0,14.543334486655016,120.90688896908269,2025-02-21 05:18:00
 MMTI-2025-0593,Valenzuela,EDSA,Taxi,Pedestrian,Minor,Cloudy,Slippery,Unknown,21,Male,0.0,,14.575479106258026,120.94034761030797,2025-12-12 17:13:00
-MMTI-2025-0594,Caloocan,Quezon Ave,Motorcycle,Collision,Unknown,Clear,Dry,Traffic Violation,,Female,,87500.0,14.512634297043933,121.09174905103788,2025-05-08 11:58:00
+MMTI-2025-0594,Caloocan,Quezon Ave,Motorcycle,Collision,Unknown,Clear,Dry,Traffic Violation,,Female,0.0,87500.0,14.512634297043933,121.09174905103788,2025-05-08 11:58:00
 MMTI-2025-0595,Pasay,EDSA,Truck,Pedestrian,Minor,Storm,Slippery,Mechanical Failure,57,Female,4.0,52500.0,14.68778464559895,120.92416079227986,2025-02-19 21:10:00
 MMTI-2025-0596,Marikina,Commonwealth Ave,Motorcycle,Hit and Run,Fatal,Clear,Unknown,Mechanical Failure,47,Female,0.0,86000.0,14.663016978321162,121.02998899910438,2025-04-20 03:22:00
 MMTI-2025-0597,Parañaque,Taft Ave,Bus,Pedestrian,Unknown,Clear,Unknown,Drunk Driving,34,Male,4.0,43500.0,14.69628317897152,121.03926307318892,2025-07-08 01:04:00
 MMTI-2025-0598,Marikina,Commonwealth Ave,UV Express,Side-swipe,Unknown,Clear,Slippery,Overspeeding,56,Female,3.0,67000.0,14.628118390950284,120.94648509547623,2025-12-14 22:08:00
 MMTI-2025-0599,Caloocan,EDSA,Jeepney,Collision,Fatal,Rain,Unknown,Mechanical Failure,57,Male,0.0,19500.0,14.57490472569872,120.95932294607462,2025-10-28 22:00:00
-MMTI-2025-0600,Quezon City,Quezon Ave,UV Express,Pedestrian,Unknown,Rain,Slippery,Drunk Driving,35,Male,,99000.0,14.507921495319714,121.05835595425602,2025-03-19 12:13:00
-MMTI-2025-0601,San Juan,EDSA,Car,Side-swipe,Fatal,Rain,Wet,Overspeeding,60,Female,,91000.0,14.643900443944997,121.02161263953552,2025-08-01 20:52:00
+MMTI-2025-0600,Quezon City,Quezon Ave,UV Express,Pedestrian,Unknown,Rain,Slippery,Drunk Driving,35,Male,0.0,99000.0,14.507921495319714,121.05835595425602,2025-03-19 12:13:00
+MMTI-2025-0601,San Juan,EDSA,Car,Side-swipe,Fatal,Rain,Wet,Overspeeding,60,Female,0.0,91000.0,14.643900443944997,121.02161263953552,2025-08-01 20:52:00
 MMTI-2025-0602,Pasay,Aurora Blvd,UV Express,Collision,Minor,Cloudy,Dry,Mechanical Failure,21,Female,1.0,18000.0,14.5183518784846,121.01852613024242,2025-07-15 16:20:00
 MMTI-2025-0603,Makati,Taft Ave,UV Express,Hit and Run,Fatal,Rain,Wet,Mechanical Failure,45,Female,4.0,33500.0,14.560620141454567,121.01528436608356,2025-04-15 07:32:00
 MMTI-2025-0604,Pateros,C5,Bus,Hit and Run,Unknown,Rain,Unknown,Unknown,45,Female,1.0,63500.0,14.503962215426458,120.9762838623336,2025-11-22 06:17:00
 MMTI-2025-0605,Quezon City,Commonwealth Ave,Jeepney,Rear-end,Fatal,Cloudy,Unknown,Reckless Driving,47,Male,3.0,73500.0,14.621205071331328,120.91438792993613,2025-02-12 09:38:00
 MMTI-2025-0606,Parañaque,Commonwealth Ave,Car,Collision,Minor,Clear,Slippery,Unknown,43,Female,3.0,97000.0,14.574628979539929,120.99791022286983,2025-03-11 22:30:00
 MMTI-2025-0607,Malabon,EDSA,Motorcycle,Hit and Run,Unknown,Rain,Wet,Unknown,34,Male,4.0,92500.0,14.59772436862436,121.0376978790286,2025-11-25 18:04:00
-MMTI-2025-0608,Navotas,Taft Ave,UV Express,Rear-end,Major,Cloudy,Dry,Traffic Violation,58,Male,,87000.0,14.629066707414216,120.95226613969422,2025-12-23 01:41:00
+MMTI-2025-0608,Navotas,Taft Ave,UV Express,Rear-end,Major,Cloudy,Dry,Traffic Violation,58,Male,0.0,87000.0,14.629066707414216,120.95226613969422,2025-12-23 01:41:00
 MMTI-2025-0609,Mandaluyong,Quezon Ave,Jeepney,Pedestrian,Major,Clear,Dry,Distracted Driving,59,Female,3.0,92000.0,14.617232085725885,121.08019912999922,2025-08-22 21:09:00
-MMTI-2025-0610,Malabon,Commonwealth Ave,Taxi,Hit and Run,Fatal,Rain,Slippery,Unknown,55,Male,,54500.0,14.650492450410724,121.08486411828945,2025-09-23 06:56:00
+MMTI-2025-0610,Malabon,Commonwealth Ave,Taxi,Hit and Run,Fatal,Rain,Slippery,Unknown,55,Male,0.0,54500.0,14.650492450410724,121.08486411828945,2025-09-23 06:56:00
 MMTI-2025-0611,Makati,Ortigas Ave,Taxi,Rear-end,Fatal,Rain,Wet,Unknown,62,Male,0.0,23500.0,14.663277875619714,120.90031571551692,2025-02-15 03:40:00
 MMTI-2025-0612,Manila,Taft Ave,UV Express,Side-swipe,Unknown,Rain,Wet,Traffic Violation,29,Female,1.0,64000.0,14.536396866295656,121.08969666229224,2025-02-05 22:26:00
-MMTI-2025-0613,Parañaque,Commonwealth Ave,Car,Collision,Major,Rain,Slippery,Unknown,46,Male,,23000.0,14.515961960394868,120.9171414127614,2025-08-19 18:52:00
+MMTI-2025-0613,Parañaque,Commonwealth Ave,Car,Collision,Major,Rain,Slippery,Unknown,46,Male,0.0,23000.0,14.515961960394868,120.9171414127614,2025-08-19 18:52:00
 MMTI-2025-0614,Marikina,EDSA,Jeepney,Rear-end,Unknown,Cloudy,Dry,Overspeeding,21,Male,0.0,87000.0,14.61648908971132,121.09752376681844,2025-03-05 08:04:00
 MMTI-2025-0615,Manila,Taft Ave,Jeepney,Pedestrian,Fatal,Cloudy,Unknown,Traffic Violation,56,Female,2.0,49000.0,14.636371999815331,120.96861549019732,2025-02-19 06:33:00
-MMTI-2025-0616,Navotas,Taft Ave,Jeepney,Collision,Fatal,Storm,Dry,Overspeeding,47,Female,,19500.0,14.505136085453492,120.92457890789063,2025-06-11 07:23:00
+MMTI-2025-0616,Navotas,Taft Ave,Jeepney,Collision,Fatal,Storm,Dry,Overspeeding,47,Female,0.0,19500.0,14.505136085453492,120.92457890789063,2025-06-11 07:23:00
 MMTI-2025-0617,Caloocan,Ortigas Ave,Truck,Pedestrian,Unknown,Clear,Unknown,Mechanical Failure,18,Male,0.0,83000.0,14.57204112242674,120.90915085668804,2025-09-29 08:44:00
-MMTI-2025-0618,Caloocan,Katipunan Ave,Truck,Hit and Run,Unknown,Clear,Slippery,Unknown,48,Male,,51000.0,14.558772594641407,120.93901539103976,2025-06-16 21:28:00
+MMTI-2025-0618,Caloocan,Katipunan Ave,Truck,Hit and Run,Unknown,Clear,Slippery,Unknown,48,Male,0.0,51000.0,14.558772594641407,120.93901539103976,2025-06-16 21:28:00
 MMTI-2025-0619,Makati,España Blvd,Motorcycle,Rear-end,Unknown,Clear,Slippery,Unknown,28,Female,0.0,63500.0,14.632528422088429,120.9481803227117,2025-03-15 16:56:00
-MMTI-2025-0620,Makati,C5,Truck,Collision,Major,Storm,Unknown,Reckless Driving,32,Male,,62500.0,14.690300775911677,121.034120254402,2025-04-19 05:48:00
+MMTI-2025-0620,Makati,C5,Truck,Collision,Major,Storm,Unknown,Reckless Driving,32,Male,0.0,62500.0,14.690300775911677,121.034120254402,2025-04-19 05:48:00
 MMTI-2025-0621,Quezon City,Aurora Blvd,Motorcycle,Side-swipe,Major,Clear,Unknown,Distracted Driving,59,Male,3.0,93500.0,14.648593563938144,121.04500561711438,2025-12-07 04:59:00
 MMTI-2025-0622,Quezon City,Taft Ave,Taxi,Rear-end,Major,Storm,Dry,Reckless Driving,23,Male,0.0,45500.0,14.648116243768037,121.08744213013075,2025-12-01 20:50:00
 MMTI-2025-0623,Pasig,Ortigas Ave,Truck,Pedestrian,Minor,Storm,Dry,Mechanical Failure,42,Female,2.0,,14.573004768487094,121.03586043407608,2025-03-01 18:23:00
 MMTI-2025-0624,Pasig,Katipunan Ave,Car,Collision,Unknown,Clear,Unknown,Unknown,38,Female,2.0,30000.0,14.59996653300521,120.9911569061092,2025-03-06 16:42:00
-MMTI-2025-0625,Quezon City,Katipunan Ave,Bus,Side-swipe,Unknown,Rain,Dry,Reckless Driving,63,Female,,29500.0,14.599005105035744,121.04082809532656,2025-11-04 09:09:00
+MMTI-2025-0625,Quezon City,Katipunan Ave,Bus,Side-swipe,Unknown,Rain,Dry,Reckless Driving,63,Female,0.0,29500.0,14.599005105035744,121.04082809532656,2025-11-04 09:09:00
 MMTI-2025-0626,Marikina,Commonwealth Ave,Taxi,Rear-end,Major,Rain,Dry,Drunk Driving,49,Female,2.0,86000.0,14.682475274575529,120.93183864502768,2025-07-12 01:51:00
 MMTI-2025-0627,Marikina,Taft Ave,UV Express,Hit and Run,Fatal,Cloudy,Unknown,Distracted Driving,51,Male,2.0,91000.0,14.684612757258254,121.04022173413075,2025-01-12 17:25:00
 MMTI-2025-0628,Pasig,Ortigas Ave,Taxi,Pedestrian,Minor,Rain,Slippery,Unknown,59,Female,4.0,19500.0,14.588376748108798,120.99648834361298,2025-10-08 12:06:00
 MMTI-2025-0629,Parañaque,EDSA,Bus,Pedestrian,Minor,Rain,Wet,Unknown,45,Female,0.0,14000.0,14.57111677076542,120.99477515098398,2025-03-16 06:13:00
 MMTI-2025-0630,Marikina,Katipunan Ave,Truck,Rear-end,Unknown,Rain,Dry,Distracted Driving,33,Female,3.0,40500.0,14.637596821183198,121.09091107274963,2025-01-27 03:32:00
 MMTI-2025-0631,Makati,Aurora Blvd,Taxi,Hit and Run,Fatal,Rain,Unknown,Traffic Violation,18,Male,0.0,12500.0,14.52441031260672,121.02828186552048,2025-12-01 23:24:00
-MMTI-2025-0632,Makati,Katipunan Ave,Jeepney,Hit and Run,Fatal,Rain,Dry,Drunk Driving,42,Female,,91500.0,14.586731295732204,121.0142846198756,2025-09-18 07:01:00
+MMTI-2025-0632,Makati,Katipunan Ave,Jeepney,Hit and Run,Fatal,Rain,Dry,Drunk Driving,42,Female,0.0,91500.0,14.586731295732204,121.0142846198756,2025-09-18 07:01:00
 MMTI-2025-0633,Quezon City,Commonwealth Ave,Truck,Collision,Unknown,Clear,Unknown,Unknown,22,Male,1.0,86000.0,14.679520459647962,120.93613283464612,2025-02-20 10:04:00
 MMTI-2025-0634,Manila,España Blvd,Truck,Side-swipe,Minor,Clear,Wet,Mechanical Failure,59,Female,0.0,73500.0,14.551352096872703,121.0506137460992,2025-11-03 22:11:00
 MMTI-2025-0635,San Juan,Ortigas Ave,Jeepney,Rear-end,Unknown,Rain,Dry,Mechanical Failure,37,Male,4.0,39500.0,14.631831515631232,120.98898405751564,2025-02-13 03:32:00
@@ -640,7 +640,7 @@ MMTI-2025-0638,Malabon,Commonwealth Ave,Jeepney,Rear-end,Minor,Rain,Slippery,Mec
 MMTI-2025-0639,Pasig,Ortigas Ave,Taxi,Hit and Run,Unknown,Clear,Unknown,Mechanical Failure,22,Male,0.0,70000.0,14.52199802649614,121.00967375696716,2025-03-25 13:52:00
 MMTI-2025-0640,Makati,Ortigas Ave,Bus,Side-swipe,Major,Rain,Slippery,Overspeeding,24,Female,1.0,50000.0,14.690356572128836,121.0565467237318,2025-02-03 10:40:00
 MMTI-2025-0641,San Juan,Katipunan Ave,Taxi,Hit and Run,Minor,Clear,Slippery,Reckless Driving,53,Male,4.0,14500.0,14.679314048659746,120.93414948332013,2025-03-05 05:33:00
-MMTI-2025-0642,Quezon City,España Blvd,Jeepney,Hit and Run,Unknown,Clear,Wet,Reckless Driving,18,Female,,18000.0,14.528534028498532,121.01351215501938,2025-07-19 05:22:00
+MMTI-2025-0642,Quezon City,España Blvd,Jeepney,Hit and Run,Unknown,Clear,Wet,Reckless Driving,18,Female,0.0,18000.0,14.528534028498532,121.01351215501938,2025-07-19 05:22:00
 MMTI-2025-0643,Las Piñas,Quezon Ave,UV Express,Pedestrian,Unknown,Rain,Unknown,Drunk Driving,46,Male,3.0,66000.0,14.557363932245703,121.09052326444947,2025-05-17 01:58:00
 MMTI-2025-0644,Caloocan,Roxas Blvd,UV Express,Collision,Fatal,Cloudy,Slippery,Distracted Driving,58,Male,0.0,95000.0,14.548007348097665,120.91872672165202,2025-09-24 22:56:00
 MMTI-2025-0645,San Juan,España Blvd,Truck,Collision,Unknown,Rain,Unknown,Drunk Driving,48,Female,4.0,89500.0,14.699590885157546,121.07761610676708,2025-10-22 01:05:00
@@ -650,14 +650,14 @@ MMTI-2025-0648,Quezon City,C5,Bus,Side-swipe,Unknown,Storm,Slippery,Mechanical F
 MMTI-2025-0649,Valenzuela,Katipunan Ave,Taxi,Hit and Run,Minor,Storm,Dry,Unknown,39,Male,2.0,15500.0,14.501030882224024,121.07803925532464,2025-09-21 01:59:00
 MMTI-2025-0650,Manila,C5,Truck,Hit and Run,Major,Clear,Unknown,Drunk Driving,44,Male,3.0,2500.0,14.531126080109846,121.03132668919882,2025-04-06 12:22:00
 MMTI-2025-0651,Las Piñas,Roxas Blvd,Bus,Hit and Run,Major,Clear,Slippery,Distracted Driving,46,Female,1.0,19500.0,14.570747555415467,120.98679203093918,2025-04-26 15:25:00
-MMTI-2025-0652,Taguig,Quezon Ave,Bus,Collision,Major,Cloudy,Unknown,Traffic Violation,20,Female,,27000.0,14.689675167917157,121.09193977067656,2025-07-03 22:12:00
+MMTI-2025-0652,Taguig,Quezon Ave,Bus,Collision,Major,Cloudy,Unknown,Traffic Violation,20,Female,0.0,27000.0,14.689675167917157,121.09193977067656,2025-07-03 22:12:00
 MMTI-2025-0653,Pateros,España Blvd,Truck,Rear-end,Fatal,Cloudy,Unknown,Unknown,26,Male,0.0,4500.0,14.525224715703043,120.96882411018017,2025-05-17 03:26:00
 MMTI-2025-0654,Quezon City,Ortigas Ave,Truck,Pedestrian,Minor,Cloudy,Unknown,Reckless Driving,36,Female,0.0,99000.0,14.58579038716517,121.02352263205124,2025-01-07 21:15:00
-MMTI-2025-0655,Mandaluyong,C5,Taxi,Side-swipe,Major,Rain,Unknown,Mechanical Failure,48,Male,,95000.0,14.600466788725704,120.93623764990072,2025-09-19 05:15:00
+MMTI-2025-0655,Mandaluyong,C5,Taxi,Side-swipe,Major,Rain,Unknown,Mechanical Failure,48,Male,0.0,95000.0,14.600466788725704,120.93623764990072,2025-09-19 05:15:00
 MMTI-2025-0656,Pasig,Quezon Ave,Motorcycle,Rear-end,Unknown,Clear,Slippery,Mechanical Failure,27,Female,0.0,80500.0,14.539928698675238,121.07287002213442,2025-10-30 20:40:00
 MMTI-2025-0657,San Juan,Quezon Ave,Car,Side-swipe,Unknown,Cloudy,Dry,Unknown,59,Male,2.0,16000.0,14.553849217837415,120.95611118814796,2025-07-14 13:33:00
 MMTI-2025-0658,Caloocan,Ortigas Ave,Motorcycle,Rear-end,Minor,Clear,Dry,Traffic Violation,31,Male,3.0,37500.0,14.681696394989672,120.92015233998136,2025-06-29 22:26:00
-MMTI-2025-0659,Las Piñas,Ortigas Ave,Bus,Collision,Minor,Rain,Dry,Drunk Driving,39,Male,,48000.0,14.648586403993976,121.01778221507202,2025-04-05 08:31:00
+MMTI-2025-0659,Las Piñas,Ortigas Ave,Bus,Collision,Minor,Rain,Dry,Drunk Driving,39,Male,0.0,48000.0,14.648586403993976,121.01778221507202,2025-04-05 08:31:00
 MMTI-2025-0660,Mandaluyong,Quezon Ave,Jeepney,Hit and Run,Minor,Clear,Wet,Distracted Driving,20,Female,1.0,92000.0,14.589153960236162,120.91972748201324,2025-11-06 11:15:00
 MMTI-2025-0661,San Juan,Aurora Blvd,Taxi,Rear-end,Unknown,Rain,Wet,Overspeeding,26,Female,3.0,72000.0,14.642320625860282,121.07831733059449,2025-10-07 19:21:00
 MMTI-2025-0662,Las Piñas,Aurora Blvd,UV Express,Collision,Unknown,Clear,Unknown,Unknown,51,Male,1.0,78500.0,14.55482972815142,121.093497388257,2025-10-14 11:57:00
@@ -665,10 +665,10 @@ MMTI-2025-0663,Quezon City,Quezon Ave,UV Express,Hit and Run,Unknown,Rain,Unknow
 MMTI-2025-0664,Pasay,EDSA,Car,Pedestrian,Major,Clear,Dry,Unknown,50,Male,2.0,30000.0,14.55927273736634,120.95370293043877,2025-11-07 08:13:00
 MMTI-2025-0665,Quezon City,España Blvd,Car,Side-swipe,Minor,Rain,Wet,Reckless Driving,26,Male,0.0,84000.0,14.696004732324194,121.09790725383672,2025-03-02 05:14:00
 MMTI-2025-0666,Manila,Ortigas Ave,UV Express,Pedestrian,Fatal,Storm,Dry,Reckless Driving,64,Female,3.0,80000.0,14.558979067690126,121.09705225684831,2025-04-18 17:07:00
-MMTI-2025-0667,Las Piñas,Quezon Ave,UV Express,Side-swipe,Major,Storm,Dry,Distracted Driving,64,Female,,34500.0,14.674005157688605,121.02686110824996,2025-11-17 00:52:00
-MMTI-2025-0668,Valenzuela,Quezon Ave,Bus,Side-swipe,Major,Clear,Unknown,Drunk Driving,46,Female,,94500.0,14.586780712557792,120.92966683790412,2025-10-10 06:52:00
+MMTI-2025-0667,Las Piñas,Quezon Ave,UV Express,Side-swipe,Major,Storm,Dry,Distracted Driving,64,Female,0.0,34500.0,14.674005157688605,121.02686110824996,2025-11-17 00:52:00
+MMTI-2025-0668,Valenzuela,Quezon Ave,Bus,Side-swipe,Major,Clear,Unknown,Drunk Driving,46,Female,0.0,94500.0,14.586780712557792,120.92966683790412,2025-10-10 06:52:00
 MMTI-2025-0669,Pasay,Aurora Blvd,Car,Rear-end,Major,Clear,Unknown,Drunk Driving,59,Male,0.0,41500.0,14.532583729751783,120.93554685386644,2025-09-03 02:31:00
-MMTI-2025-0670,Parañaque,C5,Car,Collision,Unknown,Rain,Unknown,Unknown,24,Female,,98000.0,14.661598545330447,121.02065870329696,2025-07-21 21:38:00
+MMTI-2025-0670,Parañaque,C5,Car,Collision,Unknown,Rain,Unknown,Unknown,24,Female,0.0,98000.0,14.661598545330447,121.02065870329696,2025-07-21 21:38:00
 MMTI-2025-0671,Taguig,EDSA,Taxi,Collision,Major,Rain,Dry,Reckless Driving,27,Male,0.0,15500.0,14.608474033677776,121.0636510719931,2025-07-13 12:01:00
 MMTI-2025-0672,Pasig,Aurora Blvd,Taxi,Pedestrian,Unknown,Rain,Slippery,Traffic Violation,48,Female,1.0,9000.0,14.608705287712874,120.9534913281016,2025-12-29 02:12:00
 MMTI-2025-0673,Quezon City,C5,Jeepney,Side-swipe,Minor,Clear,Unknown,Drunk Driving,18,Female,0.0,31000.0,14.585427086629544,120.9294753020306,2025-10-06 03:01:00
@@ -683,11 +683,11 @@ MMTI-2025-0681,Taguig,Katipunan Ave,Motorcycle,Hit and Run,Unknown,Rain,Dry,Drun
 MMTI-2025-0682,Pasay,Aurora Blvd,UV Express,Rear-end,Unknown,Rain,Slippery,Unknown,44,Male,3.0,84500.0,14.639049404879229,120.95735381411204,2025-08-02 04:48:00
 MMTI-2025-0683,Quezon City,Katipunan Ave,Taxi,Rear-end,Unknown,Rain,Dry,Unknown,45,Female,4.0,93000.0,14.665903646138393,121.08383004601608,2025-03-21 01:56:00
 MMTI-2025-0684,Caloocan,Taft Ave,Car,Side-swipe,Minor,Clear,Unknown,Drunk Driving,65,Female,3.0,81000.0,14.51119936439232,120.97845819172814,2025-09-14 09:45:00
-MMTI-2025-0685,Makati,Aurora Blvd,Truck,Side-swipe,Unknown,Cloudy,Wet,Overspeeding,69,Male,,56000.0,14.53894611786294,120.92168017641366,2025-10-14 19:53:00
+MMTI-2025-0685,Makati,Aurora Blvd,Truck,Side-swipe,Unknown,Cloudy,Wet,Overspeeding,69,Male,0.0,56000.0,14.53894611786294,120.92168017641366,2025-10-14 19:53:00
 MMTI-2025-0686,Marikina,EDSA,Car,Side-swipe,Major,Clear,Dry,Distracted Driving,31,Male,2.0,26000.0,14.610338275435158,121.02767779220522,2025-02-09 11:38:00
 MMTI-2025-0687,Makati,Katipunan Ave,Jeepney,Collision,Unknown,Cloudy,Dry,Overspeeding,38,Male,2.0,3000.0,14.696108325357212,121.05033588600516,2025-01-17 07:17:00
 MMTI-2025-0688,Marikina,Taft Ave,UV Express,Side-swipe,Major,Rain,Dry,Traffic Violation,44,Male,4.0,21000.0,14.50473706213709,121.05921385941224,2025-07-23 16:12:00
-MMTI-2025-0689,Quezon City,Roxas Blvd,Car,Rear-end,Unknown,Clear,Dry,Mechanical Failure,31,Female,,22500.0,14.69868332589219,121.00032398330616,2025-09-02 18:55:00
+MMTI-2025-0689,Quezon City,Roxas Blvd,Car,Rear-end,Unknown,Clear,Dry,Mechanical Failure,31,Female,0.0,22500.0,14.69868332589219,121.00032398330616,2025-09-02 18:55:00
 MMTI-2025-0690,Marikina,Aurora Blvd,Taxi,Rear-end,Fatal,Storm,Slippery,Unknown,20,Female,1.0,28500.0,14.699401899591663,121.02137540888042,2025-11-08 20:33:00
 MMTI-2025-0691,Pateros,C5,Taxi,Collision,Major,Storm,Unknown,Distracted Driving,49,Male,3.0,42000.0,14.533943527838671,120.95912163579683,2025-03-20 18:40:00
 MMTI-2025-0692,Las Piñas,Ortigas Ave,Motorcycle,Collision,Major,Rain,Unknown,Reckless Driving,48,Male,3.0,85000.0,14.684832154423663,121.08796589393016,2025-02-04 08:36:00
@@ -695,11 +695,11 @@ MMTI-2025-0693,Las Piñas,Roxas Blvd,Truck,Hit and Run,Unknown,Rain,Wet,Unknown,
 MMTI-2025-0694,Pasig,EDSA,UV Express,Rear-end,Unknown,Clear,Wet,Distracted Driving,36,Female,1.0,74500.0,14.579856084069355,120.91459573540548,2025-05-15 21:02:00
 MMTI-2025-0695,Makati,Ortigas Ave,Truck,Hit and Run,Unknown,Cloudy,Dry,Distracted Driving,29,Male,3.0,,14.586622879206343,120.98030409414876,2025-07-18 14:42:00
 MMTI-2025-0696,Pasig,Aurora Blvd,Car,Hit and Run,Minor,Storm,Unknown,Overspeeding,52,Female,3.0,20500.0,14.628043276389644,120.96403732384476,2025-02-03 10:21:00
-MMTI-2025-0697,Navotas,EDSA,Taxi,Side-swipe,Unknown,Cloudy,Wet,Overspeeding,31,Male,,56000.0,14.55396962203394,121.02713745858684,2025-01-17 19:49:00
+MMTI-2025-0697,Navotas,EDSA,Taxi,Side-swipe,Unknown,Cloudy,Wet,Overspeeding,31,Male,0.0,56000.0,14.55396962203394,121.02713745858684,2025-01-17 19:49:00
 MMTI-2025-0698,Mandaluyong,Taft Ave,Motorcycle,Side-swipe,Unknown,Cloudy,Unknown,Mechanical Failure,60,Male,1.0,8500.0,14.518488252006406,121.08032834742744,2025-02-12 04:04:00
 MMTI-2025-0699,Parañaque,Ortigas Ave,Truck,Hit and Run,Unknown,Clear,Wet,Unknown,40,Female,0.0,73500.0,14.65661447479394,121.01942572772288,2025-06-25 09:10:00
 MMTI-2025-0700,Makati,Katipunan Ave,Car,Side-swipe,Fatal,Clear,Wet,Unknown,27,Female,2.0,16500.0,14.658403363779152,121.0347890621519,2025-02-09 23:42:00
-MMTI-2025-0701,Manila,Aurora Blvd,Taxi,Rear-end,Unknown,Rain,Unknown,Distracted Driving,20,Female,,26000.0,14.584035221780011,121.0092172455406,2025-05-15 16:46:00
+MMTI-2025-0701,Manila,Aurora Blvd,Taxi,Rear-end,Unknown,Rain,Unknown,Distracted Driving,20,Female,0.0,26000.0,14.584035221780011,121.0092172455406,2025-05-15 16:46:00
 MMTI-2025-0702,Parañaque,Ortigas Ave,Car,Rear-end,Unknown,Clear,Slippery,Traffic Violation,19,Male,2.0,66000.0,14.663810303610203,120.92494907036324,2025-03-27 19:24:00
 MMTI-2025-0703,Malabon,Taft Ave,Bus,Side-swipe,Unknown,Cloudy,Unknown,Traffic Violation,25,Female,3.0,56500.0,14.574624297286414,121.0105507144256,2025-09-13 20:29:00
 MMTI-2025-0704,Navotas,Roxas Blvd,Taxi,Hit and Run,Fatal,Rain,Unknown,Distracted Driving,23,Male,0.0,85000.0,14.503285298669724,121.0864993503858,2025-03-25 17:27:00
@@ -709,16 +709,16 @@ MMTI-2025-0707,Manila,Commonwealth Ave,Taxi,Side-swipe,Unknown,Rain,Unknown,Traf
 MMTI-2025-0708,Navotas,EDSA,Taxi,Pedestrian,Unknown,Rain,Unknown,Drunk Driving,43,Male,4.0,22000.0,14.58748031740035,120.91991558478776,2025-04-09 19:41:00
 MMTI-2025-0709,Makati,Taft Ave,Taxi,Side-swipe,Unknown,Rain,Slippery,Mechanical Failure,23,Male,0.0,57500.0,14.502307624561928,121.05400644629194,2025-03-06 16:07:00
 MMTI-2025-0710,Quezon City,C5,Jeepney,Hit and Run,Minor,Rain,Wet,Unknown,58,Male,1.0,32500.0,14.630504543927175,120.94435104473968,2025-03-20 00:39:00
-MMTI-2025-0711,Caloocan,Taft Ave,Taxi,Side-swipe,Minor,Storm,Dry,Drunk Driving,58,Male,,76000.0,14.673387809251874,120.9221863038229,2025-04-10 17:53:00
+MMTI-2025-0711,Caloocan,Taft Ave,Taxi,Side-swipe,Minor,Storm,Dry,Drunk Driving,58,Male,0.0,76000.0,14.673387809251874,120.9221863038229,2025-04-10 17:53:00
 MMTI-2025-0712,Pasig,Roxas Blvd,Bus,Rear-end,Minor,Clear,Unknown,Traffic Violation,31,Female,0.0,64500.0,14.659088291260536,120.98274902563332,2025-11-02 03:06:00
-MMTI-2025-0713,Parañaque,Taft Ave,Truck,Side-swipe,Unknown,Rain,Wet,Reckless Driving,18,Female,,74500.0,14.626242680261514,121.07096178536334,2025-09-07 20:04:00
+MMTI-2025-0713,Parañaque,Taft Ave,Truck,Side-swipe,Unknown,Rain,Wet,Reckless Driving,18,Female,0.0,74500.0,14.626242680261514,121.07096178536334,2025-09-07 20:04:00
 MMTI-2025-0714,Pateros,Katipunan Ave,Jeepney,Pedestrian,Minor,Rain,Unknown,Reckless Driving,25,Female,4.0,5500.0,14.60719083551025,121.0035989843484,2025-03-02 10:22:00
 MMTI-2025-0715,Las Piñas,C5,Car,Collision,Fatal,Rain,Wet,Distracted Driving,64,Female,2.0,37000.0,14.596314974426088,121.09064587219352,2025-03-20 06:55:00
 MMTI-2025-0716,San Juan,Aurora Blvd,UV Express,Hit and Run,Unknown,Clear,Unknown,Mechanical Failure,34,Female,1.0,89500.0,14.669207155536585,121.04347922694843,2025-06-28 22:35:00
 MMTI-2025-0717,Makati,Roxas Blvd,Car,Rear-end,Unknown,Cloudy,Unknown,Unknown,56,Male,2.0,81500.0,14.521511822353744,120.97660916958648,2025-07-21 03:37:00
 MMTI-2025-0718,Las Piñas,C5,Truck,Rear-end,Minor,Clear,Slippery,Unknown,36,Male,3.0,5500.0,14.522929990559671,121.061808093373,2025-04-13 18:22:00
-MMTI-2025-0719,Caloocan,C5,Car,Side-swipe,Fatal,Rain,Slippery,Distracted Driving,18,Male,,3000.0,14.643360524369582,120.94275448540655,2025-08-08 05:22:00
-MMTI-2025-0720,Caloocan,España Blvd,Motorcycle,Hit and Run,Fatal,Clear,Wet,Mechanical Failure,24,Male,,79500.0,14.689254212205649,121.0614852992593,2025-10-18 10:57:00
+MMTI-2025-0719,Caloocan,C5,Car,Side-swipe,Fatal,Rain,Slippery,Distracted Driving,18,Male,0.0,3000.0,14.643360524369582,120.94275448540655,2025-08-08 05:22:00
+MMTI-2025-0720,Caloocan,España Blvd,Motorcycle,Hit and Run,Fatal,Clear,Wet,Mechanical Failure,24,Male,0.0,79500.0,14.689254212205649,121.0614852992593,2025-10-18 10:57:00
 MMTI-2025-0721,Malabon,Taft Ave,Bus,Side-swipe,Major,Rain,Dry,Unknown,49,Male,2.0,55500.0,14.523851804620165,120.99055702115766,2025-12-10 02:36:00
 MMTI-2025-0722,Navotas,Quezon Ave,Jeepney,Collision,Fatal,Clear,Unknown,Overspeeding,47,Male,1.0,53500.0,14.507401639067872,121.00669340181058,2025-11-04 10:37:00
 MMTI-2025-0723,Manila,C5,Truck,Collision,Unknown,Rain,Slippery,Reckless Driving,38,Male,3.0,12000.0,14.61129004027637,120.96263493224058,2025-09-28 01:21:00
@@ -730,14 +730,14 @@ MMTI-2025-0728,Caloocan,Quezon Ave,UV Express,Collision,Minor,Cloudy,Dry,Mechani
 MMTI-2025-0729,Manila,España Blvd,Taxi,Side-swipe,Fatal,Rain,Unknown,Drunk Driving,50,Male,1.0,30000.0,14.683339448815053,120.97711514975886,2025-04-17 18:48:00
 MMTI-2025-0730,Parañaque,Taft Ave,Car,Collision,Fatal,Cloudy,Wet,Reckless Driving,54,Male,1.0,61000.0,14.675239247243365,121.04900519864292,2025-08-20 19:32:00
 MMTI-2025-0731,Valenzuela,Commonwealth Ave,Bus,Collision,Unknown,Rain,Unknown,Unknown,40,Male,0.0,72000.0,14.516813353232186,120.98629472734342,2025-05-04 00:57:00
-MMTI-2025-0732,Malabon,España Blvd,Bus,Collision,Unknown,Storm,Slippery,Distracted Driving,21,Female,,56000.0,14.538786325296767,120.9378899267356,2025-03-19 12:32:00
+MMTI-2025-0732,Malabon,España Blvd,Bus,Collision,Unknown,Storm,Slippery,Distracted Driving,21,Female,0.0,56000.0,14.538786325296767,120.9378899267356,2025-03-19 12:32:00
 MMTI-2025-0733,Manila,Katipunan Ave,Truck,Pedestrian,Unknown,Clear,Dry,Mechanical Failure,25,Female,0.0,8500.0,14.679011692159904,121.01504610071508,2025-04-01 19:17:00
 MMTI-2025-0734,Taguig,Roxas Blvd,Car,Pedestrian,Unknown,Cloudy,Unknown,Distracted Driving,32,Male,3.0,28000.0,14.534205823817445,120.94071509591885,2025-05-03 02:34:00
-MMTI-2025-0735,Pasig,Roxas Blvd,UV Express,Collision,Minor,Rain,Unknown,Unknown,65,Male,,32500.0,14.53404651480185,121.03628849695542,2025-11-23 09:45:00
+MMTI-2025-0735,Pasig,Roxas Blvd,UV Express,Collision,Minor,Rain,Unknown,Unknown,65,Male,0.0,32500.0,14.53404651480185,121.03628849695542,2025-11-23 09:45:00
 MMTI-2025-0736,Valenzuela,Commonwealth Ave,Motorcycle,Hit and Run,Unknown,Storm,Dry,Drunk Driving,34,Male,1.0,88500.0,14.6520521504478,120.90194677501025,2025-03-27 05:21:00
 MMTI-2025-0737,Manila,Aurora Blvd,Taxi,Rear-end,Unknown,Clear,Dry,Overspeeding,54,Male,1.0,69000.0,14.600629294167913,121.0509984957376,2025-06-30 15:37:00
 MMTI-2025-0738,Marikina,Aurora Blvd,Truck,Side-swipe,Unknown,Storm,Unknown,Reckless Driving,41,Female,0.0,47000.0,14.560226806566352,120.96674777402188,2025-02-18 03:19:00
-MMTI-2025-0739,Pasig,Aurora Blvd,Motorcycle,Side-swipe,Unknown,Rain,Dry,Drunk Driving,44,Female,,20000.0,14.571438881006587,120.90618093497211,2025-09-23 21:54:00
+MMTI-2025-0739,Pasig,Aurora Blvd,Motorcycle,Side-swipe,Unknown,Rain,Dry,Drunk Driving,44,Female,0.0,20000.0,14.571438881006587,120.90618093497211,2025-09-23 21:54:00
 MMTI-2025-0740,Malabon,Ortigas Ave,Car,Collision,Major,Cloudy,Dry,Reckless Driving,58,Female,4.0,24000.0,14.553061866626631,121.03581327251918,2025-10-23 23:44:00
 MMTI-2025-0741,Malabon,Roxas Blvd,Bus,Rear-end,Minor,Clear,Unknown,Traffic Violation,57,Male,3.0,60000.0,14.613332486105191,121.05850511311344,2025-06-19 12:37:00
 MMTI-2025-0742,Manila,Aurora Blvd,UV Express,Rear-end,Unknown,Rain,Wet,Reckless Driving,57,Female,2.0,64000.0,14.55765199074837,121.05995701297331,2025-06-27 09:07:00
@@ -748,7 +748,7 @@ MMTI-2025-0746,Parañaque,Roxas Blvd,Car,Hit and Run,Unknown,Rain,Slippery,Reckl
 MMTI-2025-0747,Manila,Aurora Blvd,UV Express,Side-swipe,Unknown,Rain,Slippery,Unknown,40,Female,3.0,55500.0,14.692289384320764,120.99225679640126,2025-08-12 03:08:00
 MMTI-2025-0748,Malabon,C5,Taxi,Rear-end,Unknown,Storm,Wet,Traffic Violation,26,Male,0.0,98500.0,14.66902146844962,120.92518716812572,2025-10-14 00:49:00
 MMTI-2025-0749,Manila,Aurora Blvd,Taxi,Collision,Minor,Clear,Slippery,Distracted Driving,39,Male,2.0,74000.0,14.596293580071022,120.96626151928947,2025-12-10 00:29:00
-MMTI-2025-0750,Makati,España Blvd,UV Express,Collision,Major,Clear,Wet,Unknown,26,Female,,83500.0,14.670451139144266,120.9601784417454,2025-02-01 03:47:00
+MMTI-2025-0750,Makati,España Blvd,UV Express,Collision,Major,Clear,Wet,Unknown,26,Female,0.0,83500.0,14.670451139144266,120.9601784417454,2025-02-01 03:47:00
 MMTI-2025-0751,Manila,Aurora Blvd,Jeepney,Rear-end,Minor,Clear,Dry,Drunk Driving,56,Male,4.0,14000.0,14.549441217190465,120.92072140496036,2025-06-09 23:59:00
 MMTI-2025-0752,Navotas,EDSA,Motorcycle,Side-swipe,Unknown,Cloudy,Wet,Mechanical Failure,52,Male,4.0,89000.0,14.587825970142058,121.03163186403688,2025-01-13 16:28:00
 MMTI-2025-0753,Manila,Commonwealth Ave,Car,Rear-end,Major,Clear,Unknown,Mechanical Failure,48,Female,2.0,39000.0,14.633507105857165,121.0918182828855,2025-03-05 13:09:00
@@ -756,9 +756,9 @@ MMTI-2025-0754,Mandaluyong,Taft Ave,Truck,Collision,Unknown,Cloudy,Unknown,Drunk
 MMTI-2025-0755,Pasig,Aurora Blvd,Motorcycle,Side-swipe,Major,Cloudy,Unknown,Reckless Driving,18,Female,2.0,66000.0,14.671167914362284,121.00064112426458,2025-06-05 01:41:00
 MMTI-2025-0756,Navotas,España Blvd,Motorcycle,Rear-end,Major,Storm,Unknown,Traffic Violation,47,Female,2.0,99500.0,14.631688788984611,121.0846953874736,2025-06-28 22:33:00
 MMTI-2025-0757,Navotas,Aurora Blvd,Jeepney,Rear-end,Unknown,Rain,Unknown,Reckless Driving,26,Male,4.0,76000.0,14.56961904404237,121.02349500481768,2025-02-04 20:30:00
-MMTI-2025-0758,Manila,Commonwealth Ave,Car,Collision,Minor,Cloudy,Unknown,Traffic Violation,66,Female,,32000.0,14.521086361854962,121.07615108217897,2025-07-26 02:02:00
+MMTI-2025-0758,Manila,Commonwealth Ave,Car,Collision,Minor,Cloudy,Unknown,Traffic Violation,66,Female,0.0,32000.0,14.521086361854962,121.07615108217897,2025-07-26 02:02:00
 MMTI-2025-0759,Makati,EDSA,Jeepney,Side-swipe,Minor,Clear,Dry,Unknown,66,Male,4.0,82500.0,14.668135871037036,121.08471016909787,2025-07-16 13:59:00
-MMTI-2025-0760,Valenzuela,Taft Ave,Car,Pedestrian,Unknown,Rain,Wet,Reckless Driving,49,Female,,38500.0,14.545099307896484,121.04843078130796,2025-06-14 03:44:00
+MMTI-2025-0760,Valenzuela,Taft Ave,Car,Pedestrian,Unknown,Rain,Wet,Reckless Driving,49,Female,0.0,38500.0,14.545099307896484,121.04843078130796,2025-06-14 03:44:00
 MMTI-2025-0761,Parañaque,C5,Jeepney,Collision,Minor,Rain,Dry,Drunk Driving,18,Male,3.0,74500.0,14.609316168523566,120.91439302316417,2025-08-11 16:51:00
 MMTI-2025-0762,Manila,Aurora Blvd,Car,Rear-end,Unknown,Cloudy,Unknown,Traffic Violation,40,Female,0.0,58000.0,14.58550234977226,120.97522364538013,2025-04-05 21:46:00
 MMTI-2025-0763,Pasig,España Blvd,Bus,Collision,Minor,Cloudy,Wet,Overspeeding,56,Male,0.0,30500.0,14.664265561015334,120.957979296032,2025-02-06 18:05:00
@@ -767,11 +767,11 @@ MMTI-2025-0765,Mandaluyong,EDSA,Motorcycle,Side-swipe,Unknown,Storm,Wet,Traffic 
 MMTI-2025-0766,Pateros,C5,Taxi,Pedestrian,Unknown,Rain,Dry,Traffic Violation,22,Female,4.0,96500.0,14.622486530139094,120.91611869765448,2025-12-06 01:15:00
 MMTI-2025-0767,Mandaluyong,EDSA,Motorcycle,Collision,Unknown,Clear,Wet,Traffic Violation,45,Female,2.0,31000.0,14.504288652436802,120.91107130948656,2025-10-10 15:08:00
 MMTI-2025-0768,Navotas,EDSA,Jeepney,Hit and Run,Minor,Cloudy,Unknown,Drunk Driving,45,Female,4.0,19500.0,14.52311663990908,120.9235985113638,2025-04-11 17:38:00
-MMTI-2025-0769,Parañaque,Ortigas Ave,Truck,Collision,Major,Rain,Dry,Overspeeding,32,Female,,98000.0,14.677667067658506,121.05863616844448,2025-11-12 11:22:00
+MMTI-2025-0769,Parañaque,Ortigas Ave,Truck,Collision,Major,Rain,Dry,Overspeeding,32,Female,0.0,98000.0,14.677667067658506,121.05863616844448,2025-11-12 11:22:00
 MMTI-2025-0770,Manila,Quezon Ave,Taxi,Collision,Minor,Clear,Wet,Unknown,29,Male,0.0,42000.0,14.569933492842935,121.0310417903817,2025-10-18 01:51:00
 MMTI-2025-0771,Pasig,Taft Ave,Truck,Collision,Minor,Clear,Slippery,Mechanical Failure,49,Male,1.0,58500.0,14.64262677178192,121.08828539753992,2025-05-06 09:08:00
-MMTI-2025-0772,Caloocan,España Blvd,Bus,Side-swipe,Unknown,Clear,Dry,Overspeeding,40,Female,,81500.0,14.597241539179956,120.91568921536738,2025-10-10 09:55:00
-MMTI-2025-0773,San Juan,España Blvd,Car,Collision,Fatal,Rain,Wet,Overspeeding,33,Female,,99500.0,14.59075259708322,120.92284772697283,2025-03-12 16:14:00
+MMTI-2025-0772,Caloocan,España Blvd,Bus,Side-swipe,Unknown,Clear,Dry,Overspeeding,40,Female,0.0,81500.0,14.597241539179956,120.91568921536738,2025-10-10 09:55:00
+MMTI-2025-0773,San Juan,España Blvd,Car,Collision,Fatal,Rain,Wet,Overspeeding,33,Female,0.0,99500.0,14.59075259708322,120.92284772697283,2025-03-12 16:14:00
 MMTI-2025-0774,Mandaluyong,Katipunan Ave,Truck,Side-swipe,Minor,Clear,Slippery,Unknown,49,Male,3.0,51000.0,14.588803947038077,120.9448896902885,2025-09-13 01:17:00
 MMTI-2025-0775,Malabon,España Blvd,Motorcycle,Side-swipe,Minor,Clear,Slippery,Overspeeding,56,Male,2.0,98000.0,14.618191725338315,121.05145044330858,2025-07-14 05:42:00
 MMTI-2025-0776,Pasig,Taft Ave,Taxi,Hit and Run,Minor,Clear,Unknown,Unknown,64,Male,4.0,61000.0,14.584767004210654,121.0438440390949,2025-06-24 23:53:00
@@ -785,7 +785,7 @@ MMTI-2025-0783,Pateros,Roxas Blvd,Jeepney,Collision,Major,Storm,Dry,Reckless Dri
 MMTI-2025-0784,Las Piñas,Quezon Ave,Truck,Pedestrian,Minor,Rain,Wet,Unknown,66,Male,0.0,30500.0,14.61308047697469,121.09956259366042,2025-09-18 18:45:00
 MMTI-2025-0785,Malabon,España Blvd,UV Express,Collision,Unknown,Clear,Unknown,Unknown,60,Female,2.0,36000.0,14.53900471901299,121.01504874720136,2025-11-19 17:46:00
 MMTI-2025-0786,Las Piñas,Quezon Ave,Truck,Side-swipe,Minor,Rain,Wet,Unknown,64,Female,2.0,12000.0,14.570396921873774,121.00112868856854,2025-05-05 10:15:00
-MMTI-2025-0787,Pasig,Quezon Ave,Truck,Hit and Run,Major,Clear,Wet,Mechanical Failure,67,Female,,76500.0,14.633180530575126,121.02110913285657,2025-07-05 20:30:00
+MMTI-2025-0787,Pasig,Quezon Ave,Truck,Hit and Run,Major,Clear,Wet,Mechanical Failure,67,Female,0.0,76500.0,14.633180530575126,121.02110913285657,2025-07-05 20:30:00
 MMTI-2025-0788,Taguig,C5,Truck,Hit and Run,Unknown,Rain,Unknown,Unknown,58,Female,1.0,60000.0,14.503102450321274,120.92415776911172,2025-05-27 10:20:00
 MMTI-2025-0789,Pateros,C5,Car,Collision,Unknown,Clear,Wet,Distracted Driving,26,Female,3.0,47000.0,14.525490597489949,121.03938573979876,2025-05-15 17:45:00
 MMTI-2025-0790,Taguig,Ortigas Ave,Taxi,Side-swipe,Unknown,Clear,Unknown,Distracted Driving,64,Male,0.0,96500.0,14.684144741825696,121.08998381115332,2025-05-04 22:18:00
@@ -797,9 +797,9 @@ MMTI-2025-0795,Quezon City,España Blvd,Jeepney,Rear-end,Minor,Cloudy,Dry,Traffi
 MMTI-2025-0796,Taguig,C5,Truck,Hit and Run,Unknown,Storm,Dry,Drunk Driving,35,Male,2.0,12000.0,14.648855507065832,120.94448835511112,2025-08-21 09:58:00
 MMTI-2025-0797,Manila,Ortigas Ave,Bus,Hit and Run,Unknown,Rain,Dry,Traffic Violation,20,Female,0.0,92000.0,14.658839479865575,120.963505439744,2025-02-08 10:10:00
 MMTI-2025-0798,Quezon City,EDSA,Car,Rear-end,Unknown,Cloudy,Wet,Mechanical Failure,34,Female,1.0,64000.0,14.662773770372723,121.0467121370088,2025-10-13 21:53:00
-MMTI-2025-0799,Makati,España Blvd,Taxi,Rear-end,Minor,Cloudy,Dry,Unknown,53,Female,,24500.0,14.50776254597032,121.03759633192878,2025-05-25 04:12:00
-MMTI-2025-0800,Makati,Quezon Ave,UV Express,Side-swipe,Unknown,Clear,Wet,Reckless Driving,32,Male,,64000.0,14.598044395143903,121.02600549964936,2025-11-11 12:40:00
-MMTI-2025-0801,Pateros,Roxas Blvd,Motorcycle,Rear-end,Minor,Storm,Unknown,Unknown,38,Female,,56000.0,14.523163835966876,120.99294718646456,2025-11-03 11:34:00
+MMTI-2025-0799,Makati,España Blvd,Taxi,Rear-end,Minor,Cloudy,Dry,Unknown,53,Female,0.0,24500.0,14.50776254597032,121.03759633192878,2025-05-25 04:12:00
+MMTI-2025-0800,Makati,Quezon Ave,UV Express,Side-swipe,Unknown,Clear,Wet,Reckless Driving,32,Male,0.0,64000.0,14.598044395143903,121.02600549964936,2025-11-11 12:40:00
+MMTI-2025-0801,Pateros,Roxas Blvd,Motorcycle,Rear-end,Minor,Storm,Unknown,Unknown,38,Female,0.0,56000.0,14.523163835966876,120.99294718646456,2025-11-03 11:34:00
 MMTI-2025-0802,Las Piñas,Taft Ave,UV Express,Rear-end,Unknown,Cloudy,Unknown,Unknown,61,Female,0.0,39000.0,14.55358477310462,120.94302123470575,2025-06-13 21:07:00
 MMTI-2025-0803,Marikina,Roxas Blvd,UV Express,Side-swipe,Unknown,Cloudy,Unknown,Unknown,43,Male,0.0,36000.0,14.597101078522485,120.9437896390853,2025-07-29 01:35:00
 MMTI-2025-0804,Valenzuela,Taft Ave,Car,Pedestrian,Major,Clear,Wet,Distracted Driving,57,Male,1.0,79000.0,14.607953462034343,121.09005571264362,2025-11-22 01:19:00
@@ -811,11 +811,11 @@ MMTI-2025-0809,Taguig,Roxas Blvd,UV Express,Pedestrian,Unknown,Cloudy,Slippery,U
 MMTI-2025-0810,Caloocan,Taft Ave,Motorcycle,Hit and Run,Unknown,Storm,Unknown,Distracted Driving,46,Female,4.0,5000.0,14.57946972365857,120.94642310954195,2025-12-26 17:32:00
 MMTI-2025-0811,Taguig,Roxas Blvd,Bus,Rear-end,Minor,Clear,Unknown,Drunk Driving,31,Female,4.0,33500.0,14.51677775553067,120.98063901456668,2025-07-09 15:36:00
 MMTI-2025-0812,Makati,Quezon Ave,Motorcycle,Hit and Run,Fatal,Cloudy,Slippery,Traffic Violation,27,Male,2.0,90000.0,14.613062472043527,120.98130685667908,2025-08-31 16:46:00
-MMTI-2025-0813,Parañaque,España Blvd,Taxi,Hit and Run,Unknown,Cloudy,Slippery,Mechanical Failure,38,Female,,63500.0,14.60288622312964,121.07173058202817,2025-01-03 08:44:00
+MMTI-2025-0813,Parañaque,España Blvd,Taxi,Hit and Run,Unknown,Cloudy,Slippery,Mechanical Failure,38,Female,0.0,63500.0,14.60288622312964,121.07173058202817,2025-01-03 08:44:00
 MMTI-2025-0814,Makati,Taft Ave,Car,Collision,Major,Clear,Dry,Drunk Driving,30,Female,0.0,6500.0,14.677100566661627,120.99903690542388,2025-02-11 03:27:00
 MMTI-2025-0815,Pasig,España Blvd,Truck,Hit and Run,Minor,Storm,Dry,Unknown,36,Male,4.0,43000.0,14.623020097448745,120.97432636255594,2025-11-17 16:31:00
 MMTI-2025-0816,San Juan,España Blvd,UV Express,Rear-end,Unknown,Rain,Slippery,Reckless Driving,48,Female,1.0,44000.0,14.68541591874773,121.04402605145602,2025-11-29 05:09:00
-MMTI-2025-0817,Pateros,EDSA,Bus,Hit and Run,Major,Rain,Unknown,Distracted Driving,18,Male,,26000.0,14.539853527686066,120.91876956900616,2025-03-11 05:33:00
+MMTI-2025-0817,Pateros,EDSA,Bus,Hit and Run,Major,Rain,Unknown,Distracted Driving,18,Male,0.0,26000.0,14.539853527686066,120.91876956900616,2025-03-11 05:33:00
 MMTI-2025-0818,Quezon City,Katipunan Ave,Truck,Pedestrian,Major,Clear,Slippery,Mechanical Failure,40,Male,1.0,37000.0,14.556837515265874,121.08230214397324,2025-08-23 10:06:00
 MMTI-2025-0819,San Juan,Ortigas Ave,Jeepney,Hit and Run,Fatal,Clear,Unknown,Mechanical Failure,22,Female,0.0,95500.0,14.543288293898083,120.9356650520309,2025-08-07 18:46:00
 MMTI-2025-0820,Manila,Katipunan Ave,UV Express,Hit and Run,Fatal,Clear,Unknown,Reckless Driving,69,Female,1.0,23500.0,14.500534157132156,120.94636620728537,2025-10-16 03:08:00
@@ -823,17 +823,17 @@ MMTI-2025-0821,Pasig,Commonwealth Ave,Car,Rear-end,Unknown,Clear,Slippery,Distra
 MMTI-2025-0822,Taguig,Quezon Ave,Jeepney,Hit and Run,Unknown,Cloudy,Unknown,Traffic Violation,37,Male,4.0,12000.0,14.676657121785553,121.0684382441847,2025-06-04 16:48:00
 MMTI-2025-0823,Mandaluyong,Commonwealth Ave,Taxi,Hit and Run,Unknown,Cloudy,Unknown,Reckless Driving,61,Male,4.0,57500.0,14.630418424827129,120.93560248170093,2025-03-27 20:53:00
 MMTI-2025-0824,Las Piñas,Taft Ave,Car,Pedestrian,Unknown,Rain,Unknown,Traffic Violation,29,Male,1.0,58500.0,14.572198275515442,120.93897772134189,2025-07-07 14:49:00
-MMTI-2025-0825,Taguig,Ortigas Ave,Bus,Pedestrian,Minor,Clear,Slippery,Overspeeding,59,Male,,63000.0,14.579658800428982,121.09914756967947,2025-10-28 09:21:00
-MMTI-2025-0826,Quezon City,Katipunan Ave,Taxi,Collision,Unknown,Clear,Unknown,Unknown,29,Female,,84500.0,14.650117269971352,121.06148613706812,2025-12-27 08:17:00
-MMTI-2025-0827,Pasig,Commonwealth Ave,UV Express,Rear-end,Major,Clear,Unknown,Distracted Driving,21,Female,,92500.0,14.512465094498152,120.9194950921206,2025-01-20 11:01:00
+MMTI-2025-0825,Taguig,Ortigas Ave,Bus,Pedestrian,Minor,Clear,Slippery,Overspeeding,59,Male,0.0,63000.0,14.579658800428982,121.09914756967947,2025-10-28 09:21:00
+MMTI-2025-0826,Quezon City,Katipunan Ave,Taxi,Collision,Unknown,Clear,Unknown,Unknown,29,Female,0.0,84500.0,14.650117269971352,121.06148613706812,2025-12-27 08:17:00
+MMTI-2025-0827,Pasig,Commonwealth Ave,UV Express,Rear-end,Major,Clear,Unknown,Distracted Driving,21,Female,0.0,92500.0,14.512465094498152,120.9194950921206,2025-01-20 11:01:00
 MMTI-2025-0828,Parañaque,Katipunan Ave,UV Express,Collision,Fatal,Rain,Slippery,Drunk Driving,55,Male,4.0,3500.0,14.688109032309791,120.98063461693582,2025-10-06 08:54:00
 MMTI-2025-0829,Makati,Quezon Ave,Taxi,Pedestrian,Major,Rain,Slippery,Distracted Driving,29,Female,0.0,37000.0,14.621705805061286,121.03774334118586,2025-12-08 21:03:00
 MMTI-2025-0830,Manila,Roxas Blvd,Bus,Pedestrian,Fatal,Clear,Slippery,Unknown,54,Male,4.0,61000.0,14.517632390731965,121.08360221846486,2025-07-29 05:40:00
-MMTI-2025-0831,Pasay,Ortigas Ave,Jeepney,Collision,Major,Clear,Wet,Traffic Violation,47,Male,,33500.0,14.56155646419124,121.03617811894765,2025-04-04 23:05:00
+MMTI-2025-0831,Pasay,Ortigas Ave,Jeepney,Collision,Major,Clear,Wet,Traffic Violation,47,Male,0.0,33500.0,14.56155646419124,121.03617811894765,2025-04-04 23:05:00
 MMTI-2025-0832,Pasig,Roxas Blvd,Motorcycle,Hit and Run,Fatal,Rain,Slippery,Drunk Driving,54,Male,3.0,30500.0,14.667055052799352,120.95455988479192,2025-04-08 23:48:00
-MMTI-2025-0833,Mandaluyong,Aurora Blvd,Bus,Collision,Unknown,Storm,Unknown,Traffic Violation,40,Female,,89500.0,14.666346088305822,120.90734621874938,2025-04-13 05:18:00
+MMTI-2025-0833,Mandaluyong,Aurora Blvd,Bus,Collision,Unknown,Storm,Unknown,Traffic Violation,40,Female,0.0,89500.0,14.666346088305822,120.90734621874938,2025-04-13 05:18:00
 MMTI-2025-0834,Quezon City,Katipunan Ave,Car,Hit and Run,Fatal,Rain,Slippery,Mechanical Failure,39,Male,0.0,67500.0,14.654681799129728,120.95164276990036,2025-10-27 12:09:00
-MMTI-2025-0835,Taguig,España Blvd,UV Express,Rear-end,Unknown,Rain,Unknown,Traffic Violation,41,Female,,77000.0,14.680254979482068,120.96447440937354,2025-08-28 08:02:00
+MMTI-2025-0835,Taguig,España Blvd,UV Express,Rear-end,Unknown,Rain,Unknown,Traffic Violation,41,Female,0.0,77000.0,14.680254979482068,120.96447440937354,2025-08-28 08:02:00
 MMTI-2025-0836,Manila,Commonwealth Ave,Truck,Hit and Run,Fatal,Storm,Dry,Drunk Driving,40,Male,1.0,61500.0,14.609355621317269,121.05040903541708,2025-02-23 20:22:00
 MMTI-2025-0837,Makati,Katipunan Ave,UV Express,Hit and Run,Unknown,Cloudy,Wet,Reckless Driving,64,Male,4.0,45000.0,14.59651151847624,120.98023062095072,2025-08-13 19:29:00
 MMTI-2025-0838,Manila,C5,Truck,Hit and Run,Fatal,Clear,Unknown,Overspeeding,28,Female,2.0,78000.0,14.693047122206735,121.08856926638498,2025-01-21 07:48:00
@@ -842,7 +842,7 @@ MMTI-2025-0840,Pasay,Roxas Blvd,Bus,Collision,Major,Rain,Wet,Unknown,23,Female,1
 MMTI-2025-0841,Las Piñas,C5,Truck,Pedestrian,Unknown,Rain,Wet,Unknown,60,Female,3.0,92000.0,14.548548401539112,121.08338994696116,2025-01-03 15:10:00
 MMTI-2025-0842,Pasig,Taft Ave,Taxi,Side-swipe,Fatal,Rain,Unknown,Unknown,52,Male,2.0,64500.0,14.63397533556883,121.09404513327246,2025-07-18 04:20:00
 MMTI-2025-0843,Pasig,Commonwealth Ave,Taxi,Rear-end,Fatal,Storm,Slippery,Overspeeding,57,Female,0.0,84500.0,14.546014695075272,120.99998993752595,2025-01-14 07:56:00
-MMTI-2025-0844,Malabon,C5,Bus,Hit and Run,Major,Cloudy,Wet,Reckless Driving,37,Female,,63500.0,14.506965332122176,121.0917025490925,2025-01-23 06:19:00
+MMTI-2025-0844,Malabon,C5,Bus,Hit and Run,Major,Cloudy,Wet,Reckless Driving,37,Female,0.0,63500.0,14.506965332122176,121.0917025490925,2025-01-23 06:19:00
 MMTI-2025-0845,Navotas,España Blvd,Taxi,Collision,Unknown,Clear,Slippery,Distracted Driving,59,Female,0.0,22500.0,14.563805155647904,121.01493644193854,2025-08-04 05:10:00
 MMTI-2025-0846,Manila,Aurora Blvd,UV Express,Hit and Run,Unknown,Clear,Slippery,Unknown,34,Male,4.0,59500.0,14.600412317175904,121.0562007061743,2025-07-16 21:29:00
 MMTI-2025-0847,Quezon City,Ortigas Ave,Motorcycle,Rear-end,Unknown,Clear,Unknown,Distracted Driving,27,Male,2.0,92500.0,14.618030603614208,120.9395226098819,2025-12-31 10:54:00
@@ -854,10 +854,10 @@ MMTI-2025-0852,Malabon,Taft Ave,Motorcycle,Rear-end,Fatal,Rain,Dry,Unknown,25,Fe
 MMTI-2025-0853,Quezon City,Ortigas Ave,Jeepney,Hit and Run,Major,Cloudy,Slippery,Drunk Driving,35,Male,4.0,53000.0,14.681949281962604,121.03564164978998,2025-10-04 07:44:00
 MMTI-2025-0854,Parañaque,EDSA,Taxi,Hit and Run,Major,Storm,Slippery,Unknown,56,Male,0.0,30000.0,14.544964954283945,121.04180170196982,2025-05-20 00:26:00
 MMTI-2025-0855,San Juan,Katipunan Ave,Taxi,Hit and Run,Unknown,Cloudy,Unknown,Traffic Violation,52,Female,3.0,73000.0,14.502513444934712,120.96811919557996,2025-04-24 02:39:00
-MMTI-2025-0856,Valenzuela,Aurora Blvd,Car,Pedestrian,Major,Rain,Unknown,Reckless Driving,43,Male,,75000.0,14.69354472172053,121.02627681268235,2025-06-27 14:09:00
+MMTI-2025-0856,Valenzuela,Aurora Blvd,Car,Pedestrian,Major,Rain,Unknown,Reckless Driving,43,Male,0.0,75000.0,14.69354472172053,121.02627681268235,2025-06-27 14:09:00
 MMTI-2025-0857,Parañaque,España Blvd,Bus,Side-swipe,Fatal,Storm,Unknown,Unknown,19,Female,4.0,76500.0,14.533346861040988,120.97032527560724,2025-10-15 11:05:00
 MMTI-2025-0858,Manila,Roxas Blvd,Jeepney,Hit and Run,Major,Cloudy,Unknown,Drunk Driving,42,Male,0.0,52500.0,14.543661076145328,121.0984261812428,2025-08-09 13:48:00
-MMTI-2025-0859,Pasay,Taft Ave,Jeepney,Hit and Run,Fatal,Rain,Unknown,Reckless Driving,38,Male,,15500.0,14.63284691555017,121.03736877584494,2025-10-20 09:11:00
+MMTI-2025-0859,Pasay,Taft Ave,Jeepney,Hit and Run,Fatal,Rain,Unknown,Reckless Driving,38,Male,0.0,15500.0,14.63284691555017,121.03736877584494,2025-10-20 09:11:00
 MMTI-2025-0860,Manila,España Blvd,Jeepney,Hit and Run,Major,Cloudy,Unknown,Unknown,36,Female,1.0,24500.0,14.580010872018946,120.90066747595768,2025-11-21 20:20:00
 MMTI-2025-0861,Pasay,C5,Truck,Pedestrian,Unknown,Cloudy,Unknown,Mechanical Failure,58,Male,4.0,30500.0,14.527714408352534,121.02398405895138,2025-06-21 14:41:00
 MMTI-2025-0862,Malabon,EDSA,Bus,Pedestrian,Major,Rain,Unknown,Unknown,61,Male,2.0,4500.0,14.6485930749794,121.07670249609632,2025-02-11 19:36:00
@@ -867,16 +867,16 @@ MMTI-2025-0865,Makati,EDSA,UV Express,Collision,Unknown,Clear,Unknown,Unknown,22
 MMTI-2025-0866,Manila,Aurora Blvd,Truck,Collision,Fatal,Cloudy,Dry,Traffic Violation,43,Female,3.0,17500.0,14.52072460226116,121.06941407660022,2025-11-07 20:34:00
 MMTI-2025-0867,Pasay,Ortigas Ave,Truck,Side-swipe,Major,Rain,Unknown,Mechanical Failure,34,Male,2.0,84000.0,14.638743211439357,120.99164840415,2025-10-24 03:46:00
 MMTI-2025-0868,Caloocan,Roxas Blvd,Bus,Side-swipe,Unknown,Storm,Unknown,Reckless Driving,54,Male,4.0,6500.0,14.65226454755667,120.92960479486254,2025-12-30 15:48:00
-MMTI-2025-0869,Las Piñas,Katipunan Ave,Bus,Side-swipe,Fatal,Rain,Wet,Reckless Driving,48,Female,,39500.0,14.530888257538876,121.06103973045212,2025-05-28 00:14:00
+MMTI-2025-0869,Las Piñas,Katipunan Ave,Bus,Side-swipe,Fatal,Rain,Wet,Reckless Driving,48,Female,0.0,39500.0,14.530888257538876,121.06103973045212,2025-05-28 00:14:00
 MMTI-2025-0870,San Juan,Taft Ave,Bus,Rear-end,Minor,Rain,Unknown,Reckless Driving,27,Male,2.0,48500.0,14.644227873546766,121.04909144769644,2025-03-07 04:38:00
-MMTI-2025-0871,Pasig,Commonwealth Ave,Bus,Rear-end,Unknown,Clear,Slippery,Traffic Violation,42,Female,,23500.0,14.674156452007944,120.99641049679428,2025-09-22 12:30:00
-MMTI-2025-0872,Makati,Ortigas Ave,Car,Side-swipe,Major,Rain,Wet,Reckless Driving,56,Male,,27000.0,14.57130029275833,120.9918643423459,2025-09-05 12:00:00
+MMTI-2025-0871,Pasig,Commonwealth Ave,Bus,Rear-end,Unknown,Clear,Slippery,Traffic Violation,42,Female,0.0,23500.0,14.674156452007944,120.99641049679428,2025-09-22 12:30:00
+MMTI-2025-0872,Makati,Ortigas Ave,Car,Side-swipe,Major,Rain,Wet,Reckless Driving,56,Male,0.0,27000.0,14.57130029275833,120.9918643423459,2025-09-05 12:00:00
 MMTI-2025-0873,Manila,Quezon Ave,UV Express,Rear-end,Fatal,Rain,Dry,Unknown,58,Male,2.0,66500.0,14.513439545439889,121.01065689617644,2025-11-23 00:53:00
-MMTI-2025-0874,Makati,EDSA,Truck,Pedestrian,Unknown,Rain,Wet,Reckless Driving,69,Female,,85000.0,14.671504521735145,120.94566798610931,2025-10-01 23:34:00
+MMTI-2025-0874,Makati,EDSA,Truck,Pedestrian,Unknown,Rain,Wet,Reckless Driving,69,Female,0.0,85000.0,14.671504521735145,120.94566798610931,2025-10-01 23:34:00
 MMTI-2025-0875,Pasig,Roxas Blvd,Jeepney,Side-swipe,Minor,Rain,Wet,Distracted Driving,26,Male,0.0,28500.0,14.545517249768883,121.01713547820104,2025-08-22 05:02:00
 MMTI-2025-0876,Taguig,España Blvd,Taxi,Collision,Fatal,Rain,Dry,Mechanical Failure,48,Male,3.0,12500.0,14.595207161005431,120.91997518173214,2025-10-25 15:29:00
 MMTI-2025-0877,Pateros,Roxas Blvd,Jeepney,Collision,Unknown,Cloudy,Dry,Unknown,67,Female,4.0,83000.0,14.622882656388796,120.9912508875016,2025-10-29 06:38:00
-MMTI-2025-0878,Malabon,Katipunan Ave,Bus,Hit and Run,Major,Storm,Unknown,Unknown,50,Male,,40000.0,14.5528399808217,121.00643800534162,2025-01-01 08:48:00
+MMTI-2025-0878,Malabon,Katipunan Ave,Bus,Hit and Run,Major,Storm,Unknown,Unknown,50,Male,0.0,40000.0,14.5528399808217,121.00643800534162,2025-01-01 08:48:00
 MMTI-2025-0879,Quezon City,España Blvd,Bus,Hit and Run,Minor,Rain,Unknown,Overspeeding,38,Female,3.0,22500.0,14.53575903336042,121.05208756242992,2025-06-24 08:43:00
 MMTI-2025-0880,Valenzuela,Ortigas Ave,UV Express,Pedestrian,Major,Rain,Dry,Mechanical Failure,31,Male,4.0,41000.0,14.564003172168762,121.00607990394812,2025-12-11 09:06:00
 MMTI-2025-0881,Pasig,Quezon Ave,Jeepney,Rear-end,Fatal,Rain,Wet,Unknown,68,Female,1.0,80000.0,14.632518148656388,120.96513625227917,2025-02-22 21:19:00
@@ -885,16 +885,16 @@ MMTI-2025-0883,Malabon,Katipunan Ave,Truck,Hit and Run,Minor,Cloudy,Dry,Unknown,
 MMTI-2025-0884,Mandaluyong,Roxas Blvd,Taxi,Side-swipe,Minor,Storm,Unknown,Unknown,38,Female,1.0,81000.0,14.600588684439812,121.07128068845566,2025-04-14 06:42:00
 MMTI-2025-0885,Pasay,Ortigas Ave,UV Express,Hit and Run,Unknown,Cloudy,Dry,Unknown,62,Female,1.0,37500.0,14.697385839531876,121.01722287293526,2025-02-24 02:15:00
 MMTI-2025-0886,Marikina,Roxas Blvd,Jeepney,Side-swipe,Unknown,Storm,Dry,Unknown,26,Male,2.0,95500.0,14.582755475974546,120.93035451751048,2025-01-31 03:03:00
-MMTI-2025-0887,Makati,Quezon Ave,Jeepney,Collision,Unknown,Rain,Slippery,Reckless Driving,53,Male,,4500.0,14.528093513506802,121.05398117612006,2025-03-19 18:19:00
+MMTI-2025-0887,Makati,Quezon Ave,Jeepney,Collision,Unknown,Rain,Slippery,Reckless Driving,53,Male,0.0,4500.0,14.528093513506802,121.05398117612006,2025-03-19 18:19:00
 MMTI-2025-0888,Marikina,Ortigas Ave,Taxi,Hit and Run,Major,Rain,Slippery,Unknown,32,Female,2.0,44500.0,14.539797035869462,121.09428773329267,2025-12-25 22:47:00
 MMTI-2025-0889,Manila,Commonwealth Ave,Motorcycle,Hit and Run,Unknown,Cloudy,Unknown,Overspeeding,51,Male,4.0,49500.0,14.503240253874234,120.98744138329576,2025-05-13 08:38:00
 MMTI-2025-0890,Marikina,España Blvd,Truck,Side-swipe,Unknown,Storm,Dry,Distracted Driving,54,Male,4.0,16000.0,14.606352487442232,121.0597181953691,2025-01-17 16:55:00
-MMTI-2025-0891,Valenzuela,Katipunan Ave,UV Express,Rear-end,Minor,Rain,Unknown,Reckless Driving,47,Female,,21000.0,14.630088739589496,120.91460515734803,2025-02-14 18:59:00
+MMTI-2025-0891,Valenzuela,Katipunan Ave,UV Express,Rear-end,Minor,Rain,Unknown,Reckless Driving,47,Female,0.0,21000.0,14.630088739589496,120.91460515734803,2025-02-14 18:59:00
 MMTI-2025-0892,Valenzuela,España Blvd,Taxi,Hit and Run,Minor,Cloudy,Unknown,Reckless Driving,18,Female,0.0,3000.0,14.545045987251974,120.9854299294211,2025-11-28 18:21:00
 MMTI-2025-0893,Marikina,España Blvd,Truck,Rear-end,Unknown,Storm,Unknown,Drunk Driving,30,Female,1.0,41000.0,14.536317344160224,120.90524489810085,2025-05-13 07:37:00
 MMTI-2025-0894,Pasig,España Blvd,Bus,Collision,Fatal,Storm,Wet,Mechanical Failure,30,Male,1.0,56000.0,14.698200725422916,120.94659577002572,2025-11-05 01:49:00
 MMTI-2025-0895,Pasig,Aurora Blvd,Motorcycle,Hit and Run,Minor,Cloudy,Wet,Unknown,21,Female,3.0,53000.0,14.539727546581078,121.05419674721436,2025-04-22 11:01:00
-MMTI-2025-0896,Pasay,España Blvd,Jeepney,Pedestrian,Minor,Rain,Wet,Distracted Driving,49,Male,,42500.0,14.583025573478611,120.94206549225024,2025-10-30 03:05:00
+MMTI-2025-0896,Pasay,España Blvd,Jeepney,Pedestrian,Minor,Rain,Wet,Distracted Driving,49,Male,0.0,42500.0,14.583025573478611,120.94206549225024,2025-10-30 03:05:00
 MMTI-2025-0897,Pateros,Roxas Blvd,Jeepney,Collision,Unknown,Clear,Dry,Unknown,69,Female,3.0,14500.0,14.570936219931234,121.08914635674654,2025-02-16 16:23:00
 MMTI-2025-0898,San Juan,Quezon Ave,UV Express,Collision,Unknown,Cloudy,Dry,Reckless Driving,64,Male,0.0,20000.0,14.669482961668072,120.93547167713132,2025-02-03 13:54:00
 MMTI-2025-0899,Pasig,Commonwealth Ave,UV Express,Hit and Run,Minor,Clear,Unknown,Mechanical Failure,65,Male,2.0,81000.0,14.58297527406104,120.93149653884656,2025-01-05 04:33:00
@@ -905,30 +905,30 @@ MMTI-2025-0903,Mandaluyong,Commonwealth Ave,Bus,Pedestrian,Fatal,Clear,Dry,Unkno
 MMTI-2025-0904,Makati,C5,UV Express,Hit and Run,Fatal,Clear,Dry,Mechanical Failure,32,Male,1.0,95000.0,14.631873871834737,120.96572515176304,2025-03-15 07:42:00
 MMTI-2025-0905,Manila,España Blvd,Jeepney,Side-swipe,Major,Storm,Unknown,Traffic Violation,60,Female,4.0,96000.0,14.68692488201074,120.90684506259552,2025-08-25 21:37:00
 MMTI-2025-0906,Parañaque,Commonwealth Ave,Motorcycle,Rear-end,Minor,Rain,Wet,Unknown,38,Male,4.0,63500.0,14.596768972065568,120.96878035394512,2025-07-17 20:03:00
-MMTI-2025-0907,Valenzuela,Quezon Ave,Truck,Pedestrian,Fatal,Clear,Unknown,Distracted Driving,65,Male,,,14.602898181861468,120.96747006824204,2025-11-18 18:25:00
+MMTI-2025-0907,Valenzuela,Quezon Ave,Truck,Pedestrian,Fatal,Clear,Unknown,Distracted Driving,65,Male,0.0,,14.602898181861468,120.96747006824204,2025-11-18 18:25:00
 MMTI-2025-0908,Pateros,España Blvd,Truck,Collision,Fatal,Clear,Slippery,Distracted Driving,68,Male,3.0,84000.0,14.50508279795163,121.00866375733352,2025-04-06 08:21:00
 MMTI-2025-0909,Taguig,C5,Jeepney,Side-swipe,Major,Storm,Slippery,Unknown,45,Male,4.0,25000.0,14.579511619836133,121.08824994398002,2025-02-18 07:29:00
 MMTI-2025-0910,Caloocan,EDSA,Car,Side-swipe,Unknown,Clear,Wet,Overspeeding,69,Male,4.0,31000.0,14.63873894951815,121.09943496962022,2025-09-19 06:09:00
 MMTI-2025-0911,Taguig,Commonwealth Ave,UV Express,Pedestrian,Major,Rain,Wet,Unknown,30,Male,0.0,53000.0,14.559299286290663,121.0801913239386,2025-03-27 11:10:00
 MMTI-2025-0912,Marikina,Commonwealth Ave,UV Express,Side-swipe,Minor,Clear,Slippery,Reckless Driving,31,Male,0.0,98500.0,14.582075105816578,120.92875831347844,2025-08-04 15:29:00
 MMTI-2025-0913,Pasay,Taft Ave,Truck,Pedestrian,Major,Rain,Slippery,Distracted Driving,32,Male,1.0,53000.0,14.524694284388392,121.04793099699307,2025-03-24 07:25:00
-MMTI-2025-0914,Valenzuela,Commonwealth Ave,UV Express,Side-swipe,Fatal,Clear,Dry,Reckless Driving,51,Male,,78500.0,14.594221866476806,121.032084286866,2025-12-11 04:13:00
-MMTI-2025-0915,Pasig,Aurora Blvd,Car,Collision,Fatal,Storm,Dry,Unknown,34,Male,,61500.0,14.58518211481717,120.93369120191969,2025-06-02 03:34:00
-MMTI-2025-0916,Pateros,Roxas Blvd,Car,Pedestrian,Minor,Clear,Unknown,Traffic Violation,33,Female,,57000.0,14.584334823573608,121.02761198148906,2025-12-30 22:55:00
+MMTI-2025-0914,Valenzuela,Commonwealth Ave,UV Express,Side-swipe,Fatal,Clear,Dry,Reckless Driving,51,Male,0.0,78500.0,14.594221866476806,121.032084286866,2025-12-11 04:13:00
+MMTI-2025-0915,Pasig,Aurora Blvd,Car,Collision,Fatal,Storm,Dry,Unknown,34,Male,0.0,61500.0,14.58518211481717,120.93369120191969,2025-06-02 03:34:00
+MMTI-2025-0916,Pateros,Roxas Blvd,Car,Pedestrian,Minor,Clear,Unknown,Traffic Violation,33,Female,0.0,57000.0,14.584334823573608,121.02761198148906,2025-12-30 22:55:00
 MMTI-2025-0917,Mandaluyong,Roxas Blvd,UV Express,Pedestrian,Fatal,Cloudy,Slippery,Traffic Violation,23,Male,0.0,93000.0,14.661198297866507,120.94854884383945,2025-05-24 23:46:00
 MMTI-2025-0918,Malabon,Roxas Blvd,Motorcycle,Hit and Run,Unknown,Clear,Unknown,Unknown,56,Female,0.0,79000.0,14.521559535846626,121.0676411297822,2025-09-11 07:37:00
-MMTI-2025-0919,Taguig,C5,Taxi,Rear-end,Fatal,Clear,Unknown,Unknown,,Female,,97000.0,14.507972984533463,121.02941769478936,2025-11-26 03:36:00
+MMTI-2025-0919,Taguig,C5,Taxi,Rear-end,Fatal,Clear,Unknown,Unknown,,Female,0.0,97000.0,14.507972984533463,121.02941769478936,2025-11-26 03:36:00
 MMTI-2025-0920,Manila,EDSA,Truck,Hit and Run,Minor,Rain,Unknown,Drunk Driving,19,Male,0.0,39000.0,14.684133938569046,121.06037904922422,2025-08-14 14:36:00
 MMTI-2025-0921,Las Piñas,Ortigas Ave,Car,Side-swipe,Unknown,Clear,Slippery,Unknown,62,Male,1.0,28500.0,14.611695553020848,121.07269658080828,2025-08-22 08:22:00
 MMTI-2025-0922,Navotas,Ortigas Ave,Taxi,Rear-end,Unknown,Clear,Slippery,Traffic Violation,57,Female,2.0,41000.0,14.520259633532422,121.0443881334222,2025-11-28 10:47:00
 MMTI-2025-0923,Pasig,Aurora Blvd,UV Express,Rear-end,Unknown,Rain,Slippery,Unknown,40,Male,3.0,48000.0,14.650954169272213,121.09186166699014,2025-11-24 12:20:00
 MMTI-2025-0924,Parañaque,Katipunan Ave,Bus,Pedestrian,Unknown,Storm,Unknown,Drunk Driving,43,Male,1.0,13500.0,14.518108443486192,121.01959387647317,2025-06-15 00:07:00
-MMTI-2025-0925,Mandaluyong,Commonwealth Ave,UV Express,Side-swipe,Unknown,Storm,Unknown,Drunk Driving,42,Male,,39500.0,14.622684005752363,121.0941490547094,2025-12-06 12:54:00
+MMTI-2025-0925,Mandaluyong,Commonwealth Ave,UV Express,Side-swipe,Unknown,Storm,Unknown,Drunk Driving,42,Male,0.0,39500.0,14.622684005752363,121.0941490547094,2025-12-06 12:54:00
 MMTI-2025-0926,Quezon City,Quezon Ave,Jeepney,Rear-end,Fatal,Clear,Unknown,Mechanical Failure,62,Female,1.0,30500.0,14.588071180355392,121.0623050648212,2025-06-15 07:28:00
 MMTI-2025-0927,Caloocan,EDSA,Taxi,Pedestrian,Unknown,Cloudy,Unknown,Mechanical Failure,44,Female,4.0,76000.0,14.579923366944872,121.01509137286038,2025-03-16 00:18:00
 MMTI-2025-0928,Las Piñas,Roxas Blvd,Truck,Side-swipe,Fatal,Rain,Slippery,Traffic Violation,22,Female,2.0,91500.0,14.54937907128864,121.00765508499587,2025-07-18 23:16:00
 MMTI-2025-0929,Manila,Aurora Blvd,Jeepney,Side-swipe,Minor,Clear,Wet,Traffic Violation,63,Female,3.0,36000.0,14.614851830656251,120.91064029106532,2025-03-07 03:58:00
-MMTI-2025-0930,Makati,Taft Ave,Motorcycle,Rear-end,Minor,Clear,Unknown,Overspeeding,40,Female,,20500.0,14.512755366685996,120.97088245461198,2025-11-13 14:31:00
+MMTI-2025-0930,Makati,Taft Ave,Motorcycle,Rear-end,Minor,Clear,Unknown,Overspeeding,40,Female,0.0,20500.0,14.512755366685996,120.97088245461198,2025-11-13 14:31:00
 MMTI-2025-0931,Manila,Katipunan Ave,Truck,Hit and Run,Major,Cloudy,Wet,Unknown,37,Male,2.0,31500.0,14.613971472976232,121.0751937396943,2025-05-22 18:16:00
 MMTI-2025-0932,Quezon City,Katipunan Ave,Bus,Collision,Unknown,Clear,Slippery,Distracted Driving,67,Male,4.0,10000.0,14.605954395851064,121.04607606852235,2025-07-28 04:49:00
 MMTI-2025-0933,Pasay,Commonwealth Ave,Motorcycle,Hit and Run,Minor,Storm,Dry,Distracted Driving,43,Female,3.0,50500.0,14.639283011070502,120.92770190067182,2025-04-10 07:38:00
@@ -940,7 +940,7 @@ MMTI-2025-0938,Pasay,Katipunan Ave,Jeepney,Rear-end,Minor,Cloudy,Wet,Drunk Drivi
 MMTI-2025-0939,Quezon City,C5,Bus,Rear-end,Fatal,Rain,Wet,Unknown,30,Female,0.0,47500.0,14.511724837000088,121.09646912652424,2025-08-18 03:42:00
 MMTI-2025-0940,Makati,C5,Taxi,Pedestrian,Minor,Rain,Slippery,Unknown,66,Female,2.0,43000.0,14.527095133733608,121.05270452230876,2025-09-03 21:45:00
 MMTI-2025-0941,Navotas,Taft Ave,Truck,Collision,Unknown,Clear,Unknown,Distracted Driving,38,Female,4.0,51500.0,14.561179516460918,121.098457471708,2025-05-30 20:27:00
-MMTI-2025-0942,Quezon City,España Blvd,Taxi,Collision,Major,Clear,Slippery,Drunk Driving,59,Male,,8000.0,14.606858426374142,120.90944150979335,2025-05-28 21:44:00
+MMTI-2025-0942,Quezon City,España Blvd,Taxi,Collision,Major,Clear,Slippery,Drunk Driving,59,Male,0.0,8000.0,14.606858426374142,120.90944150979335,2025-05-28 21:44:00
 MMTI-2025-0943,Las Piñas,España Blvd,Motorcycle,Hit and Run,Unknown,Clear,Wet,Traffic Violation,61,Male,1.0,14500.0,14.591446751281566,120.93714107855016,2025-06-05 12:12:00
 MMTI-2025-0944,Makati,Quezon Ave,Truck,Rear-end,Unknown,Rain,Unknown,Overspeeding,20,Female,1.0,90000.0,14.523266205078828,120.95808833540192,2025-04-24 22:20:00
 MMTI-2025-0945,Marikina,Commonwealth Ave,Truck,Rear-end,Fatal,Cloudy,Dry,Drunk Driving,27,Female,4.0,87500.0,14.551637059274231,121.08443555596897,2025-05-04 21:52:00
@@ -948,20 +948,20 @@ MMTI-2025-0946,San Juan,Quezon Ave,UV Express,Side-swipe,Unknown,Rain,Dry,Unknow
 MMTI-2025-0947,Manila,Taft Ave,Motorcycle,Hit and Run,Major,Rain,Wet,Distracted Driving,58,Male,0.0,22000.0,14.680443428145631,120.997707361082,2025-09-07 08:38:00
 MMTI-2025-0948,Pasay,Roxas Blvd,UV Express,Hit and Run,Fatal,Clear,Slippery,Reckless Driving,54,Male,0.0,99000.0,14.523880141071835,121.0645754961455,2025-04-04 17:20:00
 MMTI-2025-0949,Pateros,Quezon Ave,Car,Pedestrian,Minor,Cloudy,Unknown,Distracted Driving,25,Female,0.0,51500.0,14.536895665650976,121.0525082822049,2025-04-14 02:35:00
-MMTI-2025-0950,Pasig,Ortigas Ave,Truck,Rear-end,Unknown,Clear,Dry,Mechanical Failure,67,Female,,42500.0,14.508751579476597,120.902842228038,2025-02-04 07:27:00
+MMTI-2025-0950,Pasig,Ortigas Ave,Truck,Rear-end,Unknown,Clear,Dry,Mechanical Failure,67,Female,0.0,42500.0,14.508751579476597,120.902842228038,2025-02-04 07:27:00
 MMTI-2025-0951,Mandaluyong,Commonwealth Ave,Bus,Hit and Run,Major,Rain,Dry,Unknown,42,Female,2.0,66500.0,14.512729876079016,120.93679263238194,2025-03-20 10:55:00
 MMTI-2025-0952,Valenzuela,EDSA,Taxi,Hit and Run,Minor,Rain,Unknown,Reckless Driving,53,Female,1.0,72000.0,14.692835307594468,120.91134262548591,2025-04-10 10:42:00
 MMTI-2025-0953,Manila,España Blvd,Motorcycle,Pedestrian,Major,Rain,Slippery,Traffic Violation,20,Female,0.0,89500.0,14.546732392915937,120.97624267787252,2025-12-17 02:26:00
 MMTI-2025-0954,Navotas,Katipunan Ave,Motorcycle,Rear-end,Minor,Clear,Unknown,Distracted Driving,19,Female,4.0,84500.0,14.577210949782234,121.03712199720152,2025-10-16 01:52:00
 MMTI-2025-0955,Caloocan,Aurora Blvd,Jeepney,Side-swipe,Fatal,Rain,Unknown,Unknown,27,Female,4.0,48000.0,14.544767967081675,120.9573727021174,2025-07-18 14:58:00
-MMTI-2025-0956,Pasay,Ortigas Ave,UV Express,Collision,Unknown,Storm,Wet,Overspeeding,47,Female,,71000.0,14.670336729626335,121.09749787360762,2025-03-31 12:16:00
+MMTI-2025-0956,Pasay,Ortigas Ave,UV Express,Collision,Unknown,Storm,Wet,Overspeeding,47,Female,0.0,71000.0,14.670336729626335,121.09749787360762,2025-03-31 12:16:00
 MMTI-2025-0957,Parañaque,Taft Ave,Truck,Hit and Run,Unknown,Rain,Unknown,Unknown,42,Female,2.0,45000.0,14.565202196933884,120.97977661212254,2025-03-06 20:22:00
 MMTI-2025-0958,Parañaque,Quezon Ave,Jeepney,Rear-end,Unknown,Storm,Unknown,Unknown,41,Male,1.0,52000.0,14.528266297981489,120.92173003635232,2025-09-29 06:15:00
 MMTI-2025-0959,Pasig,Taft Ave,Motorcycle,Rear-end,Major,Storm,Unknown,Drunk Driving,60,Female,4.0,57000.0,14.536063046668769,120.98859606835818,2025-11-30 14:19:00
 MMTI-2025-0960,Makati,Commonwealth Ave,Bus,Pedestrian,Major,Rain,Unknown,Mechanical Failure,27,Female,2.0,61500.0,14.549139696162984,121.04769313652896,2025-12-22 06:24:00
 MMTI-2025-0961,Pasig,España Blvd,UV Express,Collision,Minor,Clear,Dry,Overspeeding,18,Male,2.0,13500.0,14.56265877624089,121.08036075138554,2025-09-07 10:39:00
-MMTI-2025-0962,Parañaque,Roxas Blvd,Taxi,Collision,Fatal,Clear,Slippery,Unknown,48,Male,,24000.0,14.557948209797203,120.92029989779344,2025-04-14 23:09:00
-MMTI-2025-0963,Pasig,Commonwealth Ave,Truck,Collision,Unknown,Clear,Unknown,Drunk Driving,53,Female,,37500.0,14.637992742431155,121.080730322375,2025-10-15 05:57:00
+MMTI-2025-0962,Parañaque,Roxas Blvd,Taxi,Collision,Fatal,Clear,Slippery,Unknown,48,Male,0.0,24000.0,14.557948209797203,120.92029989779344,2025-04-14 23:09:00
+MMTI-2025-0963,Pasig,Commonwealth Ave,Truck,Collision,Unknown,Clear,Unknown,Drunk Driving,53,Female,0.0,37500.0,14.637992742431155,121.080730322375,2025-10-15 05:57:00
 MMTI-2025-0964,Valenzuela,C5,Taxi,Collision,Major,Cloudy,Unknown,Unknown,48,Female,0.0,77000.0,14.637624299507994,121.0635903408563,2025-02-28 21:09:00
 MMTI-2025-0965,Pasay,Aurora Blvd,Motorcycle,Hit and Run,Unknown,Storm,Slippery,Distracted Driving,41,Male,1.0,19000.0,14.624806219786562,121.03547463177684,2025-08-14 18:36:00
 MMTI-2025-0966,Parañaque,Ortigas Ave,Bus,Collision,Fatal,Clear,Unknown,Overspeeding,57,Female,1.0,48500.0,14.670250565190187,120.93840462939951,2025-03-18 03:59:00
@@ -969,18 +969,18 @@ MMTI-2025-0967,Manila,Aurora Blvd,Bus,Rear-end,Minor,Rain,Wet,Reckless Driving,3
 MMTI-2025-0968,Makati,Ortigas Ave,Jeepney,Collision,Major,Clear,Dry,Overspeeding,37,Female,1.0,62000.0,14.57600338665902,120.90719663157356,2025-12-03 14:42:00
 MMTI-2025-0969,Navotas,Ortigas Ave,Bus,Pedestrian,Unknown,Cloudy,Slippery,Drunk Driving,40,Male,4.0,26500.0,14.597766083898604,120.95333450598018,2025-12-11 08:44:00
 MMTI-2025-0970,Marikina,España Blvd,Motorcycle,Collision,Major,Clear,Wet,Distracted Driving,29,Male,0.0,21500.0,14.614381761553076,120.94738906588984,2025-08-19 21:05:00
-MMTI-2025-0971,Manila,Ortigas Ave,Taxi,Pedestrian,Minor,Rain,Unknown,Unknown,58,Male,,15500.0,14.622513036611643,120.9112332831385,2025-02-14 02:00:00
+MMTI-2025-0971,Manila,Ortigas Ave,Taxi,Pedestrian,Minor,Rain,Unknown,Unknown,58,Male,0.0,15500.0,14.622513036611643,120.9112332831385,2025-02-14 02:00:00
 MMTI-2025-0972,Makati,Commonwealth Ave,Motorcycle,Collision,Minor,Cloudy,Wet,Mechanical Failure,21,Male,3.0,43000.0,14.625090348019205,120.93852771740563,2025-03-13 06:58:00
 MMTI-2025-0973,Pasig,Commonwealth Ave,Truck,Side-swipe,Unknown,Clear,Unknown,Drunk Driving,50,Male,0.0,24500.0,14.694838071164073,120.95265231899008,2025-04-12 22:31:00
 MMTI-2025-0974,Taguig,C5,Car,Rear-end,Fatal,Rain,Wet,Unknown,58,Male,4.0,54500.0,14.601330890716008,120.9570806029711,2025-10-05 18:12:00
 MMTI-2025-0975,Las Piñas,Quezon Ave,Jeepney,Collision,Fatal,Storm,Wet,Distracted Driving,21,Male,3.0,46000.0,14.680538692672425,120.91208079549648,2025-08-07 08:52:00
-MMTI-2025-0976,Valenzuela,EDSA,UV Express,Collision,Fatal,Clear,Slippery,Distracted Driving,54,Male,,42500.0,14.590157390174438,121.04843852938856,2025-08-09 02:43:00
+MMTI-2025-0976,Valenzuela,EDSA,UV Express,Collision,Fatal,Clear,Slippery,Distracted Driving,54,Male,0.0,42500.0,14.590157390174438,121.04843852938856,2025-08-09 02:43:00
 MMTI-2025-0977,San Juan,Aurora Blvd,Bus,Pedestrian,Major,Rain,Unknown,Drunk Driving,20,Male,3.0,61500.0,14.675994930359185,120.96487355518856,2025-09-03 11:31:00
 MMTI-2025-0978,Valenzuela,Aurora Blvd,Car,Rear-end,Unknown,Cloudy,Dry,Drunk Driving,68,Male,3.0,82500.0,14.529876785575476,120.97314200999432,2025-07-26 14:55:00
 MMTI-2025-0979,Pasay,Commonwealth Ave,Jeepney,Rear-end,Major,Clear,Dry,Unknown,48,Female,2.0,45000.0,14.539551296862484,120.99946448712384,2025-08-11 21:57:00
 MMTI-2025-0980,Quezon City,Roxas Blvd,Car,Rear-end,Unknown,Clear,Unknown,Unknown,45,Female,3.0,87000.0,14.511952083339349,121.09228788332048,2025-03-23 09:53:00
 MMTI-2025-0981,Pateros,Katipunan Ave,Bus,Rear-end,Major,Clear,Unknown,Mechanical Failure,44,Female,0.0,41000.0,14.626301720974746,120.96771610175142,2025-02-04 10:45:00
-MMTI-2025-0982,Malabon,Katipunan Ave,Motorcycle,Pedestrian,Major,Clear,Slippery,Traffic Violation,64,Male,,18000.0,14.573913508005928,121.09408614109982,2025-06-09 21:39:00
+MMTI-2025-0982,Malabon,Katipunan Ave,Motorcycle,Pedestrian,Major,Clear,Slippery,Traffic Violation,64,Male,0.0,18000.0,14.573913508005928,121.09408614109982,2025-06-09 21:39:00
 MMTI-2025-0983,Las Piñas,Taft Ave,Car,Rear-end,Fatal,Rain,Wet,Traffic Violation,58,Female,2.0,73000.0,14.568151467408567,121.0587636028693,2025-02-02 00:28:00
 MMTI-2025-0984,Pasig,Ortigas Ave,Taxi,Pedestrian,Major,Rain,Unknown,Mechanical Failure,,Female,3.0,74000.0,14.593950508371826,120.90387945817928,2025-12-24 06:57:00
 MMTI-2025-0985,Pasig,Katipunan Ave,Bus,Collision,Unknown,Cloudy,Unknown,Reckless Driving,22,Female,3.0,26500.0,14.65825631584219,120.95524207310665,2025-09-19 03:24:00
