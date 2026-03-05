@@ -1,0 +1,3 @@
+input_data: data/raw/Metro_Manila_Traffic_Incidents_2025.csv
+output_data: data/processed/clean_traffic_incidents.parquet
+report_path: reports/data_quality_report.json

@@ -1,1 +1,0 @@
-from ingestion import load_data
