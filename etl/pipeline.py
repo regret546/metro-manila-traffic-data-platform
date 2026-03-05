@@ -3,7 +3,7 @@ import yaml
 
 
 from ingestion import load_data
-from cleaning import (
+from transformation import (
     clean_column_names,
     remove_duplicates,
     fill_missing_values,
@@ -12,7 +12,8 @@ from cleaning import (
     standardize_weather_condition,
     convert_age_column,
     standardize_gender,
-    replace_negative_damage_cost_column
+    replace_negative_damage_cost_column,
+    transform_features
 )
 from validation import (
     check_missing_values,
@@ -72,6 +73,9 @@ df = standardize_gender(df)
 
 logging.info("Replacing negative damage cost values")
 df = replace_negative_damage_cost_column(df)
+
+logging.info("Feature Engineering")
+df = transform_features(df)
 
 
 # Validation
