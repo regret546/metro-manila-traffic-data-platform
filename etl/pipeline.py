@@ -12,7 +12,9 @@ from transformation import (
     standardize_weather_condition,
     convert_age_column,
     standardize_gender,
+    clean_injury_count,
     replace_negative_damage_cost_column,
+    clean_coordinates,
     transform_features
 )
 from validation import (
@@ -72,11 +74,17 @@ df = standardize_weather_condition(df)
 logging.info("Converting driver age column")
 df = convert_age_column(df)
 
+logging.info("Cleaning injury_count value")
+df = clean_injury_count(df)
+
 logging.info("Standardizing driver gender column")
 df = standardize_gender(df)
 
 logging.info("Replacing negative damage cost values")
 df = replace_negative_damage_cost_column(df)
+
+logging.info("Cleaning coordinates")
+df = clean_coordinates(df)
 
 logging.info("Feature Engineering")
 df = transform_features(df)

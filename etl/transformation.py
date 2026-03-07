@@ -65,6 +65,10 @@ def standardize_gender(df: pd.DataFrame) -> pd.DataFrame:
     df["driver_gender"] = df["driver_gender"].str.strip().str.title()
     return df
 
+def clean_injury_count(df: pd.DataFrame) -> pd.DataFrame:
+    """ Clean injury count values """
+    df["injury_count"] = df["injury_count"].astype(int)
+    return df
 
 def replace_negative_damage_cost_column(df: pd.DataFrame) -> pd.DataFrame:
     """Convert to INT. Replace negative damage cost values with NaN."""
@@ -72,13 +76,21 @@ def replace_negative_damage_cost_column(df: pd.DataFrame) -> pd.DataFrame:
     df.loc[df["damage_cost_php"] < 0, "damage_cost_php"] = np.nan
     return df
 
+def clean_coordinates(df: pd.DataFrame)-> pd.DataFrame:
+    """ Clean coordinate(latitune and longitude) values """
+    df["latitude"] = df["latitude"].round(6)
+    df["longitude"] = df["longitude"].round(6)
+    return df
+
+
+
 # Feature Engineering
 def transform_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     Create additional analytical features for the traffic dataset.
 
     Adds hour, day_of_week, month_name, weekend flag,
-    cost_category, and age_group columns.
+    cost_category,age_group columns, and round coordinates.
     """
 
     # Hour of incident
@@ -101,6 +113,6 @@ def transform_features(df: pd.DataFrame) -> pd.DataFrame:
     )
 
     # Replace missing age groups
-    df["age_group"] = df["age_group"].cat.add_categories(["Unknown"]).fillna("Unknown")
+    df["age_group"] = df["age_group"].cat.add_categories(["Unknown"]).fillna("Unknown")    
 
     return df
