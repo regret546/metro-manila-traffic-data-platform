@@ -93,13 +93,6 @@ def transform_features(df: pd.DataFrame) -> pd.DataFrame:
     # Weekend flag
     df["is_weekend"] = df["datetime"].dt.weekday >= 5
 
-    # Damage cost category
-    df["cost_category"] = pd.cut(
-        df["damage_cost_php"],
-        bins=[0, 30000, 70000, 100000],
-        labels=["Low", "Medium", "High"]
-    )
-
     # Age group category
     df["age_group"] = pd.cut(
         df["driver_age"],

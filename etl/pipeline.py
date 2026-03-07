@@ -23,7 +23,10 @@ from validation import (
     validate_damage_cost,
     validate_required_columns,
 )
-from loader import save_to_parquet
+from loader import (
+    save_to_parquet, 
+    save_to_csv
+)
 
 #Config
 with open("config/config.yaml", "r") as f:
@@ -31,6 +34,7 @@ with open("config/config.yaml", "r") as f:
 
 input_path = config["input_data"]
 output_path = config["output_data"]
+output_csv_path = config["output_csv_path"]
 
 
 # Configure logging
@@ -99,5 +103,6 @@ validate_required_columns(df)
 # Load
 logging.info("Saving cleaned dataset to parquet")
 save_to_parquet(df, output_path)
+save_to_csv(df, output_csv_path)
 
 logging.info("ETL pipeline completed successfully")
