@@ -55,12 +55,12 @@ CREATE TABLE fact_incidents (
     incident_id SERIAL PRIMARY KEY,
     injury_count INT NOT NULL,
     damage_cost_php NUMERIC(12,2),
-    location_id INT NOT NULL REFERENCES dim_location(location_id),
-    vehicle_id INT NOT NULL REFERENCES dim_vehicle(vehicle_id),
-    severity_id INT NOT NULL REFERENCES dim_severity(severity_id),
-    weather_id INT NOT NULL REFERENCES dim_weather(weather_id),
-    road_condition_id INT NOT NULL REFERENCES dim_road_condition(road_condition_id),
-    cause_id INT NOT NULL REFERENCES dim_cause(cause_id),
-    driver_id INT NOT NULL REFERENCES dim_driver(driver_id),
-    date_id INT NOT NULL REFERENCES dim_date(date_id)
+    location_id INT NOT NULL,
+    vehicle_id INT NOT NULL,
+    severity_id INT NOT NULL,
+    weather_id INT NOT NULL,
+    road_condition_id INT NOT NULL,
+    cause_id INT NOT NULL,
+    driver_id INT NOT NULL,
+    date_id INT NOT NULL
 );
