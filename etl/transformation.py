@@ -55,7 +55,8 @@ def standardize_weather_condition(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def convert_age_column(df: pd.DataFrame) -> pd.DataFrame:
-    """Convert 'driver_age' column to nullable integer type."""
+    """Convert 'driver_age' column to nullable integer type and replace empty values with NULL"""
+    df["driver_age"] = df["driver_age"].replace("", None)
     df["driver_age"] = df["driver_age"].astype("Int64")
     return df
 
