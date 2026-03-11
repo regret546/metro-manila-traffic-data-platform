@@ -95,7 +95,7 @@ def transform_features(df: pd.DataFrame) -> pd.DataFrame:
     """
 
     # Hour of incident
-    df["hour"] = df["datetime"].dt.strftime("%#I %p")
+    df["hour"] = df["datetime"].dt.hour
 
     # Day of the week
     df["day_of_week"] = df["datetime"].dt.day_name()
