@@ -43,7 +43,7 @@ CREATE TABLE dim_driver (
 
 CREATE TABLE dim_date (
     date_id SERIAL PRIMARY KEY,
-    date DATE NOT NULL,
+    datetime DATE NOT NULL,
     hour INTEGER,
     day_of_week TEXT,
     is_weekend BOOLEAN
@@ -52,9 +52,8 @@ CREATE TABLE dim_date (
 -- fact table 
 
 CREATE TABLE fact_incidents (
-    incident_id SERIAL PRIMARY KEY,
-    injury_count INT NOT NULL,
-    damage_cost_php NUMERIC(12,2),
+    fact_id SERIAL PRIMARY KEY,
+    incident_id TEXT NOT NULL,
     location_id INT NOT NULL,
     vehicle_id INT NOT NULL,
     severity_id INT NOT NULL,
@@ -62,5 +61,7 @@ CREATE TABLE fact_incidents (
     road_condition_id INT NOT NULL,
     cause_id INT NOT NULL,
     driver_id INT NOT NULL,
-    date_id INT NOT NULL
+    date_id INT NOT NULL,
+    damage_cost_php NUMERIC(12,2),
+    injury_count INT NOT NULL
 );
