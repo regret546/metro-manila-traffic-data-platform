@@ -1,3 +1,8 @@
+-- Dim Table Contraints
+ALTER TABLE dim_date ADD CONSTRAINT uq_dim_date UNIQUE (full_date, hour, day_of_week, is_weekend);
+
+
+-- Fact Table Contraints
 ALTER TABLE fact_incidents
 ADD CONSTRAINT fk_incidents_location
 FOREIGN KEY (location_id)
@@ -37,3 +42,6 @@ ALTER TABLE fact_incidents
 ADD CONSTRAINT fk_incidents_date
 FOREIGN KEY (date_id)
 REFERENCES dim_date(date_id);
+
+ALTER TABLE fact_incidents
+ADD CONSTRAINT uq_fact_incidents_incident_id UNIQUE (incident_id);
