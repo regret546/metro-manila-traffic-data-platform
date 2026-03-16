@@ -10,12 +10,6 @@ def save_to_parquet(df: pd.DataFrame, path: str) -> None:
     """Save a DataFrame as a Parquet file."""
     df.to_parquet(path, index=False)
 
-
-def save_to_csv(df: pd.DataFrame, path: str) -> None:
-    """Save a DataFrame as a CSV file."""
-    df.to_csv(path, index=False)
-
-
 def connect_db():
     """Connect to PostgreSQL and load database settings from config."""
     load_dotenv()

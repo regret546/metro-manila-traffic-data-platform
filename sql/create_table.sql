@@ -43,14 +43,13 @@ CREATE TABLE dim_driver (
 
 CREATE TABLE dim_date (
     date_id SERIAL PRIMARY KEY,
-    datetime DATE NOT NULL,
+    full_date DATE NOT NULL,
     hour INTEGER,
     day_of_week TEXT,
     is_weekend BOOLEAN
 );
 
 -- fact table 
-
 CREATE TABLE fact_incidents (
     fact_id SERIAL PRIMARY KEY,
     incident_id TEXT NOT NULL,

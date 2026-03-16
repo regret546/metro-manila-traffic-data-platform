@@ -26,8 +26,8 @@ from validation import (
     validate_required_columns,
 )
 from loader import (
-    save_to_parquet, 
-    save_to_csv
+save_to_parquet,
+main
 )
 
 #Config
@@ -109,8 +109,9 @@ validate_required_columns(df)
 
 
 # Load
-logging.info("Saving cleaned dataset to parquet")
+logging.info("Saving cleaned dataset to parquet and run ETL process from staging load to fact load.")
 save_to_parquet(df, output_path)
-save_to_csv(df, output_csv_path)
+main()
+ 
 
 logging.info("ETL pipeline completed successfully")

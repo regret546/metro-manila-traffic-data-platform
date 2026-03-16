@@ -1,6 +1,7 @@
 const express = require("express")
 const cors = require("cors")
 const pool = require("./config/db")
+const incidentRoutes = require("./routes/incidents.routes")
 
 const app = express()
 
@@ -29,5 +30,7 @@ app.get("/api/db-test", async (req,res)=> {
         })
     }
 })
+
+app.use("/api/incidents", incidentRoutes)
 
 module.exports = app;
