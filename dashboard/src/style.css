@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* Base */
+  --color-bg: hsl(210, 20%, 96%); /* soft gray background */
+  --color-fg: hsl(215, 25%, 20%); /* dark text */
+  --color-base: hsl(0, 0%, 100%); /* cards */
+
+  /* Borders / subtle UI */
+  --color-border: hsl(210, 15%, 88%);
+  --color-muted: hsl(210, 15%, 55%);
+
+  /* Primary (dashboard blue) */
+  --color-primary: hsl(217, 91%, 60%); /* main blue (charts/buttons) */
+  --color-primary-soft: hsl(217, 91%, 95%);
+
+  /* Accent colors (cards + charts) */
+  --color-accent-blue: hsl(210, 90%, 56%); /* incidents */
+  --color-accent-green: hsl(145, 63%, 42%); /* damage cost */
+  --color-accent-yellow: hsl(42, 90%, 55%); /* warnings */
+  --color-accent-orange: hsl(25, 85%, 55%);
+  --color-accent-red: hsl(0, 72%, 55%); /* severity high */
+  --color-accent-purple: hsl(265, 70%, 60%);
+  --color-accent-teal: hsl(180, 60%, 40%);
+
+  /* Chart palette (important 👇) */
+  --color-chart-1: hsl(217, 91%, 60%);
+  --color-chart-2: hsl(145, 63%, 42%);
+  --color-chart-3: hsl(42, 90%, 55%);
+  --color-chart-4: hsl(265, 70%, 60%);
+  --color-chart-5: hsl(0, 72%, 55%);
+}
+
+@layer base {
+  html {
+    font-family: "Noto Sans", sans-serif;
+    letter-spacing: 0.1em;
+  }
+  html,
+  body {
+    @apply w-full;
+  }
+  body {
+    @apply bg-bg text-fg;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+}
