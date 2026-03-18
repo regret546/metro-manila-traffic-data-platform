@@ -13,6 +13,11 @@ def save_to_parquet(df: pd.DataFrame, path: str) -> None:
 def connect_db():
     """Connect to PostgreSQL and load database settings from config."""
     load_dotenv()
+    def expand(v):
+        if v is None:
+            return None
+        return os.path.expandvars(str(v))
+
     password = os.getenv("DB_PASSWORD")
 
     with open("config/config.yaml", "r") as f:
@@ -20,11 +25,16 @@ def connect_db():
 
     db = config["database"]
 
+    host = os.getenv("DB_HOST") or expand(db.get("host"))
+    port_raw = os.getenv("DB_PORT") or expand(db.get("port"))
+    name = os.getenv("DB_NAME") or expand(db.get("name"))
+    user = os.getenv("DB_USER") or expand(db.get("user"))
+
     conn = psycopg2.connect(
-        host=db["host"],
-        port=db["port"],
-        database=db["name"],
-        user=db["user"],
+        host=host,
+        port=int(port_raw) if port_raw is not None else None,
+        database=name,
+        user=user,
         password=password,
     )
 
