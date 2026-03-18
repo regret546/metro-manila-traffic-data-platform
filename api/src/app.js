@@ -10,9 +10,9 @@ app.use(cors())
 app.use(express.json())
 
 //Test route
-app.get("/api/health"), (req, res) => {
+app.get("/api/health", (req, res) => {
     res.json({status:"API is running"})
-}
+})
 
 // Database test
 app.get("/api/db-test", async (req,res)=> {

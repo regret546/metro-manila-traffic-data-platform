@@ -3,6 +3,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "../ui/Card";
 import { formatCompact } from "../../utils/formatNumber";
 
 export default function SeverityChart({ title = "Severity Breakdown", data }) {
+  const maxValue = data.reduce((m, s) => {
+    const v = typeof s?.value === "number" ? s.value : Number(s?.value ?? 0);
+    return Number.isFinite(v) ? Math.max(m, v) : m;
+  }, 0);
+
   return (
     <Card>
       <CardHeader>
@@ -20,27 +25,13 @@ export default function SeverityChart({ title = "Severity Breakdown", data }) {
                 <div
                   className="h-2 rounded-full"
                   style={{
-                    width: `${Math.max(8, Math.round((s.value / 3500) * 100))}%`,
+                    width: `${maxValue > 0 ? Math.max(2, Math.round(((s.value || 0) / maxValue) * 100)) : 0}%`,
                     background: s.color,
                   }}
                 />
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="mt-5">
-          <div className="mb-1 flex items-center justify-between text-sm">
-            <span className="text-fg/70 tracking-normal">Subject</span>
-            <span className="text-fg/60 tracking-normal">51</span>
-          </div>
-          <div className="h-2 rounded-full bg-fg/5">
-            <div
-              className="h-2 rounded-full bg-[color:var(--color-accent-red)]/80"
-              style={{ width: "22%" }}
-            />
-          </div>
-          <div className="mt-2 text-xs text-fg/50 tracking-normal">3.12K</div>
         </div>
       </CardContent>
     </Card>

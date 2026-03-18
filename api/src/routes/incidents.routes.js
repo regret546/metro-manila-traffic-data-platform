@@ -7,7 +7,9 @@ const {
     fetchIncidentsBySeverity,
     fetchIncidentsByWeather,
     fetchIncidentsByHour,
-    fetchIncidentsByCause
+    fetchIncidentsByCause,
+    fetchIncidentHotspots,
+    fetchIncidentCities
 } = require("../controllers/incidents.controller")
 
 
@@ -17,5 +19,7 @@ router.get("/by-severity", fetchIncidentsBySeverity)
 router.get("/by-weather", fetchIncidentsByWeather)
 router.get("/by-hour", fetchIncidentsByHour)
 router.get("/by-cause", fetchIncidentsByCause)
+router.get("/hotspots", fetchIncidentHotspots)
+router.get("/cities", fetchIncidentCities)
 
 module.exports = router

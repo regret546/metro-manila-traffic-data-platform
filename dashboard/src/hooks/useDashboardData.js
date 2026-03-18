@@ -1,10 +1,11 @@
-import { useCallback, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
   incidentsByCity,
   incidentsOverTimeDaily,
   incidentsOverTimeMonthly,
   kpis,
   severityBreakdown,
+  hotspots,
 } from "../data/mockDashboardData";
 
 import {
@@ -14,6 +15,8 @@ import {
   fetchIncidentsByHour,
   fetchIncidentsBySeverity,
   fetchIncidentsByWeather,
+  fetchIncidentHotspots,
+  fetchIncidentCities,
 } from "../services/dashboardApi";
 import { formatCurrency } from "../utils/formatCurrency";
 
@@ -107,7 +110,10 @@ function mapBySeverity(payload) {
   const rows = asArray(payload);
   const paletteByKey = {
     minor: "var(--color-chart-3)",
+    major: "var(--color-chart-1)",
+    // Backward compat if API returns older label "Serious"
     serious: "var(--color-chart-1)",
+    unknown: "var(--color-chart-2)",
     fatal: "var(--color-chart-5)",
   };
 
@@ -159,13 +165,46 @@ function mapByHour(payload) {
   return mapped;
 }
 
+function mapHotspots(payload) {
+  const rows = asArray(payload);
+  const cleaned = rows
+    .map((r, idx) => {
+      const lat = asNumber(r.lat ?? r.latitude);
+      const lng = asNumber(r.lng ?? r.longitude);
+      if (lat == null || lng == null) return null;
+      const count = asNumber(r.incident_count ?? r.count ?? r.value) ?? 0;
+      const city = String(r.city ?? "").trim();
+      const road = String(r.road_name ?? r.roadName ?? "").trim();
+      const baseLabel = city && road ? `${city} • ${road}` : city || road || "Unknown";
+      return {
+        id: r.id ?? `${lat},${lng},${idx}`,
+        baseLabel,
+        label: `${baseLabel} (${Number(count || 0).toLocaleString()})`,
+        lat,
+        lng,
+        count,
+      };
+    })
+    .filter(Boolean);
+
+  const max = cleaned.reduce((m, p) => Math.max(m, p.count || 0), 0);
+  return cleaned.map((p) => ({
+    id: p.id,
+    baseLabel: p.baseLabel,
+    label: p.label,
+    lat: p.lat,
+    lng: p.lng,
+    count: p.count,
+    intensity: max > 0 ? (p.count || 0) / max : 0.2,
+  }));
+}
+
 export function useDashboardData() {
   const [filters, setFilters] = useState({
     city: "all",
     severity: "all",
     weather: "all",
-    dateRange: "March 21, 2025 — March 22, 2026",
-    days: "30",
+    dateRange: "January 1, 2025 — March 31, 2025",
   });
 
   const [timeMode, setTimeMode] = useState("monthly");
@@ -181,9 +220,38 @@ export function useDashboardData() {
     severityBreakdown,
     weatherBreakdown: [],
     causeBreakdown: [],
+    hotspots,
+    cityOptions: [],
   });
 
   const lastRequestId = useRef(0);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const rows = await fetchIncidentCities();
+        if (cancelled) return;
+        const list = Array.isArray(rows)
+          ? rows
+          : Array.isArray(rows?.value)
+            ? rows.value
+            : Array.isArray(rows?.data)
+              ? rows.data
+              : [];
+        const cities = list
+          .map((r) => String(r.city ?? "").trim())
+          .filter(Boolean)
+          .sort((a, b) => a.localeCompare(b));
+        setData((prev) => ({ ...prev, cityOptions: cities }));
+      } catch {
+        // Keep defaults if cities endpoint fails
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const refresh = useCallback(
     async (nextFilters = filters) => {
@@ -198,6 +266,7 @@ export function useDashboardData() {
           fetchIncidentsByWeather(nextFilters),
           fetchIncidentsByCause(nextFilters),
           fetchIncidentsByHour(nextFilters),
+          fetchIncidentHotspots(nextFilters),
         ]);
 
         if (requestId !== lastRequestId.current) return;
@@ -209,6 +278,7 @@ export function useDashboardData() {
           byWeatherRes,
           byCauseRes,
           byHourRes,
+          hotspotsRes,
         ] = results;
 
         setData((prev) => {
@@ -234,6 +304,10 @@ export function useDashboardData() {
           if (byCauseRes.status === "fulfilled") {
             const mapped = mapByCause(byCauseRes.value);
             next.causeBreakdown = mapped.length ? mapped : prev.causeBreakdown;
+          }
+          if (hotspotsRes.status === "fulfilled") {
+            const mapped = mapHotspots(hotspotsRes.value);
+            next.hotspots = mapped.length ? mapped : prev.hotspots;
           }
 
           return next;

@@ -7,6 +7,7 @@ import IncidentsTrendChart from "../components/charts/IncidentsTrendChart";
 import SeverityChart from "../components/charts/SeverityChart";
 import WeatherBarChart from "../components/charts/WeatherBarChart";
 import CausePieChart from "../components/charts/CausePieChart";
+import IncidentHeatmap from "../components/map/IncidentHeatmap";
 import DashboardLayout from "../components/layout/DashboardLayout";
 import Header from "../components/layout/Header";
 import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/Card";
@@ -30,9 +31,8 @@ const Dashboard = () => {
             <DashboardFilters
               filters={filters}
               setFilters={setFilters}
-              onApply={() => {
-                refresh(filters);
-              }}
+              onApply={refresh}
+              cityOptions={data.cityOptions}
             />
             {status.error ? (
               <div className="mt-3 text-sm text-[color:var(--color-accent-orange)] tracking-normal">
@@ -54,10 +54,28 @@ const Dashboard = () => {
         />
       </div>
 
-      <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-3">
+      <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
         <CityBarChart data={data.incidentsByCity} />
         <CausePieChart data={data.causeBreakdown} />
-        <SeverityChart data={data.severityBreakdown} />
+        <div className="lg:col-span-2">
+          <SeverityChart data={data.severityBreakdown} />
+        </div>
+      </div>
+
+      <div className="mt-4">
+        <Card>
+          <CardHeader>
+            <CardTitle>Incident Heatmap</CardTitle>
+          </CardHeader>
+          <CardContent className="pt-3">
+            <IncidentHeatmap hotspots={data.hotspots ?? []} />
+            {(!data.hotspots || data.hotspots.length === 0) && (
+              <div className="mt-2 text-sm text-fg/60 tracking-normal">
+                No coordinates found for the selected filters.
+              </div>
+            )}
+          </CardContent>
+        </Card>
       </div>
 
       <div className="mt-4">

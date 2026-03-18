@@ -19,12 +19,11 @@ function buildParams(filters = {}) {
   if (filters.city && filters.city !== "all") params.city = filters.city;
   if (filters.severity && filters.severity !== "all") params.severity = filters.severity;
   if (filters.weather && filters.weather !== "all") params.weather = filters.weather;
-  if (filters.days) params.days = filters.days;
 
   // Accept "March 21, 2025 — March 22, 2026" (em dash) or "-" / "--" variants.
   if (filters.dateRange) {
     const parts = String(filters.dateRange)
-      .split("—")
+      .split(/[—–-]/)
       .map((s) => s.trim())
       .filter(Boolean);
     if (parts.length === 2) {
@@ -65,6 +64,16 @@ export async function fetchIncidentsByHour(filters) {
 
 export async function fetchIncidentsByCause(filters) {
   const res = await api.get(incidentsUrl("/by-cause"), { params: buildParams(filters) });
+  return res.data;
+}
+
+export async function fetchIncidentHotspots(filters) {
+  const res = await api.get(incidentsUrl("/hotspots"), { params: buildParams(filters) });
+  return res.data;
+}
+
+export async function fetchIncidentCities() {
+  const res = await api.get(incidentsUrl("/cities"));
   return res.data;
 }
 

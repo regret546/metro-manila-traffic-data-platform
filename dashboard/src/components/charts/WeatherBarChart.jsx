@@ -35,7 +35,14 @@ export default function WeatherBarChart({ title = "Incidents by Weather", data }
                   boxShadow: "0 10px 30px rgba(15,23,42,0.12)",
                 }}
               />
-              <Bar dataKey="value" radius={[999, 999, 999, 999]} fill="var(--color-chart-2)" />
+              <Bar
+                dataKey="value"
+                radius={[999, 999, 999, 999]}
+                fill="var(--color-chart-2)"
+                // Fixed bar thickness so a single category doesn't become a full-height block.
+                barSize={22}
+                isAnimationActive={false}
+              />
             </BarChart>
           </ResponsiveContainer>
         </div>

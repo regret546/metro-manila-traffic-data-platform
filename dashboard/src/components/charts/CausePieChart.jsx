@@ -33,7 +33,7 @@ export default function CausePieChart({ title = "Incidents by Cause", data }) {
         <CardTitle>{title}</CardTitle>
       </CardHeader>
       <CardContent className="pt-2">
-        <div className="h-[210px]">
+        <div className="relative h-[210px]">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
               <Pie
@@ -43,6 +43,7 @@ export default function CausePieChart({ title = "Incidents by Cause", data }) {
                 innerRadius={58}
                 outerRadius={78}
                 paddingAngle={2}
+                isAnimationActive={false}
               >
                 {computed.map((s) => (
                   <Cell key={s.name} fill={s.color} />
@@ -57,19 +58,23 @@ export default function CausePieChart({ title = "Incidents by Cause", data }) {
               />
             </PieChart>
           </ResponsiveContainer>
-        </div>
 
-        <div className="-mt-[138px] flex items-center justify-center">
-          <div className="text-center">
-            <div className="text-2xl font-semibold tracking-normal">{centerPercent}%</div>
+          <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+            <div className="text-center">
+              <div className="text-2xl font-semibold tracking-normal">{centerPercent}%</div>
+            </div>
           </div>
         </div>
 
-        <div className="mt-16 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs text-fg/70">
-          {computed.slice(0, 4).map((s) => (
-            <div key={s.name} className="inline-flex items-center gap-2">
-              <span className="inline-block h-2 w-2 rounded-full" style={{ background: s.color }} />
-              <span className="tracking-normal">{s.name}</span>
+        <div className="mt-3 grid grid-cols-2 gap-x-6 gap-y-2 text-xs text-fg/70">
+          {computed.slice(0, 6).map((s) => (
+            <div
+              key={s.name}
+              className="flex min-w-0 items-center gap-2"
+              title={s.name}
+            >
+              <span className="inline-block h-2 w-2 shrink-0 rounded-full" style={{ background: s.color }} />
+              <span className="min-w-0 truncate tracking-normal">{s.name}</span>
             </div>
           ))}
         </div>
