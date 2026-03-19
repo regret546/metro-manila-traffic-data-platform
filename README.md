@@ -2,7 +2,7 @@
 
 This project builds a cleaned traffic incidents dataset and loads it into PostgreSQL using an ETL pipeline.
 
-## Files
+## Project Files
 - `etl/pipeline.py` main ETL pipeline runner
 - `etl/ingestion.py` load raw CSV data
 - `etl/transformation.py` clean and standardize fields and create feature columns
@@ -10,9 +10,15 @@ This project builds a cleaned traffic incidents dataset and loads it into Postgr
 - `etl/loader.py` load data into staging, dimension tables, and the fact table
 - `config/config.yaml` paths for input and output data
 
-## Data model
-See `Data Model.svg` in the project root:
-[`Data Model`](./Data%20Model.svg)
+## Data Model
+`Data Model.png`
+
+![Data Model](./Data%20Model.png)
+
+## Data Pipeline and Architecture
+`Data Pipiline and Architecture.png`
+
+![Data Pipeline and Architecture](./Data%20Pipiline%20and%20Architecture.png)
 
 ## ETL flow
 1. Ingestion reads the raw CSV into a pandas DataFrame.
