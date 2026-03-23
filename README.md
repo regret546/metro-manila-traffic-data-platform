@@ -2,6 +2,11 @@
 
 This project builds a cleaned traffic incidents dataset and loads it into PostgreSQL using an ETL pipeline.
 
+## Project Links
+- Data source (Kaggle): [Metro Manila Traffic Incidents 2025](https://www.kaggle.com/datasets/hannile/metro-manila-traffic-incidents-2025?select=Metro_Manila_Traffic_Incidents_2025.csv)
+- Dashboard website: [manilaanalytics.jodur.tech](https://manilaanalytics.jodur.tech/)
+- GitHub portfolio repository: [regret546/metro-manila-traffic-data-platform](https://github.com/regret546/metro-manila-traffic-data-platform)
+
 ## Project Files
 - `etl/pipeline.py` main ETL pipeline runner
 - `etl/ingestion.py` load raw CSV data
